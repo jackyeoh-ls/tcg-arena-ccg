@@ -1,6 +1,6 @@
 {
   "name": "Combat Card Game",
-  "menuBackgroundImage": "",
+  "menuBackgroundImage": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/main.png",
   "defaultRessources": {
     "backgrounds": [],
     "decksUrl": ""
