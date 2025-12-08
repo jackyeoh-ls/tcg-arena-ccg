@@ -1,0 +1,169 @@
+[{
+  "title": "Test",
+  "id": "55203625-d4e6-411d-b4ba-2f2e010214a1",
+  "game": "Combat Card Game",
+  "format": [
+    "Classic"
+  ],
+  "cardCount": 16,
+  "createdAt": "2025-12-08T09:31:18.892Z",
+  "lastModifiedAt": "2025-12-08T09:31:18.892Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Tactics",
+      "Gun",
+      "Melee"
+    ],
+    "Sideboard": [],
+    "Tactics": [
+      {
+        "count": 1,
+        "id": "0"
+      },
+      {
+        "count": 1,
+        "id": "2"
+      },
+      {
+        "count": 1,
+        "id": "5"
+      },
+      {
+        "count": 1,
+        "id": "10"
+      },
+      {
+        "count": 1,
+        "id": "7"
+      },
+      {
+        "count": 1,
+        "id": "17"
+      }
+    ],
+    "Gun": [
+      {
+        "count": 1,
+        "id": "1"
+      },
+      {
+        "count": 1,
+        "id": "3"
+      },
+      {
+        "count": 1,
+        "id": "8"
+      },
+      {
+        "count": 1,
+        "id": "12"
+      }
+    ],
+    "Melee": [
+      {
+        "count": 1,
+        "id": "4"
+      },
+      {
+        "count": 1,
+        "id": "11"
+      },
+      {
+        "count": 1,
+        "id": "9"
+      },
+      {
+        "count": 1,
+        "id": "6"
+      },
+      {
+        "count": 1,
+        "id": "13"
+      },
+      {
+        "count": 1,
+        "id": "14"
+      }
+    ]
+  }
+},{
+  "title": "test2",
+  "id": "3e85e8f5-4b59-4500-89a7-826939e92851",
+  "game": "Combat Card Game",
+  "format": [
+    "Classic"
+  ],
+  "cardCount": 16,
+  "createdAt": "2025-12-08T09:35:43.315Z",
+  "lastModifiedAt": "2025-12-08T09:35:43.315Z",
+  "deckList": {
+    "categoriesOrder": [
+      "Tactics",
+      "Gun",
+      "Melee"
+    ],
+    "Sideboard": [],
+    "Tactics": [
+      {
+        "count": 3,
+        "id": "17"
+      },
+      {
+        "count": 1,
+        "id": "24"
+      },
+      {
+        "count": 1,
+        "id": "0"
+      }
+    ],
+    "Gun": [
+      {
+        "count": 1,
+        "id": "18"
+      },
+      {
+        "count": 1,
+        "id": "19"
+      },
+      {
+        "count": 1,
+        "id": "20"
+      },
+      {
+        "count": 1,
+        "id": "23"
+      },
+      {
+        "count": 1,
+        "id": "25"
+      },
+      {
+        "count": 1,
+        "id": "12"
+      }
+    ],
+    "Melee": [
+      {
+        "count": 1,
+        "id": "21"
+      },
+      {
+        "count": 1,
+        "id": "22"
+      },
+      {
+        "count": 1,
+        "id": "28"
+      },
+      {
+        "count": 1,
+        "id": "27"
+      },
+      {
+        "count": 1,
+        "id": "26"
+      }
+    ]
+  }
+}]
