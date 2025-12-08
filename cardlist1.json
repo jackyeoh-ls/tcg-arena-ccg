@@ -1,0 +1,56 @@
+{
+  "0": {
+    "id": "1",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-0.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Resourceful",
+    "type": "Melee",
+    "cost": 0,
+    "Cost": "0",
+    "Block": "0",
+    "Dmg": "0",
+    "CardText": "Draw 1 Card"
+  },
+  "1": {
+    "id": "1",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": "1",
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-1.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Friendly Aid",
+    "type": "Tactics",
+    "cost": "1",
+    "Block": "2",
+    "Dmg": "0",
+    "Cost": "1",
+    "CardText": "Quick: Draw 2 Cards"
+  }
+}
