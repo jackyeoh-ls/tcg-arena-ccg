@@ -8,7 +8,7 @@
   "customHelp": "help message",
   "cardRotation": 45,
   "cards": {
-    "dataUrl": "https://x0.at/w8W4.json",
+    "dataUrl": "https://jackyeoh-ls.github.io/tcg-arena-ccg/cardlist.json",
     "cardBack": ""
   },
   "deckBuilding": {
