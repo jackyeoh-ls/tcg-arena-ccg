@@ -440,7 +440,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -454,7 +454,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -875,14 +875,14 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-buff.png",
         "isHorizontal": false
       }
     },
     "name": "Token: Damage Buff",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -897,7 +897,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -911,7 +911,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -926,7 +926,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -940,7 +940,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -955,7 +955,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -969,7 +969,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -984,7 +984,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -998,7 +998,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1013,7 +1013,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1027,7 +1027,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1042,7 +1042,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1056,7 +1056,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1071,7 +1071,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1085,7 +1085,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1100,7 +1100,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1114,7 +1114,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1129,7 +1129,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1143,7 +1143,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1158,7 +1158,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1172,7 +1172,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1187,7 +1187,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1201,7 +1201,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1216,7 +1216,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1230,7 +1230,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1245,7 +1245,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1259,7 +1259,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1274,7 +1274,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1288,7 +1288,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1303,7 +1303,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1317,7 +1317,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1332,7 +1332,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1346,7 +1346,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1361,7 +1361,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1375,7 +1375,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1390,7 +1390,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1404,7 +1404,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1419,7 +1419,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1433,7 +1433,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1448,7 +1448,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1462,7 +1462,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1477,7 +1477,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1491,7 +1491,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1506,7 +1506,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1520,7 +1520,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1535,7 +1535,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1549,7 +1549,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1564,7 +1564,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
@@ -1578,7 +1578,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1593,7 +1593,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-30.png",
         "isHorizontal": false
@@ -1607,7 +1607,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1622,7 +1622,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-31.png",
         "isHorizontal": false
@@ -1636,7 +1636,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1651,7 +1651,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-32.png",
         "isHorizontal": false
@@ -1665,7 +1665,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1680,7 +1680,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-33.png",
         "isHorizontal": false
@@ -1694,7 +1694,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1709,7 +1709,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-34.png",
         "isHorizontal": false
@@ -1723,7 +1723,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1738,7 +1738,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-35.png",
         "isHorizontal": false
@@ -1752,7 +1752,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1767,7 +1767,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-36.png",
         "isHorizontal": false
@@ -1781,7 +1781,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1796,7 +1796,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-37.png",
         "isHorizontal": false
@@ -1810,7 +1810,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1825,7 +1825,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-38.png",
         "isHorizontal": false
@@ -1839,7 +1839,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1854,7 +1854,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-39.png",
         "isHorizontal": false
@@ -1868,7 +1868,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1883,7 +1883,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-48.png",
         "isHorizontal": false
@@ -1897,7 +1897,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1912,7 +1912,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-49.png",
         "isHorizontal": false
@@ -1926,7 +1926,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1941,7 +1941,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-50.png",
         "isHorizontal": false
@@ -1955,7 +1955,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1970,7 +1970,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-51.png",
         "isHorizontal": false
@@ -1984,7 +1984,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -1999,7 +1999,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-52.png",
         "isHorizontal": false
@@ -2013,7 +2013,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -2028,7 +2028,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-53.png",
         "isHorizontal": false
@@ -2042,7 +2042,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -2057,7 +2057,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-54.png",
         "isHorizontal": false
@@ -2071,7 +2071,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -2086,7 +2086,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-55.png",
         "isHorizontal": false
@@ -2100,7 +2100,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -2115,7 +2115,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-56.png",
         "isHorizontal": false
@@ -2129,7 +2129,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -2144,7 +2144,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-57.png",
         "isHorizontal": false
@@ -2158,7 +2158,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -2173,7 +2173,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-58.png",
         "isHorizontal": false
@@ -2187,7 +2187,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -2202,7 +2202,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-59.png",
         "isHorizontal": false
@@ -2216,7 +2216,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -2231,7 +2231,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-60.png",
         "isHorizontal": false
@@ -2245,7 +2245,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -2260,7 +2260,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-61.png",
         "isHorizontal": false
@@ -2274,7 +2274,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -2289,7 +2289,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-62.png",
         "isHorizontal": false
@@ -2303,7 +2303,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
@@ -2318,7 +2318,7 @@
     "face": {
       "front": {
         "name": "",
-        "type": false,
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-63.png",
         "isHorizontal": false
@@ -2332,7 +2332,7 @@
       }
     },
     "name": "<unnamed>",
-    "type": false,
+    "type": "",
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
