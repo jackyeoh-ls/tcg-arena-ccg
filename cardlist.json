@@ -925,7 +925,7 @@
         "AttackLeg?": true,
         "Text": "Disable this bodypart for 1 turn if it has > 5 hp",
         "Block": 2,
-        "DMG": 4
+        "DMG": 2
     },
     "32": {
         "id": "32",
