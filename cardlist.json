@@ -52,7 +52,7 @@
     "cost": 1,
     "DMG": 4,
     "Block": 2,
-    "Text": "If you\u2019ve played tactics card this turn, +1 AP next turn",
+    "Text": "If you’ve played tactics card this turn, +1 AP next turn",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -226,7 +226,7 @@
     "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "If you\u2019ve played leg card this turn, +3 dmg to gun cards next turn",
+    "Text": "If you’ve played leg card this turn, +3 dmg to gun cards next turn",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -439,23 +439,23 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "",
+        "name": "card #15",
         "type": "Tactics",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
         "isHorizontal": false
       },
       "back": {
-        "name": "",
+        "name": "Down",
         "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
     },
-    "name": "<unnamed>",
+    "name": "card #15",
     "type": "Tactics",
-    "cost": 0,
+    "cost": 1,
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -464,7 +464,7 @@
     "DMG": 0
   },
   "16": {
-    "id": "15",
+    "id": "16",
     "isToken": false,
     "face": {
       "front": {
@@ -493,7 +493,7 @@
     "AttackLeg?": false
   },
   "17": {
-    "id": "16",
+    "id": "17",
     "isToken": false,
     "face": {
       "front": {
@@ -522,7 +522,7 @@
     "AttackLeg?": false
   },
   "18": {
-    "id": "17",
+    "id": "18",
     "isToken": false,
     "face": {
       "front": {
@@ -551,7 +551,7 @@
     "AttackLeg?": false
   },
   "19": {
-    "id": "18",
+    "id": "19",
     "isToken": false,
     "face": {
       "front": {
@@ -580,7 +580,7 @@
     "AttackLeg?": false
   },
   "20": {
-    "id": "19",
+    "id": "20",
     "isToken": false,
     "face": {
       "front": {
@@ -609,7 +609,7 @@
     "AttackLeg?": false
   },
   "21": {
-    "id": "20",
+    "id": "21",
     "isToken": false,
     "face": {
       "front": {
@@ -638,20 +638,20 @@
     "AttackLeg?": false
   },
   "22": {
-    "id": "21",
+    "id": "22",
     "isToken": false,
     "face": {
       "front": {
         "name": "Front",
-        "type": "Melee",
-        "cost": 1,
+        "type": "Gun",
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-22.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Down",
         "type": "",
-        "cost": 1,
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -667,7 +667,7 @@
     "AttackLeg?": true
   },
   "23": {
-    "id": "22",
+    "id": "23",
     "isToken": false,
     "face": {
       "front": {
@@ -696,7 +696,7 @@
     "AttackLeg?": false
   },
   "24": {
-    "id": "23",
+    "id": "24",
     "isToken": false,
     "face": {
       "front": {
@@ -725,7 +725,7 @@
     "AttackLeg?": true
   },
   "25": {
-    "id": "24",
+    "id": "25",
     "isToken": false,
     "face": {
       "front": {
@@ -754,7 +754,7 @@
     "AttackLeg?": true
   },
   "26": {
-    "id": "25",
+    "id": "26",
     "isToken": false,
     "face": {
       "front": {
@@ -783,7 +783,7 @@
     "AttackLeg?": true
   },
   "27": {
-    "id": "26",
+    "id": "27",
     "isToken": false,
     "face": {
       "front": {
@@ -812,7 +812,7 @@
     "AttackLeg?": true
   },
   "28": {
-    "id": "27",
+    "id": "28",
     "isToken": false,
     "face": {
       "front": {
@@ -841,7 +841,7 @@
     "AttackLeg?": true
   },
   "29": {
-    "id": "28",
+    "id": "29",
     "isToken": false,
     "face": {
       "front": {
@@ -864,10 +864,1460 @@
     "cost": 3,
     "DMG": 0,
     "Block": 2,
-    "Text": "exhaust. each card deals +2 DMg this game",
+    "Text": "exhaust. each card deals +1 dmg this game",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
+  },
+  "30": {
+    "id": "30",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Armor Melting Rounds",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-30.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Armor Melting Rounds",
+    "type": "Tactics",
+    "cost": 2,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": false,
+    "Text": "your next gun card cannot be blocked",
+    "Block": 0,
+    "DMG": 3
+  },
+  "31": {
+    "id": "31",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Destabilizing Kick",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-31.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Destabilizing Kick",
+    "type": "Melee",
+    "cost": 1,
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": true,
+    "Text": "Disable this bodypart for 1 turn if it has > 5 hp",
+    "Block": 2,
+    "DMG": 4
+  },
+  "32": {
+    "id": "32",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "One With Shadows",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-32.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "One With Shadows",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true,
+    "Text": "the next card played is invisible",
+    "Block": 3,
+    "DMG": 5
+  },
+  "33": {
+    "id": "33",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Backstab",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-33.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Backstab",
+    "type": "Melee",
+    "cost": 2,
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": false,
+    "Text": "+4 dmg if  undefended.",
+    "Block": 1,
+    "DMG": 3
+  },
+  "34": {
+    "id": "34",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Smoke Bomb",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-34.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Smoke Bomb",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true,
+    "Text": "Obscure this bodypart until the end of your next turn.",
+    "Block": 3,
+    "DMG": 3
+  },
+  "35": {
+    "id": "35",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Mirror Maze",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-35.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Mirror Maze",
+    "type": "Tactics",
+    "cost": 2,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true,
+    "Text": "Put a fake copy of this in each other bodypart.",
+    "Block": 2,
+    "DMG": 4
+  },
+  "36": {
+    "id": "36",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Feint",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-36.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Feint",
+    "type": "Tactics",
+    "cost": 0,
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": true,
+    "Text": "On reveal: play a 1-AP card in another bodypart",
+    "Block": 2,
+    "DMG": 0
+  },
+  "37": {
+    "id": "37",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Sucker Punch",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-37.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sucker Punch",
+    "type": "Melee",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": false,
+    "Text": "+2 dmg if  undefended.",
+    "Block": 3,
+    "DMG": 1
+  },
+  "38": {
+    "id": "38",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Vertical Slice",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-38.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Vertical Slice",
+    "type": "Melee",
+    "cost": 2,
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "Deal 2 dmg to body and leg",
+    "Block": 2,
+    "DMG": 4
+  },
+  "39": {
+    "id": "39",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Double Tap",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-39.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Double Tap",
+    "type": "Melee",
+    "cost": 3,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": true,
+    "Text": "+4 dmg if undefended.",
+    "Block": 0,
+    "DMG": 6
+  },
+  "40": {
+    "id": "40",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #40",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-40.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #40",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "41": {
+    "id": "41",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #41",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-41.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #41",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "42": {
+    "id": "42",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #42",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-42.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #42",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "43": {
+    "id": "43",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #43",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-43.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #43",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "44": {
+    "id": "44",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #44",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-44.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #44",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "45": {
+    "id": "45",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #45",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-45.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #45",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "46": {
+    "id": "46",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #46",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-46.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #46",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "47": {
+    "id": "47",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #47",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-47.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #47",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "48": {
+    "id": "48",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "ONE STEP AHEAD",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-48.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "One Step Ahead",
+    "type": "Melee",
+    "cost": 3,
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "on hit → their NEXT two attacks are exposed.",
+    "Block": 2,
+    "DMG": 4
+  },
+  "49": {
+    "id": "49",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #49",
+        "type": "Throw",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-49.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #49",
+    "type": "Throw",
+    "cost": 1,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": false,
+    "Text": "ON HIT → reveal a random card in their hand.",
+    "Block": 2,
+    "DMG": 3
+  },
+  "50": {
+    "id": "50",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Omega Throw",
+        "type": "Throw",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-50.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Omega Throw",
+    "type": "Throw",
+    "cost": 1,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": false,
+    "Text": "ON HIT → reveal a random card in their hand.",
+    "Block": 2,
+    "DMG": 3
+  },
+  "51": {
+    "id": "51",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Plus One Shot",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-51.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Plus One Shot",
+    "type": "Melee",
+    "cost": 0,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true,
+    "Text": "must BE PLayed with another melee attack",
+    "Block": 3,
+    "DMG": 1
+  },
+  "52": {
+    "id": "52",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Disorient",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-52.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Disorient",
+    "type": "Melee",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 2,
+    "DMG": 2
+  },
+  "53": {
+    "id": "53",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Head Scissors Lock",
+        "type": "Throw",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-53.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Head Scissors Lock",
+    "type": "Throw",
+    "cost": 2,
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "the next card they draw is exposed.",
+    "Block": 3,
+    "DMG": 5
+  },
+  "54": {
+    "id": "54",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Roll",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-54.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Roll",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": true,
+    "Text": "play a random melee card from your discards, +3 dmg",
+    "Block": 0,
+    "DMG": 0
+  },
+  "55": {
+    "id": "55",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "HIDDEN BLADE",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-55.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "HIDDEN BLADE",
+    "type": "Melee",
+    "cost": 0,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true,
+    "Text": "-",
+    "Block": 1,
+    "DMG": 1
+  },
+  "56": {
+    "id": "56",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "WRAPAROUND",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-56.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "WRAPAROUND",
+    "type": "Melee",
+    "cost": 3,
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": true,
+    "Text": "ON HIT → you Discard a random card.",
+    "Block": 2,
+    "DMG": 7
+  },
+  "57": {
+    "id": "57",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "takedown",
+        "type": "Throw",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-57.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "takedown",
+    "type": "Throw",
+    "cost": 1,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": false,
+    "Text": "melee combo. [You may play a melee card in this same slot.]",
+    "Block": 1,
+    "DMG": 2
+  },
+  "58": {
+    "id": "58",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "rapid strikes",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-58.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "rapid strikes",
+    "type": "Melee",
+    "cost": 0,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true,
+    "Text": "when played → if you have no cards in hand, draw a card.",
+    "Block": 2,
+    "DMG": 1
+  },
+  "59": {
+    "id": "59",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "push the pace",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-59.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "push the pace",
+    "type": "Tactics",
+    "cost": 0,
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": false,
+    "Text": "when played → discard a card to play two 1AP cards from your discards.",
+    "Block": 2,
+    "DMG": 0
+  },
+  "60": {
+    "id": "60",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "disorient",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-60.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "disorient",
+    "type": "Melee",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": true,
+    "Text": "WHEN PLAYED → apply WEAK to their head.",
+    "Block": 2,
+    "DMG": 2
+  },
+  "61": {
+    "id": "61",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "takedown",
+        "type": "Throw",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-61.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "takedown",
+    "type": "Throw",
+    "cost": 1,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": false,
+    "Text": "melee combo. [You may play a melee card in this same slot.]",
+    "Block": 1,
+    "DMG": 2
+  },
+  "62": {
+    "id": "62",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "rapid kick",
+        "type": "Kick",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-62.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "rapid kick",
+    "type": "Kick",
+    "cost": 0,
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": true,
+    "Text": "when played → if you have no cards in hand, draw one.",
+    "Block": 1,
+    "DMG": 2
+  },
+  "63": {
+    "id": "63",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "finishing Shot",
+        "type": "Gun",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-63.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "finishing Shot",
+    "type": "Gun",
+    "cost": 2,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true,
+    "Text": "If they have a weak or destroyed body part, this does double damage",
+    "Block": 3,
+    "DMG": 4
+  },
+  "64": {
+    "id": "64",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #64",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-64.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #64",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "65": {
+    "id": "65",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #65",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-65.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #65",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "66": {
+    "id": "66",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #66",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-66.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #66",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "67": {
+    "id": "67",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #67",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-67.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #67",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "68": {
+    "id": "68",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #68",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-68.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #68",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "69": {
+    "id": "69",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #69",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-69.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #69",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "70": {
+    "id": "70",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #70",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-70.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #70",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "71": {
+    "id": "71",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #71",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-71.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #71",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "72": {
+    "id": "72",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #72",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-72.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #72",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "73": {
+    "id": "73",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #73",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-73.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #73",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "74": {
+    "id": "74",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #74",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-74.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #74",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "75": {
+    "id": "75",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #75",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-75.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #75",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "76": {
+    "id": "76",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #76",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-76.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #76",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "77": {
+    "id": "77",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #77",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-77.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #77",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "78": {
+    "id": "78",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #78",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-78.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #78",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "79": {
+    "id": "79",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "card #79",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-79.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "card #79",
+    "type": "Tactics",
+    "cost": 1,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
   },
   "t-dmgbuff": {
     "id": "t-dmgbuff",
@@ -882,1456 +2332,6 @@
       }
     },
     "name": "Token: Damage Buff",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "40": {
-    "id": "40",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "41": {
-    "id": "41",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "42": {
-    "id": "42",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "43": {
-    "id": "43",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "44": {
-    "id": "44",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "45": {
-    "id": "45",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "46": {
-    "id": "46",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "47": {
-    "id": "47",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "64": {
-    "id": "64",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "65": {
-    "id": "65",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "66": {
-    "id": "66",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "67": {
-    "id": "67",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "68": {
-    "id": "68",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "69": {
-    "id": "69",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "70": {
-    "id": "70",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "71": {
-    "id": "71",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "72": {
-    "id": "72",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "73": {
-    "id": "73",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "74": {
-    "id": "74",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "75": {
-    "id": "75",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "76": {
-    "id": "76",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "77": {
-    "id": "77",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "78": {
-    "id": "78",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "79": {
-    "id": "79",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "30": {
-    "id": "30",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-30.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "31": {
-    "id": "31",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-31.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "32": {
-    "id": "32",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-32.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "33": {
-    "id": "33",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-33.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "34": {
-    "id": "34",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-34.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "35": {
-    "id": "35",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-35.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "36": {
-    "id": "36",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-36.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "37": {
-    "id": "37",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-37.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "38": {
-    "id": "38",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-38.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "39": {
-    "id": "39",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-39.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "48": {
-    "id": "48",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-48.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "49": {
-    "id": "49",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-49.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "50": {
-    "id": "50",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-50.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "51": {
-    "id": "51",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-51.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "52": {
-    "id": "52",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-52.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "53": {
-    "id": "53",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-53.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "54": {
-    "id": "54",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-54.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "55": {
-    "id": "55",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-55.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "56": {
-    "id": "56",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-56.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "57": {
-    "id": "57",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-57.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "58": {
-    "id": "58",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-58.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "59": {
-    "id": "59",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-59.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "60": {
-    "id": "60",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-60.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "61": {
-    "id": "61",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-61.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "62": {
-    "id": "62",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-62.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
-    "type": "Tactics",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "63": {
-    "id": "63",
-    "isToken": false,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "Tactics",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-63.png",
-        "isHorizontal": false
-      },
-      "back": {
-        "name": "",
-        "type": "",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "<unnamed>",
     "type": "Tactics",
     "cost": 0,
     "AttackHead?": false,
