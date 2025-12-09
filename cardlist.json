@@ -1677,7 +1677,8 @@
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false,
-    "Text": "melee combo. [You may play a melee card in this same slot.]",
+    "Text": "melee combo.
+[You may play a melee card in this same slot.]",
     "Block": 1,
     "DMG": 2
   },
@@ -1793,7 +1794,8 @@
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false,
-    "Text": "melee combo. [You may play a melee card in this same slot.]",
+    "Text": "melee combo.
+[You may play a melee card in this same slot.]",
     "Block": 1,
     "DMG": 2
   },
@@ -2325,14 +2327,190 @@
     "face": {
       "front": {
         "name": "",
-        "type": "Tactics",
+        "type": "false",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-buff.png",
         "isHorizontal": false
       }
     },
-    "name": "Token: Damage Buff",
-    "type": "Tactics",
+    "name": "Token: Dmg Buff",
+    "type": "false",
+    "cost": 0,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "t-ap": {
+    "id": "t-ap",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-ap.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Token: Extra AP",
+    "type": false,
+    "cost": 0,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "t-dodge": {
+    "id": "t-dodge",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-dodge.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Token: Dodge",
+    "type": false,
+    "cost": 0,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "t-dmgbuff-gun": {
+    "id": "t-dmgbuff-gun",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-dmgbuff-gun.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Token: Dmg Buff Gun",
+    "type": false,
+    "cost": 0,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "t-dmgbuff-melee": {
+    "id": "t-dmgbuff-melee",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-dmgbuff-melee.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Token: DMG Buff Melee",
+    "type": false,
+    "cost": 0,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "t-invisible": {
+    "id": "t-invisible",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-invisible.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Token: Invisible",
+    "type": false,
+    "cost": 0,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "t-obscure": {
+    "id": "t-obscure",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-obscure.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Token: Obscure",
+    "type": false,
+    "cost": 0,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "t-weak": {
+    "id": "t-weak",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-weak.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Token: Weak",
+    "type": false,
+    "cost": 0,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "t-exposed": {
+    "id": "t-exposed",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": false,
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-exposed.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Token: Exposed",
+    "type": false,
     "cost": 0,
     "AttackHead?": false,
     "AttackBody?": false,
