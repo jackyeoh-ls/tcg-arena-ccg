@@ -1,0 +1,158 @@
+{
+  "name": "Combat Card Game",
+  "menuBackgroundImage": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/main.png",
+  "defaultRessources": {
+    "backgrounds": [],
+    "decksUrl": "https://jackyeoh-ls.github.io/tcg-arena-ccg/decklist.json"
+  },
+  "customHelp": "help message",
+  "cardRotation": 45,
+  "cards": {
+    "dataUrl": "https://jackyeoh-ls.github.io/tcg-arena-ccg/cardlist.json",
+    "cardBack": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png"
+  },
+  "deckBuilding": {
+    "mainFilters": [
+      "name",
+      "cost",
+      "type"
+    ],
+    "formats": [
+      {
+        "title": "Classic",
+        "gameplay": "Classic",
+        "customCategories": []
+      }
+    ]
+  },
+  "gameplay": {
+    "Classic": {
+      "mulligan": {
+        "info": "Ignore this",
+        "startingHandSize": "0",
+        "drawNewHand": false,
+        "putSelectionAtBottom": false,
+        "drawNewSelectedCards": false
+      },
+      "newTurn": {
+        "drawOnStart": false,
+        "sharedTurn": false,
+        "firstPlayerTokenName": "Attack",
+        "drawPerTurn": ""
+      },
+      "defaultNotes": "Take turn attack and defend",
+      "tokens": [
+        {
+          "name": "Attack",
+          "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-attack.png",
+          "isUnique": true,
+          "leavesAtEndOfTurn": false
+        }
+      ],
+      "countersStartingValues": [
+        "10",
+        "10",
+        "10"
+      ],
+      "hideFacedDownCards": true,
+      "sections": {
+        "customSections": [
+          "Head",
+          "Body",
+          "Leg"
+        ],
+        "layout": {
+          "direction": "row",
+          "isSymetricalForOpponents": true,
+          "content": [
+            {
+              "section": "Head",
+              "style": false
+            },
+            {
+              "section": "Body",
+              "style": false
+            },
+            {
+              "section": "Leg",
+              "style": false
+            },
+            {
+              "section": "Effect",
+              "style": false
+            }
+          ]
+        },
+        "categoriesAlreadyOnBoard": [],
+        "autoPlayFromHand": {},
+        "autoPlayFromStack": {},
+        "sectionsDict": {
+          "Head": {
+            "title": "Head",
+            "isHidden": "opponent-only",
+            "height": "BIG",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false,
+            "noQuickActions": false
+          },
+          "Body": {
+            "title": "Body",
+            "isHidden": "opponent-only",
+            "height": "BIG",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Leg": {
+            "title": "Leg",
+            "isHidden": "opponent-only",
+            "height": "BIG",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": true,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Effect": {
+            "title": "Effect",
+            "isHidden": "no",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          }
+        }
+      }
+    }
+  }
+}
