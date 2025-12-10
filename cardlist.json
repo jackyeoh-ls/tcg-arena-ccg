@@ -1860,8 +1860,8 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #64",
-        "type": "Tactics",
+        "name": "Silencer SHOT",
+        "type": "Gun",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-64.png",
         "isHorizontal": false
@@ -1874,23 +1874,23 @@
         "isHorizontal": false
       }
     },
-    "name": "card #64",
-    "type": "Tactics",
+    "name": "Silencer SHOT",
+    "type": "Gun",
     "cost": 1,
-    "AttackHead?": false,
-    "AttackBody?": false,
+    "AttackHead?": true,
+    "AttackBody?": true,
     "AttackLeg?": false,
     "Text": "",
-    "Block": 0,
-    "DMG": 0
+    "Block": 2,
+    "DMG": 3
   },
   "65": {
     "id": "65",
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #65",
-        "type": "Tactics",
+        "name": "RICOCHET trap",
+        "type": "Gun",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-65.png",
         "isHorizontal": false
@@ -1903,22 +1903,22 @@
         "isHorizontal": false
       }
     },
-    "name": "card #65",
-    "type": "Tactics",
-    "cost": 1,
+    "name": "RICOCHET trap",
+    "type": "Gun",
+    "cost": 2,
     "AttackHead?": false,
-    "AttackBody?": false,
+    "AttackBody?": true,
     "AttackLeg?": false,
     "Text": "",
-    "Block": 0,
-    "DMG": 0
+    "Block": 2,
+    "DMG": 5
   },
   "66": {
     "id": "66",
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #66",
+        "name": "phantom strike",
         "type": "Tactics",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-66.png",
@@ -1932,14 +1932,14 @@
         "isHorizontal": false
       }
     },
-    "name": "card #66",
+    "name": "phantom strike",
     "type": "Tactics",
-    "cost": 1,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
+    "cost": 0,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true,
     "Text": "",
-    "Block": 0,
+    "Block": 3,
     "DMG": 0
   },
   "67": {
@@ -1947,7 +1947,7 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #67",
+        "name": "FLASHBANG",
         "type": "Tactics",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-67.png",
@@ -1961,14 +1961,14 @@
         "isHorizontal": false
       }
     },
-    "name": "card #67",
+    "name": "FLASHBANG",
     "type": "Tactics",
     "cost": 1,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true,
     "Text": "",
-    "Block": 0,
+    "Block": 2,
     "DMG": 0
   },
   "68": {
@@ -1976,8 +1976,8 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #68",
-        "type": "Tactics",
+        "name": "low blow",
+        "type": "Melee",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-68.png",
         "isHorizontal": false
@@ -1990,23 +1990,23 @@
         "isHorizontal": false
       }
     },
-    "name": "card #68",
-    "type": "Tactics",
+    "name": "low blow",
+    "type": "Melee",
     "cost": 1,
     "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
+    "AttackBody?": true,
+    "AttackLeg?": true,
     "Text": "",
-    "Block": 0,
-    "DMG": 0
+    "Block": 2,
+    "DMG": 3
   },
   "69": {
     "id": "69",
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #69",
-        "type": "Tactics",
+        "name": "TACTICAL STRIKE",
+        "type": "Melee",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-69.png",
         "isHorizontal": false
@@ -2019,23 +2019,23 @@
         "isHorizontal": false
       }
     },
-    "name": "card #69",
-    "type": "Tactics",
-    "cost": 1,
+    "name": "TACTICAL STRIKE",
+    "type": "Melee",
+    "cost": 0,
     "AttackHead?": false,
-    "AttackBody?": false,
+    "AttackBody?": true,
     "AttackLeg?": false,
     "Text": "",
-    "Block": 0,
-    "DMG": 0
+    "Block": 2,
+    "DMG": 1
   },
   "70": {
     "id": "70",
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #70",
-        "type": "Tactics",
+        "name": "BODY SLAM",
+        "type": "Melee",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-70.png",
         "isHorizontal": false
@@ -2048,23 +2048,23 @@
         "isHorizontal": false
       }
     },
-    "name": "card #70",
-    "type": "Tactics",
-    "cost": 1,
+    "name": "BODY SLAM",
+    "type": "Melee",
+    "cost": 3,
     "AttackHead?": false,
-    "AttackBody?": false,
+    "AttackBody?": true,
     "AttackLeg?": false,
     "Text": "",
     "Block": 0,
-    "DMG": 0
+    "DMG": 7
   },
   "71": {
     "id": "71",
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #71",
-        "type": "Tactics",
+        "name": "CRUMPLING STRIKE",
+        "type": "Melee",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-71.png",
         "isHorizontal": false
@@ -2077,23 +2077,23 @@
         "isHorizontal": false
       }
     },
-    "name": "card #71",
-    "type": "Tactics",
-    "cost": 1,
+    "name": "CRUMPLING STRIKE",
+    "type": "Melee",
+    "cost": 2,
     "AttackHead?": false,
     "AttackBody?": false,
-    "AttackLeg?": false,
+    "AttackLeg?": true,
     "Text": "",
-    "Block": 0,
-    "DMG": 0
+    "Block": 3,
+    "DMG": 4
   },
   "72": {
     "id": "72",
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #72",
-        "type": "Tactics",
+        "name": "hollow point",
+        "type": "Gun",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-72.png",
         "isHorizontal": false
@@ -2106,22 +2106,22 @@
         "isHorizontal": false
       }
     },
-    "name": "card #72",
-    "type": "Tactics",
-    "cost": 1,
-    "AttackHead?": false,
+    "name": "hollow point",
+    "type": "Gun",
+    "cost": 2,
+    "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false,
     "Text": "",
-    "Block": 0,
-    "DMG": 0
+    "Block": 1,
+    "DMG": 3
   },
   "73": {
     "id": "73",
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #73",
+        "name": "zen state",
         "type": "Tactics",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-73.png",
@@ -2135,12 +2135,12 @@
         "isHorizontal": false
       }
     },
-    "name": "card #73",
+    "name": "zen state",
     "type": "Tactics",
     "cost": 1,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true,
     "Text": "",
     "Block": 0,
     "DMG": 0
@@ -2150,8 +2150,8 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #74",
-        "type": "Tactics",
+        "name": "execution",
+        "type": "Gun",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-74.png",
         "isHorizontal": false
@@ -2164,23 +2164,23 @@
         "isHorizontal": false
       }
     },
-    "name": "card #74",
-    "type": "Tactics",
+    "name": "execution",
+    "type": "Gun",
     "cost": 1,
-    "AttackHead?": false,
+    "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false,
     "Text": "",
-    "Block": 0,
-    "DMG": 0
+    "Block": 2,
+    "DMG": 2
   },
   "75": {
     "id": "75",
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #75",
-        "type": "Tactics",
+        "name": "pistol whip",
+        "type": "Melee",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-75.png",
         "isHorizontal": false
@@ -2193,22 +2193,22 @@
         "isHorizontal": false
       }
     },
-    "name": "card #75",
-    "type": "Tactics",
-    "cost": 1,
-    "AttackHead?": false,
+    "name": "pistol whip",
+    "type": "Melee",
+    "cost": 0,
+    "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false,
     "Text": "",
-    "Block": 0,
-    "DMG": 0
+    "Block": 1,
+    "DMG": 2
   },
   "76": {
     "id": "76",
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #76",
+        "name": "adrenaline",
         "type": "Tactics",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-76.png",
@@ -2222,14 +2222,14 @@
         "isHorizontal": false
       }
     },
-    "name": "card #76",
+    "name": "adrenaline",
     "type": "Tactics",
-    "cost": 1,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
+    "cost": 0,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true,
     "Text": "",
-    "Block": 0,
+    "Block": 2,
     "DMG": 0
   },
   "77": {
@@ -2237,8 +2237,8 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #77",
-        "type": "Tactics",
+        "name": "open fire",
+        "type": "Gun",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-77.png",
         "isHorizontal": false
@@ -2251,22 +2251,22 @@
         "isHorizontal": false
       }
     },
-    "name": "card #77",
-    "type": "Tactics",
-    "cost": 1,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
+    "name": "open fire",
+    "type": "Gun",
+    "cost": 2,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true,
     "Text": "",
-    "Block": 0,
-    "DMG": 0
+    "Block": 2,
+    "DMG": 2
   },
   "78": {
     "id": "78",
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #78",
+        "name": "counter stance",
         "type": "Tactics",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-78.png",
@@ -2280,14 +2280,14 @@
         "isHorizontal": false
       }
     },
-    "name": "card #78",
+    "name": "counter stance",
     "type": "Tactics",
     "cost": 1,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true,
     "Text": "",
-    "Block": 0,
+    "Block": 3,
     "DMG": 0
   },
   "79": {
@@ -2295,7 +2295,7 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #79",
+        "name": "disarm",
         "type": "Tactics",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-79.png",
@@ -2309,15 +2309,15 @@
         "isHorizontal": false
       }
     },
-    "name": "card #79",
+    "name": "disarm",
     "type": "Tactics",
     "cost": 1,
     "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
+    "AttackBody?": true,
+    "AttackLeg?": true,
     "Text": "",
-    "Block": 0,
-    "DMG": 0
+    "Block": 2,
+    "DMG": 1
   },
   "t-dmgbuff": {
     "id": "t-dmgbuff",
