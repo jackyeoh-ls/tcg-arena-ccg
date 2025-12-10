@@ -24,7 +24,7 @@
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true,
-    "Text": "Defense: +X block to this card per opponent card played this turn",
+    "Text": "Defense: +2 block to this card per opponent card played this turn",
     "Block": 0,
     "DMG": 0
   },
@@ -33,7 +33,7 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Front",
+        "name": "Quick thinking",
         "type": "Tactics",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-1.png",
@@ -47,12 +47,12 @@
         "isHorizontal": false
       }
     },
-    "name": "Precision Snap",
-    "type": "Gun",
-    "cost": 1,
-    "DMG": 4,
+    "name": "Quick thinking",
+    "type": "Tactics",
+    "cost": 0,
+    "DMG": 0,
     "Block": 2,
-    "Text": "If you’ve played tactics card this turn, +1 AP next turn",
+    "Text": "draw X cards based on remaining ap on end turn",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -62,7 +62,7 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Front",
+        "name": "Bob & Weave",
         "type": "Tactics",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-2.png",
@@ -80,7 +80,7 @@
     "type": "Tactics",
     "cost": 1,
     "DMG": 0,
-    "Block": 2,
+    "Block": 0,
     "Text": "+3 body dmg next turn. Defense: Dodge head",
     "AttackHead?": true,
     "AttackBody?": false,
@@ -137,9 +137,9 @@
     "name": "Fatal Strike",
     "type": "Melee",
     "cost": 3,
-    "DMG": 4,
+    "DMG": 3,
     "Block": 2,
-    "Text": "deal 2 dmg to other 2 parts. If you destroy a part, +1 AP next turn",
+    "Text": "deal 1 dmg to other 2 parts. If you destroy a part, +1 AP next turn",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -168,7 +168,7 @@
     "cost": 0,
     "DMG": 0,
     "Block": 2,
-    "Text": "DEFENSE: If opponent hit here, +3 Melee dmg next turn",
+    "Text": "If opponent play card here, +3 Melee dmg next turn",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -195,7 +195,7 @@
     "name": "Grapple",
     "type": "Melee",
     "cost": 1,
-    "DMG": 4,
+    "DMG": 3,
     "Block": 2,
     "Text": "Hit: Enemy next melee card costs +1 AP",
     "AttackHead?": false,
@@ -253,9 +253,9 @@
     "name": "Blind Fire",
     "type": "Gun",
     "cost": 1,
-    "DMG": 4,
+    "DMG": 2,
     "Block": 2,
-    "Text": "Hit random body parts instead",
+    "Text": "randomly Hit head or leg instead",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -265,8 +265,8 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Front",
-        "type": "Tactics",
+        "name": "Limb Wrench",
+        "type": "Melee",
         "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-9.png",
         "isHorizontal": false
@@ -282,7 +282,7 @@
     "name": "Limb Wrench",
     "type": "Melee",
     "cost": 2,
-    "DMG": 5,
+    "DMG": 3,
     "Block": 2,
     "Text": "Hit: Opponent discard 1 random card in hand",
     "AttackHead?": false,
@@ -311,9 +311,9 @@
     "name": "Footwork Feint",
     "type": "Tactics",
     "cost": 1,
-    "DMG": 0,
+    "DMG": 2,
     "Block": 2,
-    "Text": "Apply weak everywhere",
+    "Text": "Hit: Apply weak everywhere",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -340,9 +340,9 @@
     "name": "Sweep Kick",
     "type": "Melee",
     "cost": 1,
-    "DMG": 4,
+    "DMG": 2,
     "Block": 2,
-    "Text": "Disable opponent leg cards If their leg < 5HP",
+    "Text": "HIT: Disable opponent leg for 1 turn",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -352,7 +352,7 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "Front",
+        "name": "Feint Shot",
         "type": "Gun",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-12.png",
@@ -369,9 +369,9 @@
     "name": "Feint Shot",
     "type": "Gun",
     "cost": 1,
-    "DMG": 4,
+    "DMG": 2,
     "Block": 2,
-    "Text": "Split dmg evenly between body parts. Defense: Reverse opponent order of cards played here",
+    "Text": "Deal additional 1 dmg to the other body part",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -400,7 +400,7 @@
     "cost": 2,
     "DMG": 0,
     "Block": 2,
-    "Text": "Deal 3 dmg to main body target, 2 to the other",
+    "Text": "Deal 3 dmg to main target, 1 to the other",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -429,7 +429,7 @@
     "cost": 2,
     "DMG": 4,
     "Block": 2,
-    "Text": "if legs were damaged in previous turn, deal +2 dmg",
+    "Text": "if opponent has weak here, deal +2 dmg",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -439,7 +439,7 @@
     "isToken": false,
     "face": {
       "front": {
-        "name": "card #15",
+        "name": "stand your ground",
         "type": "Tactics",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
@@ -453,14 +453,14 @@
         "isHorizontal": false
       }
     },
-    "name": "card #15",
+    "name": "stand your ground",
     "type": "Tactics",
     "cost": 1,
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
+    "Text": "If opponent play card here, Gain +1AP next turn",
+    "Block": 2,
     "DMG": 0
   },
   "16": {
@@ -469,7 +469,7 @@
     "face": {
       "front": {
         "name": "Front",
-        "type": "Tactics",
+        "type": "",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-16.png",
         "isHorizontal": false
@@ -498,7 +498,7 @@
     "face": {
       "front": {
         "name": "Front",
-        "type": "Tactics",
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-17.png",
         "isHorizontal": false
@@ -516,7 +516,7 @@
     "cost": 0,
     "DMG": 0,
     "Block": 2,
-    "Text": "Instant: discard a melee card to draw a gun card",
+    "Text": "WHEN PLAYED →  discard a melee card to draw a gun card",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -540,12 +540,12 @@
         "isHorizontal": false
       }
     },
-    "name": "Barrage",
+    "name": "Tactical Reload",
     "type": "Gun",
     "cost": 1,
-    "DMG": 4,
-    "Block": 2,
-    "Text": "-",
+    "DMG": 0,
+    "Block": 1,
+    "Text": "your next gun card this turn +2 dmg. Defense: Draw a gun card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -569,12 +569,12 @@
         "isHorizontal": false
       }
     },
-    "name": "Hip Fire",
+    "name": "Quick Shot",
     "type": "Gun",
     "cost": 1,
     "DMG": 2,
     "Block": 2,
-    "Text": "50% chance to deal +3 dmg",
+    "Text": "melee Combo",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -601,12 +601,12 @@
     "name": "Cover Fire",
     "type": "Gun",
     "cost": 1,
-    "DMG": 4,
+    "DMG": 0,
     "Block": 2,
-    "Text": "hit a random body part instead",
-    "AttackHead?": false,
+    "Text": "Deal 1 DMG to each Bodypart",
+    "AttackHead?": true,
     "AttackBody?": true,
-    "AttackLeg?": false
+    "AttackLeg?": true
   },
   "21": {
     "id": "21",
@@ -627,12 +627,12 @@
         "isHorizontal": false
       }
     },
-    "name": "Gunfu",
+    "name": "Quick Jab",
     "type": "Melee",
     "cost": 1,
-    "DMG": 2,
+    "DMG": 3,
     "Block": 2,
-    "Text": "Gun Card Go again",
+    "Text": "Gun Combo",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -656,12 +656,12 @@
         "isHorizontal": false
       }
     },
-    "name": "Crippling Punch",
+    "name": "Sturdy Bandage",
     "type": "Melee",
     "cost": 1,
-    "DMG": 3,
-    "Block": 2,
-    "Text": "apply Weak to targeted bodypart",
+    "DMG": 2,
+    "Block": 0,
+    "Text": "apply Weak 2 to targeted bodypart. Defense: Heal this bodypart by 2",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -714,12 +714,12 @@
         "isHorizontal": false
       }
     },
-    "name": "Roll",
+    "name": "roll & Load",
     "type": "Tactics",
     "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "Next melee card +3 DMG. Defense: dodge Head",
+    "Text": "Next gun card +3 DMG. Defense: dodge here",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -749,7 +749,7 @@
     "DMG": 3,
     "Block": 2,
     "Text": "Blocked: Deal 2 DMG to this body part",
-    "AttackHead?": false,
+    "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
   },
@@ -772,12 +772,12 @@
         "isHorizontal": false
       }
     },
-    "name": "Leg Work",
+    "name": "Cat Stance",
     "type": "Melee",
     "cost": 1,
-    "DMG": 4,
-    "Block": 2,
-    "Text": "Defense: draw a gun card",
+    "DMG": 1,
+    "Block": 0,
+    "Text": "Melee Combo. Defense: draw a Kick card from anywhere",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -804,7 +804,7 @@
     "name": "Flying Kick",
     "type": "Melee",
     "cost": 2,
-    "DMG": 4,
+    "DMG": 3,
     "Block": 2,
     "Text": "Deal +2 dmg per card in hand",
     "AttackHead?": false,
@@ -894,9 +894,9 @@
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false,
-    "Text": "your next gun card cannot be blocked",
-    "Block": 0,
-    "DMG": 3
+    "Text": "cannot be blocked. Defense: your next gun card cannot be blocked",
+    "Block": 1,
+    "DMG": 2
   },
   "31": {
     "id": "31",
