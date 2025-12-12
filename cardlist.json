@@ -92,7 +92,7 @@
               "face":  {
                            "front":  {
                                          "name":  "Front",
-                                         "type":  "GUN",
+                                         "type":  "Gun",
                                          "cost":  2,
                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-3.png",
                                          "isHorizontal":  false
@@ -106,7 +106,7 @@
                                     }
                        },
               "name":  "DOUBLE TAP",
-              "type":  "GUN",
+              "type":  "Gun",
               "cost":  2,
               "DMG":  3,
               "Block":  2,
@@ -121,7 +121,7 @@
               "face":  {
                            "front":  {
                                          "name":  "Front",
-                                         "type":  "melee",
+                                         "type":  "Melee",
                                          "cost":  3,
                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-4.png",
                                          "isHorizontal":  false
@@ -135,7 +135,7 @@
                                     }
                        },
               "name":  "Fatal strike",
-              "type":  "melee",
+              "type":  "Melee",
               "cost":  3,
               "DMG":  4,
               "Block":  2,
@@ -179,7 +179,7 @@
               "face":  {
                            "front":  {
                                          "name":  "Front",
-                                         "type":  "melee",
+                                         "type":  "Melee",
                                          "cost":  1,
                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-6.png",
                                          "isHorizontal":  false
@@ -193,7 +193,7 @@
                                     }
                        },
               "name":  "Grapple",
-              "type":  "melee",
+              "type":  "Melee",
               "cost":  1,
               "DMG":  3,
               "Block":  2,
@@ -237,7 +237,7 @@
               "face":  {
                            "front":  {
                                          "name":  "Front",
-                                         "type":  "GUN",
+                                         "type":  "Gun",
                                          "cost":  1,
                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-8.png",
                                          "isHorizontal":  false
@@ -251,7 +251,7 @@
                                     }
                        },
               "name":  "Blind Fire",
-              "type":  "GUN",
+              "type":  "Gun",
               "cost":  1,
               "DMG":  2,
               "Block":  2,
@@ -324,7 +324,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "melee",
+                                          "type":  "Melee",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-11.png",
                                           "isHorizontal":  false
@@ -338,7 +338,7 @@
                                      }
                         },
                "name":  "SWEEP KICk",
-               "type":  "melee",
+               "type":  "Melee",
                "cost":  1,
                "DMG":  2,
                "Block":  2,
@@ -353,7 +353,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "gun",
+                                          "type":  "Gun",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-12.png",
                                           "isHorizontal":  false
@@ -367,7 +367,7 @@
                                      }
                         },
                "name":  "Feint shot",
-               "type":  "gun",
+               "type":  "Gun",
                "cost":  1,
                "DMG":  2,
                "Block":  2,
@@ -440,7 +440,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "TACTICS",
+                                          "type":  "Tactics",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-15.png",
                                           "isHorizontal":  false
@@ -454,7 +454,7 @@
                                      }
                         },
                "name":  "stand your ground",
-               "type":  "TACTICS",
+               "type":  "Tactics",
                "cost":  1,
                "DMG":  0,
                "Block":  2,
@@ -469,7 +469,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-16.png",
                                           "isHorizontal":  false
@@ -482,11 +482,11 @@
                                          "isHorizontal":  false
                                      }
                         },
-               "name":  "block 2 (head 3)",
-               "type":  "tactics",
+               "name":  "take aim",
+               "type":  "Tactics",
                "cost":  1,
                "DMG":  0,
-               "Block":  0,
+               "Block":  2,
                "Text":  "next gun card targeting this part deals +2 dmg",
                "AttackHead?":  true,
                "AttackBody?":  true,
@@ -498,7 +498,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  0,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-17.png",
                                           "isHorizontal":  false
@@ -512,7 +512,7 @@
                                      }
                         },
                "name":  "Bring gun to fist fight",
-               "type":  "tactics",
+               "type":  "Tactics",
                "cost":  0,
                "DMG":  0,
                "Block":  3,
@@ -527,7 +527,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-18.png",
                                           "isHorizontal":  false
@@ -541,7 +541,7 @@
                                      }
                         },
                "name":  "Tactical Reload",
-               "type":  "tactics",
+               "type":  "Tactics",
                "cost":  1,
                "DMG":  0,
                "Block":  1,
@@ -614,7 +614,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "melee",
+                                          "type":  "Melee",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-21.png",
                                           "isHorizontal":  false
@@ -628,7 +628,7 @@
                                      }
                         },
                "name":  "Quick Jab",
-               "type":  "melee",
+               "type":  "Melee",
                "cost":  1,
                "DMG":  3,
                "Block":  2,
@@ -643,7 +643,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "melee",
+                                          "type":  "Melee",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-22.png",
                                           "isHorizontal":  false
@@ -657,7 +657,7 @@
                                      }
                         },
                "name":  "Heal 2",
-               "type":  "melee",
+               "type":  "Melee",
                "cost":  1,
                "DMG":  2,
                "Block":  0,
@@ -701,7 +701,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-24.png",
                                           "isHorizontal":  false
@@ -715,7 +715,7 @@
                                      }
                         },
                "name":  "roll \u0026 Load",
-               "type":  "tactics",
+               "type":  "Tactics",
                "cost":  1,
                "DMG":  0,
                "Block":  -1,
@@ -730,7 +730,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "gun",
+                                          "type":  "Gun",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-25.png",
                                           "isHorizontal":  false
@@ -744,7 +744,7 @@
                                      }
                         },
                "name":  "Piercing Shot",
-               "type":  "gun",
+               "type":  "Gun",
                "cost":  1,
                "DMG":  2,
                "Block":  2,
@@ -759,7 +759,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "melee",
+                                          "type":  "Melee",
                                           "cost":  0,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-26.png",
                                           "isHorizontal":  false
@@ -773,7 +773,7 @@
                                      }
                         },
                "name":  "Cat Stance",
-               "type":  "melee",
+               "type":  "Melee",
                "cost":  0,
                "DMG":  1,
                "Block":  1,
@@ -788,7 +788,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "melee",
+                                          "type":  "Melee",
                                           "cost":  2,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-27.png",
                                           "isHorizontal":  false
@@ -802,7 +802,7 @@
                                      }
                         },
                "name":  "Flying Kick",
-               "type":  "melee",
+               "type":  "Melee",
                "cost":  2,
                "DMG":  3,
                "Block":  -1,
@@ -817,7 +817,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "melee",
+                                          "type":  "Melee",
                                           "cost":  2,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-28.png",
                                           "isHorizontal":  false
@@ -831,7 +831,7 @@
                                      }
                         },
                "name":  "sweeping kick",
-               "type":  "melee",
+               "type":  "Melee",
                "cost":  2,
                "DMG":  3,
                "Block":  2,
@@ -846,7 +846,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  3,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-29.png",
                                           "isHorizontal":  false
@@ -859,11 +859,11 @@
                                          "isHorizontal":  false
                                      }
                         },
-               "name":  "persist block 1",
-               "type":  "tactics",
+               "name":  "preparation",
+               "type":  "Tactics",
                "cost":  3,
                "DMG":  0,
-               "Block":  0,
+               "Block":  1,
                "Text":  "Choose: your melee/Gun cards deals +1 DMg this game (cannot stack)",
                "AttackHead?":  true,
                "AttackBody?":  false,
@@ -875,7 +875,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "gun",
+                                          "type":  "Gun",
                                           "cost":  2,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-30.png",
                                           "isHorizontal":  false
@@ -889,7 +889,7 @@
                                      }
                         },
                "name":  "Armor Melting Rounds",
-               "type":  "gun",
+               "type":  "Gun",
                "cost":  2,
                "DMG":  2,
                "Block":  1,
@@ -904,7 +904,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "melee",
+                                          "type":  "Melee",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-31.png",
                                           "isHorizontal":  false
@@ -918,7 +918,7 @@
                                      }
                         },
                "name":  "Knock Knock",
-               "type":  "melee",
+               "type":  "Melee",
                "cost":  1,
                "DMG":  2,
                "Block":  2,
@@ -933,7 +933,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "MELEE",
+                                          "type":  "Melee",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-32.png",
                                           "isHorizontal":  false
@@ -947,7 +947,7 @@
                                      }
                         },
                "name":  "One With Shadows",
-               "type":  "MELEE",
+               "type":  "Melee",
                "cost":  1,
                "DMG":  3,
                "Block":  -1,
@@ -991,7 +991,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "THROW",
+                                          "type":  "Throw",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-34.png",
                                           "isHorizontal":  false
@@ -1005,7 +1005,7 @@
                                      }
                         },
                "name":  "Smoke Bomb",
-               "type":  "THROW",
+               "type":  "Throw",
                "cost":  1,
                "DMG":  2,
                "Block":  -1,
@@ -1020,7 +1020,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  2,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-35.png",
                                           "isHorizontal":  false
@@ -1034,7 +1034,7 @@
                                      }
                         },
                "name":  "Mirror Maze",
-               "type":  "tactics",
+               "type":  "Tactics",
                "cost":  2,
                "DMG":  4,
                "Block":  2,
@@ -1107,7 +1107,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "melee",
+                                          "type":  "Melee",
                                           "cost":  2,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-38.png",
                                           "isHorizontal":  false
@@ -1121,7 +1121,7 @@
                                      }
                         },
                "name":  "Vertical Slice",
-               "type":  "melee",
+               "type":  "Melee",
                "cost":  2,
                "DMG":  2,
                "Block":  2,
@@ -1426,7 +1426,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "THROW",
+                                          "type":  "Throw",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-49.png",
                                           "isHorizontal":  false
@@ -1440,7 +1440,7 @@
                                      }
                         },
                "name":  "OMEGA THROW",
-               "type":  "THROW",
+               "type":  "Throw",
                "cost":  1,
                "DMG":  3,
                "Block":  2,
@@ -1455,7 +1455,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "THROW",
+                                          "type":  "Throw",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-50.png",
                                           "isHorizontal":  false
@@ -1469,7 +1469,7 @@
                                      }
                         },
                "name":  "OMEGA THROW",
-               "type":  "THROW",
+               "type":  "Throw",
                "cost":  1,
                "DMG":  3,
                "Block":  2,
@@ -1484,7 +1484,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "MELEE",
+                                          "type":  "Melee",
                                           "cost":  0,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-51.png",
                                           "isHorizontal":  false
@@ -1498,7 +1498,7 @@
                                      }
                         },
                "name":  "75% block 3",
-               "type":  "MELEE",
+               "type":  "Melee",
                "cost":  0,
                "DMG":  1,
                "Block":  0,
@@ -1513,7 +1513,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "melee",
+                                          "type":  "Melee",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-52.png",
                                           "isHorizontal":  false
@@ -1527,7 +1527,7 @@
                                      }
                         },
                "name":  "disorient",
-               "type":  "melee",
+               "type":  "Melee",
                "cost":  1,
                "DMG":  2,
                "Block":  2,
@@ -1542,7 +1542,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "throw",
+                                          "type":  "Throw",
                                           "cost":  2,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-53.png",
                                           "isHorizontal":  false
@@ -1556,7 +1556,7 @@
                                      }
                         },
                "name":  "head scissors lock",
-               "type":  "throw",
+               "type":  "Throw",
                "cost":  2,
                "DMG":  4,
                "Block":  -1,
@@ -1571,7 +1571,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactic",
+                                          "type":  "Tactic",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-54.png",
                                           "isHorizontal":  false
@@ -1585,7 +1585,7 @@
                                      }
                         },
                "name":  "DODGE HEAD",
-               "type":  "tactic",
+               "type":  "Tactic",
                "cost":  1,
                "DMG":  0,
                "Block":  0,
@@ -1600,7 +1600,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "MELEE",
+                                          "type":  "Melee",
                                           "cost":  0,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-55.png",
                                           "isHorizontal":  false
@@ -1614,7 +1614,7 @@
                                      }
                         },
                "name":  "HIDDEN BLADE",
-               "type":  "MELEE",
+               "type":  "Melee",
                "cost":  0,
                "DMG":  1,
                "Block":  1,
@@ -1629,7 +1629,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "MELEE",
+                                          "type":  "Melee",
                                           "cost":  3,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-56.png",
                                           "isHorizontal":  false
@@ -1643,7 +1643,7 @@
                                      }
                         },
                "name":  "WRAPAROUND",
-               "type":  "MELEE",
+               "type":  "Melee",
                "cost":  3,
                "DMG":  7,
                "Block":  -1,
@@ -1658,7 +1658,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "throw",
+                                          "type":  "Throw",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-57.png",
                                           "isHorizontal":  false
@@ -1671,11 +1671,11 @@
                                          "isHorizontal":  false
                                      }
                         },
-               "name":  "block 1 (2 body)",
-               "type":  "throw",
+               "name":  "takedown",
+               "type":  "Throw",
                "cost":  1,
                "DMG":  2,
-               "Block":  0,
+               "Block":  1,
                "Text":  "melee combo.\u2028[You may play a melee card in this same slot.]",
                "AttackHead?":  true,
                "AttackBody?":  true,
@@ -1687,7 +1687,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "melee",
+                                          "type":  "Melee",
                                           "cost":  0,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-58.png",
                                           "isHorizontal":  false
@@ -1701,7 +1701,7 @@
                                      }
                         },
                "name":  "rapid strikes",
-               "type":  "melee",
+               "type":  "Melee",
                "cost":  0,
                "DMG":  1,
                "Block":  2,
@@ -1716,7 +1716,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  0,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-59.png",
                                           "isHorizontal":  false
@@ -1730,7 +1730,7 @@
                                      }
                         },
                "name":  "push the pace",
-               "type":  "tactics",
+               "type":  "Tactics",
                "cost":  0,
                "DMG":  0,
                "Block":  2,
@@ -1745,7 +1745,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "melee",
+                                          "type":  "Melee",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-60.png",
                                           "isHorizontal":  false
@@ -1759,7 +1759,7 @@
                                      }
                         },
                "name":  "disorient",
-               "type":  "melee",
+               "type":  "Melee",
                "cost":  1,
                "DMG":  2,
                "Block":  2,
@@ -1774,7 +1774,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "throw",
+                                          "type":  "Throw",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-61.png",
                                           "isHorizontal":  false
@@ -1787,11 +1787,11 @@
                                          "isHorizontal":  false
                                      }
                         },
-               "name":  "BLOCK 1 (2 body)",
-               "type":  "throw",
+               "name":  "takedown",
+               "type":  "Throw",
                "cost":  1,
                "DMG":  2,
-               "Block":  0,
+               "Block":  1,
                "Text":  "melee combo.\u2028[You may play a melee card in this same slot.]",
                "AttackHead?":  true,
                "AttackBody?":  true,
@@ -1816,11 +1816,11 @@
                                          "isHorizontal":  false
                                      }
                         },
-               "name":  "block 1 (2 legs)",
+               "name":  "rapid kick",
                "type":  "Melee",
                "cost":  0,
                "DMG":  2,
-               "Block":  0,
+               "Block":  1,
                "Text":  "when played → if you have no cards in hand, draw one.",
                "AttackHead?":  false,
                "AttackBody?":  true,
@@ -1832,7 +1832,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "gun",
+                                          "type":  "Gun",
                                           "cost":  2,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-63.png",
                                           "isHorizontal":  false
@@ -1846,7 +1846,7 @@
                                      }
                         },
                "name":  "finishing Shot",
-               "type":  "gun",
+               "type":  "Gun",
                "cost":  2,
                "DMG":  4,
                "Block":  -1,
@@ -1861,7 +1861,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "gun",
+                                          "type":  "Gun",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-64.png",
                                           "isHorizontal":  false
@@ -1875,7 +1875,7 @@
                                      }
                         },
                "name":  "Silencer SHOT",
-               "type":  "gun",
+               "type":  "Gun",
                "cost":  1,
                "DMG":  3,
                "Block":  2,
@@ -1890,7 +1890,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "melee",
+                                          "type":  "Melee",
                                           "cost":  2,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-65.png",
                                           "isHorizontal":  false
@@ -1904,7 +1904,7 @@
                                      }
                         },
                "name":  "curb stomp",
-               "type":  "melee",
+               "type":  "Melee",
                "cost":  2,
                "DMG":  4,
                "Block":  1,
@@ -1919,7 +1919,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "TACTICS",
+                                          "type":  "Tactics",
                                           "cost":  0,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-66.png",
                                           "isHorizontal":  false
@@ -1933,7 +1933,7 @@
                                      }
                         },
                "name":  "phantom strike",
-               "type":  "TACTICS",
+               "type":  "Tactics",
                "cost":  0,
                "DMG":  0,
                "Block":  -1,
@@ -1948,7 +1948,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "TACTICS",
+                                          "type":  "Tactics",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-67.png",
                                           "isHorizontal":  false
@@ -1962,7 +1962,7 @@
                                      }
                         },
                "name":  "DODGE",
-               "type":  "TACTICS",
+               "type":  "Tactics",
                "cost":  1,
                "DMG":  0,
                "Block":  0,
@@ -1977,7 +1977,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "melee",
+                                          "type":  "Melee",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-68.png",
                                           "isHorizontal":  false
@@ -1991,7 +1991,7 @@
                                      }
                         },
                "name":  "low blow",
-               "type":  "melee",
+               "type":  "Melee",
                "cost":  1,
                "DMG":  3,
                "Block":  2,
@@ -2006,7 +2006,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "MELEE",
+                                          "type":  "Melee",
                                           "cost":  0,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-69.png",
                                           "isHorizontal":  false
@@ -2020,7 +2020,7 @@
                                      }
                         },
                "name":  "TACTICAL STRIKE",
-               "type":  "MELEE",
+               "type":  "Melee",
                "cost":  0,
                "DMG":  1,
                "Block":  2,
@@ -2035,7 +2035,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "MELEE",
+                                          "type":  "Melee",
                                           "cost":  3,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-70.png",
                                           "isHorizontal":  false
@@ -2049,7 +2049,7 @@
                                      }
                         },
                "name":  "BODY SLAM",
-               "type":  "MELEE",
+               "type":  "Melee",
                "cost":  3,
                "DMG":  7,
                "Block":  0,
@@ -2064,7 +2064,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "MELEE",
+                                          "type":  "Melee",
                                           "cost":  2,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-71.png",
                                           "isHorizontal":  false
@@ -2078,7 +2078,7 @@
                                      }
                         },
                "name":  "CRUMPLING STRIKE",
-               "type":  "MELEE",
+               "type":  "Melee",
                "cost":  2,
                "DMG":  4,
                "Block":  -1,
@@ -2093,7 +2093,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "gun",
+                                          "type":  "Gun",
                                           "cost":  2,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-72.png",
                                           "isHorizontal":  false
@@ -2107,7 +2107,7 @@
                                      }
                         },
                "name":  "hollow point",
-               "type":  "gun",
+               "type":  "Gun",
                "cost":  2,
                "DMG":  3,
                "Block":  1,
@@ -2122,7 +2122,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-73.png",
                                           "isHorizontal":  false
@@ -2136,7 +2136,7 @@
                                      }
                         },
                "name":  "zen state",
-               "type":  "tactics",
+               "type":  "Tactics",
                "cost":  1,
                "DMG":  0,
                "Block":  -1,
@@ -2151,7 +2151,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "gun",
+                                          "type":  "Gun",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-74.png",
                                           "isHorizontal":  false
@@ -2165,7 +2165,7 @@
                                      }
                         },
                "name":  "execution",
-               "type":  "gun",
+               "type":  "Gun",
                "cost":  1,
                "DMG":  2,
                "Block":  2,
@@ -2180,7 +2180,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "melee",
+                                          "type":  "Melee",
                                           "cost":  0,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-75.png",
                                           "isHorizontal":  false
@@ -2194,7 +2194,7 @@
                                      }
                         },
                "name":  "pistol whip",
-               "type":  "melee",
+               "type":  "Melee",
                "cost":  0,
                "DMG":  2,
                "Block":  1,
@@ -2209,7 +2209,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  0,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-76.png",
                                           "isHorizontal":  false
@@ -2223,7 +2223,7 @@
                                      }
                         },
                "name":  "adrenaline",
-               "type":  "tactics",
+               "type":  "Tactics",
                "cost":  0,
                "DMG":  0,
                "Block":  2,
@@ -2238,7 +2238,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "gun",
+                                          "type":  "Gun",
                                           "cost":  2,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-77.png",
                                           "isHorizontal":  false
@@ -2252,7 +2252,7 @@
                                      }
                         },
                "name":  "open fire",
-               "type":  "gun",
+               "type":  "Gun",
                "cost":  2,
                "DMG":  2,
                "Block":  2,
@@ -2267,7 +2267,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-78.png",
                                           "isHorizontal":  false
@@ -2281,7 +2281,7 @@
                                      }
                         },
                "name":  "counter stance",
-               "type":  "tactics",
+               "type":  "Tactics",
                "cost":  1,
                "DMG":  0,
                "Block":  1,
@@ -2296,7 +2296,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-79.png",
                                           "isHorizontal":  false
@@ -2310,7 +2310,7 @@
                                      }
                         },
                "name":  "disarm",
-               "type":  "tactics",
+               "type":  "Tactics",
                "cost":  1,
                "DMG":  1,
                "Block":  2,
@@ -2430,7 +2430,7 @@
                "cost":  0,
                "DMG":  1,
                "Block":  2,
-               "Text":  "Melee Combo +1",
+               "Text":  "Melee Combo (*)",
                "AttackHead?":  true,
                "AttackBody?":  true,
                "AttackLeg?":  false
@@ -2528,7 +2528,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "TACTICS",
+                                          "type":  "Tactics",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-88.png",
                                           "isHorizontal":  false
@@ -2542,7 +2542,7 @@
                                      }
                         },
                "name":  "Upright stance",
-               "type":  "TACTICS",
+               "type":  "Tactics",
                "cost":  1,
                "DMG":  0,
                "Block":  2,
@@ -2557,7 +2557,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "TACTICS",
+                                          "type":  "Tactics",
                                           "cost":  0,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-89.png",
                                           "isHorizontal":  false
@@ -2571,11 +2571,11 @@
                                      }
                         },
                "name":  "Crouching stance",
-               "type":  "TACTICS",
+               "type":  "Tactics",
                "cost":  0,
                "DMG":  0,
                "Block":  2,
-               "Text":  "WHEN PLAYED → 1 AP cards deal +1 dmg this turn",
+               "Text":  "WHEN PLAYED → 1 AP cards and below deal +1 dmg this turn",
                "AttackHead?":  true,
                "AttackBody?":  true,
                "AttackLeg?":  false
@@ -2702,7 +2702,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-94.png",
                                           "isHorizontal":  false
@@ -2716,7 +2716,7 @@
                                      }
                         },
                "name":  "Hidden Stash",
-               "type":  "tactics",
+               "type":  "Tactics",
                "cost":  1,
                "DMG":  0,
                "Block":  3,
@@ -2731,7 +2731,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-95.png",
                                           "isHorizontal":  false
@@ -2745,7 +2745,7 @@
                                      }
                         },
                "name":  "scavenge",
-               "type":  "tactics",
+               "type":  "Tactics",
                "cost":  1,
                "DMG":  0,
                "Block":  2,
@@ -2760,7 +2760,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-96.png",
                                           "isHorizontal":  false
@@ -2774,7 +2774,7 @@
                                      }
                         },
                "name":  "peace of mind",
-               "type":  "tactics",
+               "type":  "Tactics",
                "cost":  1,
                "DMG":  0,
                "Block":  2,
@@ -2789,7 +2789,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  3,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-97.png",
                                           "isHorizontal":  false
@@ -2803,7 +2803,7 @@
                                      }
                         },
                "name":  "ninja storm",
-               "type":  "tactics",
+               "type":  "Tactics",
                "cost":  3,
                "DMG":  0,
                "Block":  3,
@@ -2818,7 +2818,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-98.png",
                                           "isHorizontal":  false
@@ -2832,7 +2832,7 @@
                                      }
                         },
                "name":  "Side step",
-               "type":  "tactics",
+               "type":  "Tactics",
                "cost":  1,
                "DMG":  0,
                "Block":  2,
@@ -2847,7 +2847,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "tactics",
+                                          "type":  "Tactics",
                                           "cost":  1,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-99.png",
                                           "isHorizontal":  false
@@ -2861,7 +2861,7 @@
                                      }
                         },
                "name":  "something Up my sleeves",
-               "type":  "tactics",
+               "type":  "Tactics",
                "cost":  1,
                "DMG":  0,
                "Block":  2,
@@ -2876,7 +2876,7 @@
                 "face":  {
                              "front":  {
                                            "name":  "Front",
-                                           "type":  "tactics",
+                                           "type":  "Tactics",
                                            "cost":  2,
                                            "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-100.png",
                                            "isHorizontal":  false
@@ -2890,7 +2890,7 @@
                                       }
                          },
                 "name":  "Hidden Strings",
-                "type":  "tactics",
+                "type":  "Tactics",
                 "cost":  2,
                 "DMG":  0,
                 "Block":  0,
@@ -2905,7 +2905,7 @@
                 "face":  {
                              "front":  {
                                            "name":  "Front",
-                                           "type":  "tactics",
+                                           "type":  "Tactics",
                                            "cost":  3,
                                            "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-101.png",
                                            "isHorizontal":  false
@@ -2919,7 +2919,7 @@
                                       }
                          },
                 "name":  "fight like real man",
-                "type":  "tactics",
+                "type":  "Tactics",
                 "cost":  3,
                 "DMG":  0,
                 "Block":  3,
@@ -2934,7 +2934,7 @@
                 "face":  {
                              "front":  {
                                            "name":  "Front",
-                                           "type":  "throw",
+                                           "type":  "Throw",
                                            "cost":  0,
                                            "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-102.png",
                                            "isHorizontal":  false
@@ -2948,7 +2948,7 @@
                                       }
                          },
                 "name":  "Throwing Star",
-                "type":  "throw",
+                "type":  "Throw",
                 "cost":  0,
                 "DMG":  1,
                 "Block":  1,
@@ -2963,7 +2963,7 @@
                 "face":  {
                              "front":  {
                                            "name":  "Front",
-                                           "type":  "throw",
+                                           "type":  "Throw",
                                            "cost":  0,
                                            "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-103.png",
                                            "isHorizontal":  false
@@ -2977,7 +2977,7 @@
                                       }
                          },
                 "name":  "Kunai",
-                "type":  "throw",
+                "type":  "Throw",
                 "cost":  0,
                 "DMG":  1,
                 "Block":  1,
@@ -2992,7 +2992,7 @@
                 "face":  {
                              "front":  {
                                            "name":  "Front",
-                                           "type":  "throw",
+                                           "type":  "Throw",
                                            "cost":  0,
                                            "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-104.png",
                                            "isHorizontal":  false
@@ -3006,7 +3006,7 @@
                                       }
                          },
                 "name":  "packet of sand",
-                "type":  "throw",
+                "type":  "Throw",
                 "cost":  0,
                 "DMG":  0,
                 "Block":  0,
@@ -3021,7 +3021,7 @@
                 "face":  {
                              "front":  {
                                            "name":  "Front",
-                                           "type":  "melee",
+                                           "type":  "Melee",
                                            "cost":  2,
                                            "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-105.png",
                                            "isHorizontal":  false
@@ -3035,7 +3035,7 @@
                                       }
                          },
                 "name":  "Overwhelming Strike",
-                "type":  "melee",
+                "type":  "Melee",
                 "cost":  2,
                 "DMG":  7,
                 "Block":  2,
@@ -3050,7 +3050,7 @@
                 "face":  {
                              "front":  {
                                            "name":  "Front",
-                                           "type":  "tactics",
+                                           "type":  "Tactics",
                                            "cost":  1,
                                            "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-106.png",
                                            "isHorizontal":  false
@@ -3063,11 +3063,11 @@
                                           "isHorizontal":  false
                                       }
                          },
-                "name":  "block 2 (double for 1 ap)",
-                "type":  "tactics",
+                "name":  "Planning",
+                "type":  "Tactics",
                 "cost":  1,
                 "DMG":  0,
-                "Block":  0,
+                "Block":  2,
                 "Text":  "attack → gain 1 AP",
                 "AttackHead?":  true,
                 "AttackBody?":  false,
@@ -3079,7 +3079,7 @@
                 "face":  {
                              "front":  {
                                            "name":  "Front",
-                                           "type":  "melee",
+                                           "type":  "Melee",
                                            "cost":  1,
                                            "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-107.png",
                                            "isHorizontal":  false
@@ -3093,7 +3093,7 @@
                                       }
                          },
                 "name":  "Combo Strike",
-                "type":  "melee",
+                "type":  "Melee",
                 "cost":  1,
                 "DMG":  2,
                 "Block":  2,
@@ -3108,7 +3108,7 @@
                 "face":  {
                              "front":  {
                                            "name":  "Front",
-                                           "type":  "melee",
+                                           "type":  "Melee",
                                            "cost":  1,
                                            "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-108.png",
                                            "isHorizontal":  false
@@ -3122,7 +3122,7 @@
                                       }
                          },
                 "name":  "Combo Strike",
-                "type":  "melee",
+                "type":  "Melee",
                 "cost":  1,
                 "DMG":  2,
                 "Block":  2,
@@ -3137,7 +3137,7 @@
                 "face":  {
                              "front":  {
                                            "name":  "Front",
-                                           "type":  "melee",
+                                           "type":  "Melee",
                                            "cost":  0,
                                            "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-109.png",
                                            "isHorizontal":  false
@@ -3151,7 +3151,7 @@
                                       }
                          },
                 "name":  "Follow up Punch",
-                "type":  "melee",
+                "type":  "Melee",
                 "cost":  0,
                 "DMG":  1,
                 "Block":  1,
@@ -3166,7 +3166,7 @@
                 "face":  {
                              "front":  {
                                            "name":  "Front",
-                                           "type":  "tactics",
+                                           "type":  "Tactics",
                                            "cost":  3,
                                            "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-110.png",
                                            "isHorizontal":  false
@@ -3180,7 +3180,7 @@
                                       }
                          },
                 "name":  "weapon master",
-                "type":  "tactics",
+                "type":  "Tactics",
                 "cost":  3,
                 "DMG":  0,
                 "Block":  1,
