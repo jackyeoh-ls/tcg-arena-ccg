@@ -59,7 +59,9 @@
         "customSections": [
           "Head",
           "Body",
-          "Leg"
+          "Leg",
+          "Effect",
+          "Ally"
         ],
         "layout": {
           "direction": "row",
@@ -78,8 +80,19 @@
               "style": false
             },
             {
-              "section": "Effect",
-              "style": false
+              "direction": "column",
+              "style": false,
+              "content": [
+                {
+                  "section": "Effect",
+                  "style": false
+                },
+                {
+                  "section": "Ally",
+                  "style": false
+                }
+              ],
+              "isSymetricalForOpponents": false
             }
           ]
         },
@@ -143,6 +156,22 @@
             "opponentAlignment": false,
             "noAutoPayTo": false,
             "isHorizontalAllowed": false,
+            "displayedTitle": "",
+            "noQuickActions": false,
+            "enterTapped": false,
+            "enterSpun": false,
+            "isGroupForbidden": false,
+            "keepTappedNewTurn": false,
+            "showHiddenCardInHistory": false
+          },
+          "Ally": {
+            "title": "Ally",
+            "isHidden": "yes",
+            "height": "SMALL",
+            "alignment": "CENTER",
+            "opponentAlignment": false,
+            "noAutoPayTo": false,
+            "isHorizontalAllowed": true,
             "displayedTitle": "",
             "noQuickActions": false,
             "enterTapped": false,
