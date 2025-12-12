@@ -598,11 +598,11 @@
                                          "isHorizontal":  false
                                      }
                         },
-               "name":  "block all 1",
+               "name":  "cover fire",
                "type":  "Gun",
                "cost":  1,
                "DMG":  0,
-               "Block":  0,
+               "Block":  1,
                "Text":  "Deal 1 DMG to each Bodypart",
                "AttackHead?":  true,
                "AttackBody?":  true,
@@ -1497,11 +1497,11 @@
                                          "isHorizontal":  false
                                      }
                         },
-               "name":  "75% block 3",
+               "name":  "PLUS ONE SHOT",
                "type":  "Melee",
                "cost":  0,
                "DMG":  1,
-               "Block":  0,
+               "Block":  3,
                "Text":  "must BE PLayed with another melee attack",
                "AttackHead?":  false,
                "AttackBody?":  false,
@@ -2180,7 +2180,7 @@
                "face":  {
                             "front":  {
                                           "name":  "Front",
-                                          "type":  "Melee",
+                                          "type":  "",
                                           "cost":  0,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-75.png",
                                           "isHorizontal":  false
@@ -2194,11 +2194,11 @@
                                      }
                         },
                "name":  "pistol whip",
-               "type":  "Melee",
+               "type":  "",
                "cost":  0,
                "DMG":  2,
                "Block":  1,
-               "Text":  "if you have a guN card in hand, gain block 3",
+               "Text":  "",
                "AttackHead?":  true,
                "AttackBody?":  false,
                "AttackLeg?":  false
