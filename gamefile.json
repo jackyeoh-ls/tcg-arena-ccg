@@ -76,6 +76,10 @@
               "style": false
             },
             {
+              "section": "Leg",
+              "style": false
+            },
+            {
               "direction": "column",
               "style": false,
               "content": [
@@ -88,7 +92,7 @@
                   "style": false
                 }
               ],
-              "isSymetricalForOpponents": true
+              "isSymetricalForOpponents": false
             }
           ]
         },
