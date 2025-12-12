@@ -1891,24 +1891,24 @@
                             "front":  {
                                           "name":  "Front",
                                           "type":  "melee",
-                                          "cost":  0,
+                                          "cost":  2,
                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-65.png",
                                           "isHorizontal":  false
                                       },
                             "back":  {
                                          "name":  "Back",
                                          "type":  "",
-                                         "cost":  0,
+                                         "cost":  2,
                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
                                          "isHorizontal":  false
                                      }
                         },
-               "name":  "knuckle duster",
+               "name":  "curb stomp",
                "type":  "melee",
-               "cost":  0,
-               "DMG":  1,
+               "cost":  2,
+               "DMG":  4,
                "Block":  1,
-               "Text":  "+2 melee ",
+               "Text":  "IF ENEMY body or leg \u003c 5, deal double damage",
                "AttackHead?":  false,
                "AttackBody?":  true,
                "AttackLeg?":  true
@@ -2696,6 +2696,325 @@
                "AttackBody?":  true,
                "AttackLeg?":  false
            },
+    "94":  {
+               "id":  "94",
+               "isToken":  false,
+               "face":  {
+                            "front":  {
+                                          "name":  "Front",
+                                          "type":  "tactics",
+                                          "cost":  1,
+                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-94.png",
+                                          "isHorizontal":  false
+                                      },
+                            "back":  {
+                                         "name":  "Back",
+                                         "type":  "",
+                                         "cost":  1,
+                                         "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+                                         "isHorizontal":  false
+                                     }
+                        },
+               "name":  "Hidden Stash",
+               "type":  "tactics",
+               "cost":  1,
+               "DMG":  0,
+               "Block":  3,
+               "Text":  "when played → add 2 random throw card to your hand",
+               "AttackHead?":  false,
+               "AttackBody?":  true,
+               "AttackLeg?":  false
+           },
+    "95":  {
+               "id":  "95",
+               "isToken":  false,
+               "face":  {
+                            "front":  {
+                                          "name":  "Front",
+                                          "type":  "tactics",
+                                          "cost":  1,
+                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-95.png",
+                                          "isHorizontal":  false
+                                      },
+                            "back":  {
+                                         "name":  "Back",
+                                         "type":  "",
+                                         "cost":  1,
+                                         "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+                                         "isHorizontal":  false
+                                     }
+                        },
+               "name":  "scavenge",
+               "type":  "tactics",
+               "cost":  1,
+               "DMG":  0,
+               "Block":  2,
+               "Text":  "get 3 throw cards",
+               "AttackHead?":  false,
+               "AttackBody?":  false,
+               "AttackLeg?":  true
+           },
+    "96":  {
+               "id":  "96",
+               "isToken":  false,
+               "face":  {
+                            "front":  {
+                                          "name":  "Front",
+                                          "type":  "tactics",
+                                          "cost":  1,
+                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-96.png",
+                                          "isHorizontal":  false
+                                      },
+                            "back":  {
+                                         "name":  "Back",
+                                         "type":  "",
+                                         "cost":  1,
+                                         "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+                                         "isHorizontal":  false
+                                     }
+                        },
+               "name":  "peace of mind",
+               "type":  "tactics",
+               "cost":  1,
+               "DMG":  0,
+               "Block":  2,
+               "Text":  "discard your hand to get a random throw card each",
+               "AttackHead?":  true,
+               "AttackBody?":  false,
+               "AttackLeg?":  false
+           },
+    "97":  {
+               "id":  "97",
+               "isToken":  false,
+               "face":  {
+                            "front":  {
+                                          "name":  "Front",
+                                          "type":  "tactics",
+                                          "cost":  3,
+                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-97.png",
+                                          "isHorizontal":  false
+                                      },
+                            "back":  {
+                                         "name":  "Back",
+                                         "type":  "",
+                                         "cost":  3,
+                                         "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+                                         "isHorizontal":  false
+                                     }
+                        },
+               "name":  "ninja storm",
+               "type":  "tactics",
+               "cost":  3,
+               "DMG":  0,
+               "Block":  3,
+               "Text":  "play 5 random throw card each targeting a random bodypart",
+               "AttackHead?":  true,
+               "AttackBody?":  false,
+               "AttackLeg?":  false
+           },
+    "98":  {
+               "id":  "98",
+               "isToken":  false,
+               "face":  {
+                            "front":  {
+                                          "name":  "Front",
+                                          "type":  "tactics",
+                                          "cost":  1,
+                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-98.png",
+                                          "isHorizontal":  false
+                                      },
+                            "back":  {
+                                         "name":  "Back",
+                                         "type":  "",
+                                         "cost":  1,
+                                         "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+                                         "isHorizontal":  false
+                                     }
+                        },
+               "name":  "Side step",
+               "type":  "tactics",
+               "cost":  1,
+               "DMG":  0,
+               "Block":  2,
+               "Text":  "when played → swap bodypart with next attack card",
+               "AttackHead?":  false,
+               "AttackBody?":  false,
+               "AttackLeg?":  true
+           },
+    "99":  {
+               "id":  "99",
+               "isToken":  false,
+               "face":  {
+                            "front":  {
+                                          "name":  "Front",
+                                          "type":  "tactics",
+                                          "cost":  1,
+                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-99.png",
+                                          "isHorizontal":  false
+                                      },
+                            "back":  {
+                                         "name":  "Back",
+                                         "type":  "",
+                                         "cost":  1,
+                                         "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+                                         "isHorizontal":  false
+                                     }
+                        },
+               "name":  "something Up my sleeves",
+               "type":  "tactics",
+               "cost":  1,
+               "DMG":  0,
+               "Block":  2,
+               "Text":  "Repeat your last throw card twice",
+               "AttackHead?":  false,
+               "AttackBody?":  true,
+               "AttackLeg?":  false
+           },
+    "100":  {
+                "id":  "100",
+                "isToken":  false,
+                "face":  {
+                             "front":  {
+                                           "name":  "Front",
+                                           "type":  "tactics",
+                                           "cost":  2,
+                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-100.png",
+                                           "isHorizontal":  false
+                                       },
+                             "back":  {
+                                          "name":  "Back",
+                                          "type":  "",
+                                          "cost":  2,
+                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+                                          "isHorizontal":  false
+                                      }
+                         },
+                "name":  "Hidden Strings",
+                "type":  "tactics",
+                "cost":  2,
+                "DMG":  0,
+                "Block":  0,
+                "Text":  "deal 1 dmg per throw card played last turn",
+                "AttackHead?":  false,
+                "AttackBody?":  false,
+                "AttackLeg?":  false
+            },
+    "101":  {
+                "id":  "101",
+                "isToken":  false,
+                "face":  {
+                             "front":  {
+                                           "name":  "Front",
+                                           "type":  "tactics",
+                                           "cost":  3,
+                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-101.png",
+                                           "isHorizontal":  false
+                                       },
+                             "back":  {
+                                          "name":  "Back",
+                                          "type":  "",
+                                          "cost":  3,
+                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+                                          "isHorizontal":  false
+                                      }
+                         },
+                "name":  "fight like real man",
+                "type":  "tactics",
+                "cost":  3,
+                "DMG":  0,
+                "Block":  3,
+                "Text":  "exhaust",
+                "AttackHead?":  false,
+                "AttackBody?":  true,
+                "AttackLeg?":  false
+            },
+    "102":  {
+                "id":  "102",
+                "isToken":  false,
+                "face":  {
+                             "front":  {
+                                           "name":  "Front",
+                                           "type":  "throw",
+                                           "cost":  0,
+                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-102.png",
+                                           "isHorizontal":  false
+                                       },
+                             "back":  {
+                                          "name":  "Back",
+                                          "type":  "",
+                                          "cost":  0,
+                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+                                          "isHorizontal":  false
+                                      }
+                         },
+                "name":  "Throwing Star",
+                "type":  "throw",
+                "cost":  0,
+                "DMG":  1,
+                "Block":  1,
+                "Text":  "exhaust",
+                "AttackHead?":  true,
+                "AttackBody?":  true,
+                "AttackLeg?":  true
+            },
+    "103":  {
+                "id":  "103",
+                "isToken":  false,
+                "face":  {
+                             "front":  {
+                                           "name":  "Front",
+                                           "type":  "throw",
+                                           "cost":  0,
+                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-103.png",
+                                           "isHorizontal":  false
+                                       },
+                             "back":  {
+                                          "name":  "Back",
+                                          "type":  "",
+                                          "cost":  0,
+                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+                                          "isHorizontal":  false
+                                      }
+                         },
+                "name":  "Kunai",
+                "type":  "throw",
+                "cost":  0,
+                "DMG":  1,
+                "Block":  1,
+                "Text":  "exhaust",
+                "AttackHead?":  true,
+                "AttackBody?":  true,
+                "AttackLeg?":  true
+            },
+    "104":  {
+                "id":  "104",
+                "isToken":  false,
+                "face":  {
+                             "front":  {
+                                           "name":  "Front",
+                                           "type":  "throw",
+                                           "cost":  0,
+                                           "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-104.png",
+                                           "isHorizontal":  false
+                                       },
+                             "back":  {
+                                          "name":  "Back",
+                                          "type":  "",
+                                          "cost":  0,
+                                          "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+                                          "isHorizontal":  false
+                                      }
+                         },
+                "name":  "packet of sand",
+                "type":  "throw",
+                "cost":  0,
+                "DMG":  0,
+                "Block":  0,
+                "Text":  "exhaust",
+                "AttackHead?":  true,
+                "AttackBody?":  true,
+                "AttackLeg?":  true
+            },
     "105":  {
                 "id":  "105",
                 "isToken":  false,
@@ -2870,202 +3189,202 @@
                 "AttackBody?":  true,
                 "AttackLeg?":  false
             },
-"t-dmgbuff": {
-    "id": "t-dmgbuff",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "",
-        "type": "false",
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-buff.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Token: Dmg Buff",
-    "type": "false",
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "t-ap": {
-    "id": "t-ap",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "",
-        "type": false,
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-ap.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Token: Extra AP",
-    "type": false,
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "t-dodge": {
-    "id": "t-dodge",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "",
-        "type": false,
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-dodge.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Token: Dodge",
-    "type": false,
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "t-dmgbuff-gun": {
-    "id": "t-dmgbuff-gun",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "",
-        "type": false,
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-dmgbuff-gun.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Token: Dmg Buff Gun",
-    "type": false,
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "t-dmgbuff-melee": {
-    "id": "t-dmgbuff-melee",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "",
-        "type": false,
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-dmgbuff-melee.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Token: DMG Buff Melee",
-    "type": false,
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "t-invisible": {
-    "id": "t-invisible",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "",
-        "type": false,
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-invisible.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Token: Invisible",
-    "type": false,
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "t-obscure": {
-    "id": "t-obscure",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "",
-        "type": false,
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-obscure.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Token: Obscure",
-    "type": false,
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "t-weak": {
-    "id": "t-weak",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "",
-        "type": false,
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-weak.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Token: Weak",
-    "type": false,
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  },
-  "t-exposed": {
-    "id": "t-exposed",
-    "isToken": true,
-    "face": {
-      "front": {
-        "name": "",
-        "type": false,
-        "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-exposed.png",
-        "isHorizontal": false
-      }
-    },
-    "name": "Token: Exposed",
-    "type": false,
-    "cost": 0,
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false,
-    "Text": "",
-    "Block": 0,
-    "DMG": 0
-  }
+    "t-dmgbuff":  {
+                      "id":  "t-dmgbuff",
+                      "isToken":  true,
+                      "face":  {
+                                   "front":  {
+                                                 "name":  "",
+                                                 "type":  "false",
+                                                 "cost":  0,
+                                                 "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-buff.png",
+                                                 "isHorizontal":  false
+                                             }
+                               },
+                      "name":  "Token: Dmg Buff",
+                      "type":  "false",
+                      "cost":  0,
+                      "AttackHead?":  false,
+                      "AttackBody?":  false,
+                      "AttackLeg?":  false,
+                      "Text":  "",
+                      "Block":  0,
+                      "DMG":  0
+                  },
+    "t-ap":  {
+                 "id":  "t-ap",
+                 "isToken":  true,
+                 "face":  {
+                              "front":  {
+                                            "name":  "",
+                                            "type":  false,
+                                            "cost":  0,
+                                            "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-ap.png",
+                                            "isHorizontal":  false
+                                        }
+                          },
+                 "name":  "Token: Extra AP",
+                 "type":  false,
+                 "cost":  0,
+                 "AttackHead?":  false,
+                 "AttackBody?":  false,
+                 "AttackLeg?":  false,
+                 "Text":  "",
+                 "Block":  0,
+                 "DMG":  0
+             },
+    "t-dodge":  {
+                    "id":  "t-dodge",
+                    "isToken":  true,
+                    "face":  {
+                                 "front":  {
+                                               "name":  "",
+                                               "type":  false,
+                                               "cost":  0,
+                                               "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-dodge.png",
+                                               "isHorizontal":  false
+                                           }
+                             },
+                    "name":  "Token: Dodge",
+                    "type":  false,
+                    "cost":  0,
+                    "AttackHead?":  false,
+                    "AttackBody?":  false,
+                    "AttackLeg?":  false,
+                    "Text":  "",
+                    "Block":  0,
+                    "DMG":  0
+                },
+    "t-dmgbuff-gun":  {
+                          "id":  "t-dmgbuff-gun",
+                          "isToken":  true,
+                          "face":  {
+                                       "front":  {
+                                                     "name":  "",
+                                                     "type":  false,
+                                                     "cost":  0,
+                                                     "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-dmgbuff-gun.png",
+                                                     "isHorizontal":  false
+                                                 }
+                                   },
+                          "name":  "Token: Dmg Buff Gun",
+                          "type":  false,
+                          "cost":  0,
+                          "AttackHead?":  false,
+                          "AttackBody?":  false,
+                          "AttackLeg?":  false,
+                          "Text":  "",
+                          "Block":  0,
+                          "DMG":  0
+                      },
+    "t-dmgbuff-melee":  {
+                            "id":  "t-dmgbuff-melee",
+                            "isToken":  true,
+                            "face":  {
+                                         "front":  {
+                                                       "name":  "",
+                                                       "type":  false,
+                                                       "cost":  0,
+                                                       "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-dmgbuff-melee.png",
+                                                       "isHorizontal":  false
+                                                   }
+                                     },
+                            "name":  "Token: DMG Buff Melee",
+                            "type":  false,
+                            "cost":  0,
+                            "AttackHead?":  false,
+                            "AttackBody?":  false,
+                            "AttackLeg?":  false,
+                            "Text":  "",
+                            "Block":  0,
+                            "DMG":  0
+                        },
+    "t-invisible":  {
+                        "id":  "t-invisible",
+                        "isToken":  true,
+                        "face":  {
+                                     "front":  {
+                                                   "name":  "",
+                                                   "type":  false,
+                                                   "cost":  0,
+                                                   "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-invisible.png",
+                                                   "isHorizontal":  false
+                                               }
+                                 },
+                        "name":  "Token: Invisible",
+                        "type":  false,
+                        "cost":  0,
+                        "AttackHead?":  false,
+                        "AttackBody?":  false,
+                        "AttackLeg?":  false,
+                        "Text":  "",
+                        "Block":  0,
+                        "DMG":  0
+                    },
+    "t-obscure":  {
+                      "id":  "t-obscure",
+                      "isToken":  true,
+                      "face":  {
+                                   "front":  {
+                                                 "name":  "",
+                                                 "type":  false,
+                                                 "cost":  0,
+                                                 "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-obscure.png",
+                                                 "isHorizontal":  false
+                                             }
+                               },
+                      "name":  "Token: Obscure",
+                      "type":  false,
+                      "cost":  0,
+                      "AttackHead?":  false,
+                      "AttackBody?":  false,
+                      "AttackLeg?":  false,
+                      "Text":  "",
+                      "Block":  0,
+                      "DMG":  0
+                  },
+    "t-weak":  {
+                   "id":  "t-weak",
+                   "isToken":  true,
+                   "face":  {
+                                "front":  {
+                                              "name":  "",
+                                              "type":  false,
+                                              "cost":  0,
+                                              "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-weak.png",
+                                              "isHorizontal":  false
+                                          }
+                            },
+                   "name":  "Token: Weak",
+                   "type":  false,
+                   "cost":  0,
+                   "AttackHead?":  false,
+                   "AttackBody?":  false,
+                   "AttackLeg?":  false,
+                   "Text":  "",
+                   "Block":  0,
+                   "DMG":  0
+               },
+    "t-exposed":  {
+                      "id":  "t-exposed",
+                      "isToken":  true,
+                      "face":  {
+                                   "front":  {
+                                                 "name":  "",
+                                                 "type":  false,
+                                                 "cost":  0,
+                                                 "image":  "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-exposed.png",
+                                                 "isHorizontal":  false
+                                             }
+                               },
+                      "name":  "Token: Exposed",
+                      "type":  false,
+                      "cost":  0,
+                      "AttackHead?":  false,
+                      "AttackBody?":  false,
+                      "AttackLeg?":  false,
+                      "Text":  "",
+                      "Block":  0,
+                      "DMG":  0
+                  }
 }
