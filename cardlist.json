@@ -80,10 +80,10 @@
     "type": "Tactics",
     "cost": 1,
     "DMG": 0,
-    "Block": 0,
-    "Text": "+3 body dmg next turn defense: dodge head",
+    "Block": -1,
+    "Text": "+4 body dmg next turn",
     "AttackHead?": true,
-    "AttackBody?": false,
+    "AttackBody?": true,
     "AttackLeg?": false
   },
   "3": {
@@ -893,7 +893,7 @@
     "cost": 2,
     "DMG": 3,
     "Block": 1,
-    "Text": "overwhelm 3 defense: your next gun card have overwhelm 3",
+    "Text": "piercing 3 defense: your next gun card have piercing 3",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -951,7 +951,7 @@
     "cost": 1,
     "DMG": 3,
     "Block": -1,
-    "Text": "the next card played is invisible",
+    "Text": "the next card played is hidden",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -1009,7 +1009,7 @@
     "cost": 1,
     "DMG": 2,
     "Block": -1,
-    "Text": "this bodypart is invisible until the end of your next turn.",
+    "Text": "this bodypart is hidden until the end of your next turn.",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -1879,7 +1879,7 @@
     "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "invisible",
+    "Text": "hidden",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -1937,7 +1937,7 @@
     "cost": 0,
     "DMG": 0,
     "Block": -1,
-    "Text": "this zone is invisible",
+    "Text": "this zone is hidden",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -2111,7 +2111,7 @@
     "cost": 2,
     "DMG": 3,
     "Block": 1,
-    "Text": "overwhelm 3",
+    "Text": "piercing 3",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -2343,7 +2343,7 @@
     "cost": 1,
     "DMG": 4,
     "Block": 1,
-    "Text": "melee combo 1 defense: draw a random melee combo 2 card",
+    "Text": "tempo 1 defense: draw a random melee combo 2 card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2372,7 +2372,7 @@
     "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "melee combo 2 → apply weak",
+    "Text": "tempo 2 → apply weak 1",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2401,7 +2401,7 @@
     "cost": 1,
     "DMG": 4,
     "Block": -1,
-    "Text": "melee combo 3 → return this card to hand",
+    "Text": "tempo 3 → return this card to hand",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2430,7 +2430,7 @@
     "cost": 0,
     "DMG": 3,
     "Block": 1,
-    "Text": "melee combo (*) defense: draw a next melee combo card",
+    "Text": "tempo (*) defense: draw a next melee combo card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2459,7 +2459,7 @@
     "cost": 2,
     "DMG": 4,
     "Block": 2,
-    "Text": "melee combo 2 hit → apply daze",
+    "Text": "tempo 2 → +1 dmg tempo 3 → +2 dmg",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -2488,7 +2488,7 @@
     "cost": 2,
     "DMG": 4,
     "Block": 2,
-    "Text": "melee combo (*) hit → opponent attack card cost +1 ap next turn",
+    "Text": "tempo (*) hit → opponent first attack card cost +1 ap next turn",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2517,7 +2517,7 @@
     "cost": 2,
     "DMG": 4,
     "Block": 2,
-    "Text": "melee combo 2 → apply weak melee combo 3 → apply daze",
+    "Text": "tempo 2 → apply weak tempo 3 → apply daze",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -2546,10 +2546,10 @@
     "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "next 2 melee attack overwhelm 4",
+    "Text": "next melee attack have piercing 4",
     "AttackHead?": true,
     "AttackBody?": true,
-    "AttackLeg?": false
+    "AttackLeg?": true
   },
   "89": {
     "id": "89",
@@ -2575,10 +2575,10 @@
     "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "1 ap cards and below deal +1 dmg for 3 turns",
-    "AttackHead?": true,
+    "Text": "1 ap cards and below deal +1 dmg for 2 turns",
+    "AttackHead?": false,
     "AttackBody?": true,
-    "AttackLeg?": false
+    "AttackLeg?": true
   },
   "90": {
     "id": "90",
@@ -2604,7 +2604,7 @@
     "cost": 1,
     "DMG": 1,
     "Block": 2,
-    "Text": "melee combo 1 blocked: play a cross card here",
+    "Text": "tempo 1 blocked: play a cross card here",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2633,7 +2633,7 @@
     "cost": 0,
     "DMG": 3,
     "Block": -1,
-    "Text": "melee combo 1/2 successful dodge deal 1 melee dmg",
+    "Text": "tempo 1/2 successful dodge allow current tempo level effect trigger again",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -2661,8 +2661,8 @@
     "type": "Melee",
     "cost": 0,
     "DMG": 3,
-    "Block": 0,
-    "Text": "melee combo 1/2 defense: if opponent hit here, play a jab card here",
+    "Block": 1,
+    "Text": "tempo 1/2 defense: if opponent hit here, deal 2 dmg",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2689,9 +2689,9 @@
     "name": "Liver Shot",
     "type": "Melee",
     "cost": 3,
-    "DMG": 5,
+    "DMG": 4,
     "Block": 3,
-    "Text": "melee combo 3 hit → discard all opponent hand, reshuffle their deck and redraw the same amount",
+    "Text": "tempo 3 → discard all opponent hand, reshuffle their deck and redraw the same amount",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2761,24 +2761,24 @@
       "front": {
         "name": "Front",
         "type": "Tactics",
-        "cost": 1,
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-96.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 1,
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
     },
     "name": "Peace Of Mind",
     "type": "Tactics",
-    "cost": 1,
+    "cost": 2,
     "DMG": 0,
-    "Block": 2,
-    "Text": "discard your hand to get a random throw card each",
+    "Block": 3,
+    "Text": "end of turn: gain random throw card per throw card played this turn",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -2818,7 +2818,7 @@
     "face": {
       "front": {
         "name": "Front",
-        "type": "Tactics",
+        "type": "",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-98.png",
         "isHorizontal": false
@@ -2831,14 +2831,14 @@
         "isHorizontal": false
       }
     },
-    "name": "Side Step",
-    "type": "Tactics",
+    "name": "Deflection",
+    "type": "",
     "cost": 0,
     "DMG": 0,
-    "Block": -1,
-    "Text": "on resolve → swap position with the last attack card you play this turn",
+    "Block": 0,
+    "Text": "",
     "AttackHead?": false,
-    "AttackBody?": false,
+    "AttackBody?": true,
     "AttackLeg?": true
   },
   "99": {
@@ -2860,12 +2860,12 @@
         "isHorizontal": false
       }
     },
-    "name": "Something Up My Sleeves",
+    "name": "Up The Sleeves",
     "type": "Tactics",
     "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "repeat your last throw card twice here",
+    "Text": "repeat your last throw card here twice",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2877,22 +2877,22 @@
       "front": {
         "name": "Front",
         "type": "Tactics",
-        "cost": 1,
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-100.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 1,
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
     },
     "name": "Hidden Strings",
     "type": "Tactics",
-    "cost": 1,
-    "DMG": 0,
+    "cost": 2,
+    "DMG": 2,
     "Block": 0,
     "Text": "deal 1 dmg per throw card played last turn defense: deals 1 dmg per card targeting here",
     "AttackHead?": false,
@@ -2918,12 +2918,12 @@
         "isHorizontal": false
       }
     },
-    "name": "Fight Like Real Man",
+    "name": "Hidden Pocket",
     "type": "Tactics",
     "cost": 3,
     "DMG": 0,
     "Block": 3,
-    "Text": "exhaust your throw card this game have exposed, but do +1 dmg",
+    "Text": "gain 1 random throw card every turn",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2952,7 +2952,7 @@
     "cost": 0,
     "DMG": 1,
     "Block": 1,
-    "Text": "exhaust combo throw apply fragile 2",
+    "Text": "exhaust throw combo apply fragile 2",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -2981,7 +2981,7 @@
     "cost": 0,
     "DMG": 2,
     "Block": 1,
-    "Text": "exhaust combo throw overwhelm 1",
+    "Text": "exhaust throw combo pierce 1",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3009,8 +3009,8 @@
     "type": "Throw",
     "cost": 0,
     "DMG": 1,
-    "Block": 0,
-    "Text": "exhaust combo throw apply blind for 1 turn defense: dodge anywhere",
+    "Block": 1,
+    "Text": "exhaust throw combo apply blind for 1 turn",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3212,8 +3212,8 @@
     "type": "Tactics",
     "cost": 1,
     "DMG": 0,
-    "Block": 2,
-    "Text": "next melee card deal +3 dmg defense → draw 1 fist card",
+    "Block": 1,
+    "Text": "next melee card deal +4 dmg defense → draw 1 fist card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3242,7 +3242,7 @@
     "cost": 2,
     "DMG": 0,
     "Block": 2,
-    "Text": "your next 2 melee cards cost 0 ap",
+    "Text": "your next 2 melee cards cost -1 ap",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3327,9 +3327,9 @@
     "name": "Iron Body",
     "type": "Melee",
     "cost": 1,
-    "DMG": 2,
+    "DMG": 4,
     "Block": 1,
-    "Text": "defense → on partial block, deal 3 dmg",
+    "Text": "partial blocked → deal 2 dmg",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3357,8 +3357,8 @@
     "type": "Tactics",
     "cost": 1,
     "DMG": 0,
-    "Block": 1,
-    "Text": "draw 1 stance card defense → on partial block, deal 4 dmg",
+    "Block": 2,
+    "Text": "draw 1 stance card partial blocked → deal 4 dmg",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3386,7 +3386,7 @@
     "type": "Tactics",
     "cost": 1,
     "DMG": 0,
-    "Block": 1,
+    "Block": 2,
     "Text": "deal dmg equal to total block value in hand",
     "AttackHead?": false,
     "AttackBody?": true,
@@ -3415,8 +3415,8 @@
     "type": "Melee",
     "cost": 1,
     "DMG": 4,
-    "Block": 1,
-    "Text": "hit → next block card played +1 block",
+    "Block": 2,
+    "Text": "next block card played +1 block",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3444,8 +3444,8 @@
     "type": "Melee",
     "cost": 1,
     "DMG": 4,
-    "Block": 1,
-    "Text": "hit → next block card played +1 block",
+    "Block": 2,
+    "Text": "next block card played +1 block",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3561,7 +3561,7 @@
     "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "your next 5 attack card applies toxic 1",
+    "Text": "your next 4 attack card applies toxic 1",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3589,8 +3589,8 @@
     "type": "Tactics",
     "cost": 1,
     "DMG": 0,
-    "Block": 2,
-    "Text": "extend all opponent status effect by 2",
+    "Block": -1,
+    "Text": "extend all opponent status effect here by 2",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3643,12 +3643,12 @@
         "isHorizontal": false
       }
     },
-    "name": "Shiv",
+    "name": "Toxin Infused Dagger",
     "type": "Melee",
     "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "apply weak 2",
+    "Text": "choose: apply toxic 2 or consume 1 toxic > +2 dmg",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3675,9 +3675,9 @@
     "name": "Viper’s Block",
     "type": "Throw",
     "cost": 2,
-    "DMG": 3,
+    "DMG": 4,
     "Block": 0,
-    "Text": "defense: +x block per toxic stack here",
+    "Text": "apply toxic 2 defense: +x block per toxic stack here",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3706,7 +3706,7 @@
     "cost": 0,
     "DMG": 0,
     "Block": 1,
-    "Text": "consumes all status effect → deal dmg equal to its stacks",
+    "Text": "consume all status effect → deal dmg equal to its stacks",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3730,15 +3730,15 @@
         "isHorizontal": false
       }
     },
-    "name": "Toxic Research",
+    "name": "Toxic Research Ii",
     "type": "Tactics",
     "cost": 3,
     "DMG": 0,
-    "Block": 2,
-    "Text": "exhaust toxic dmg increased by 1 this game",
+    "Block": 3,
+    "Text": "exhaust > tr iii toxic now deals 2 dmg instead",
     "AttackHead?": true,
-    "AttackBody?": true,
-    "AttackLeg?": true
+    "AttackBody?": false,
+    "AttackLeg?": false
   },
   "130": {
     "id": "130",
@@ -3880,7 +3880,7 @@
     "cost": 1,
     "DMG": 0,
     "Block": 3,
-    "Text": "reveal all cards opponent play here for 3 turns (including invisible)",
+    "Text": "expose this bodypart for 2 turns",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3907,9 +3907,9 @@
     "name": "Rapid Punch",
     "type": "Melee",
     "cost": 2,
-    "DMG": 1,
+    "DMG": 2,
     "Block": 3,
-    "Text": "play a random melee card from anywhere",
+    "Text": "play a random melee card from your draw/discard pile",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3965,7 +3965,7 @@
     "name": "Blind Swordsmanship",
     "type": "Melee",
     "cost": 2,
-    "DMG": 2,
+    "DMG": 3,
     "Block": 3,
     "Text": "blocked: deal 3 dmg defense: draw a melee card",
     "AttackHead?": true,
@@ -4083,7 +4083,7 @@
     "cost": 1,
     "DMG": 0,
     "Block": 1,
-    "Text": "invisible attack/defense: invisible next time you are attacked here, deal 5 dmg to opponent",
+    "Text": "hidden next time you are attacked here, deal 4 dmg to opponent",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -4112,7 +4112,7 @@
     "cost": 1,
     "DMG": 0,
     "Block": 1,
-    "Text": "invisible attack/defense: invisible next time you are attacked here, take 1 dmg & dodge the attack",
+    "Text": "hidden next time you are attacked here, take 1 dmg to dodge the attack",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -4223,12 +4223,12 @@
         "isHorizontal": false
       }
     },
-    "name": "Continental Grounds",
+    "name": "Continental Manager",
     "type": "Tactics",
     "cost": 3,
     "DMG": 0,
     "Block": 0,
-    "Text": "get +3 block for your next 2 blocks defense: deals 2 dmg per attack card opponent play this turn",
+    "Text": "exhaust get 6 block randomly on bodyparts every turn  when you play an attack card → reduce that value by 2 this turn",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -4314,8 +4314,8 @@
     "type": "Tactics",
     "cost": 0,
     "DMG": 0,
-    "Block": 0,
-    "Text": "gain backup plan 1 defense: randomize opponent card placements",
+    "Block": 1,
+    "Text": "gain backup plan 1 defense: draw an extra tactics card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4489,7 +4489,7 @@
     "cost": 0,
     "DMG": 2,
     "Block": 2,
-    "Text": "sync atk: draw 1 extra card",
+    "Text": "sync atk: gain 1 ap next turn",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -4518,7 +4518,7 @@
     "cost": 0,
     "DMG": 3,
     "Block": 2,
-    "Text": "sync atk: overwhelm 2",
+    "Text": "sync atk: piercing 2",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -4547,7 +4547,7 @@
     "cost": 0,
     "DMG": 3,
     "Block": 2,
-    "Text": "sync atk: cannot be dodged",
+    "Text": "sync atk: draw 1 extra card",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4576,7 +4576,7 @@
     "cost": 0,
     "DMG": 4,
     "Block": 2,
-    "Text": "sync atk: activator card is invisible",
+    "Text": "sync atk: activator card is hidden",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4692,7 +4692,7 @@
     "cost": 0,
     "DMG": 3,
     "Block": 2,
-    "Text": "overwhelm 2 hold: dmg +1 & overwhelm +2",
+    "Text": "pierce 2 hold: dmg +1 & pierce +2",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -4722,6 +4722,470 @@
     "DMG": 0,
     "Block": 2,
     "Text": "gain 2 block here for 1 turn hold: both block values +2",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "164": {
+    "id": "164",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-164.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Coat Armory",
+    "type": "Tactics",
+    "cost": 1,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "your next 4 defense card applies toxic 1",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "165": {
+    "id": "165",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 3,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-165.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 3,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Toxic Research I",
+    "type": "Tactics",
+    "cost": 3,
+    "DMG": 0,
+    "Block": 3,
+    "Text": "exhaust >tr ii when toxic dmg triggers, another body part with toxic triggers too",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "166": {
+    "id": "166",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 3,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-166.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 3,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Toxic Research Iii",
+    "type": "Tactics",
+    "cost": 3,
+    "DMG": 0,
+    "Block": 3,
+    "Text": "exhaust toxic application now immediately trigger dmg instead",
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": true
+  },
+  "167": {
+    "id": "167",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Throw",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-167.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Siphon Bomb",
+    "type": "Throw",
+    "cost": 2,
+    "DMG": 3,
+    "Block": 1,
+    "Text": "double toxic here defense (exhaust): consume status effect to heal x yourself per stack",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "168": {
+    "id": "168",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-168.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Experimental Leech",
+    "type": "Melee",
+    "cost": 1,
+    "DMG": 3,
+    "Block": -1,
+    "Text": "choose: apply toxic 2 or consume 1 toxic > heal 2",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "169": {
+    "id": "169",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-169.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "The Rules Are The Rules",
+    "type": "Tactics",
+    "cost": 1,
+    "DMG": 0,
+    "Block": 3,
+    "Text": "you cannot play an attack card here next turn",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "170": {
+    "id": "170",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 3,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-170.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 3,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Seven Cuts",
+    "type": "Tactics",
+    "cost": 3,
+    "DMG": 0,
+    "Block": 7,
+    "Text": "deal 7 dmg randomly across body parts",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "171": {
+    "id": "171",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-171.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "High Table Decree",
+    "type": "Tactics",
+    "cost": 1,
+    "DMG": 0,
+    "Block": 3,
+    "Text": "you cannot play a defense card here next turn",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "172": {
+    "id": "172",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-172.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Stockpile",
+    "type": "Tactics",
+    "cost": 0,
+    "DMG": 0,
+    "Block": 3,
+    "Text": "get 3 incendiary rounds",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "173": {
+    "id": "173",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-173.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Incendiary Rounds",
+    "type": "Tactics",
+    "cost": 0,
+    "DMG": 0,
+    "Block": 0,
+    "Text": "exhaust your next gun card have +1 dmg",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "174": {
+    "id": "174",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-174.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Brass Knuckles",
+    "type": "Tactics",
+    "cost": 0,
+    "DMG": 0,
+    "Block": 3,
+    "Text": "your next melee card have +2 dmg",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "175": {
+    "id": "175",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-175.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Deadly Mark",
+    "type": "Tactics",
+    "cost": 0,
+    "DMG": 0,
+    "Block": 3,
+    "Text": "mark a random bodypart: on hit, gain 1 ap next turn (does not stack)",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "176": {
+    "id": "176",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-176.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Rest",
+    "type": "Tactics",
+    "cost": 0,
+    "DMG": 0,
+    "Block": -1,
+    "Text": "gain 1 ap next turn",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "177": {
+    "id": "177",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Melee",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-177.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Angry Punch",
+    "type": "Melee",
+    "cost": 0,
+    "DMG": 3,
+    "Block": 3,
+    "Text": "if played on bodypart with <= 6 hp: dmg +2",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "178": {
+    "id": "178",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Melee",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-178.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Very Angry Punch",
+    "type": "Melee",
+    "cost": 0,
+    "DMG": 5,
+    "Block": 3,
+    "Text": "if played on bodypart with <= 6 hp: cost -1 ap",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "179": {
+    "id": "179",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Melee",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-179.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Desperate Strike",
+    "type": "Melee",
+    "cost": 0,
+    "DMG": 3,
+    "Block": 3,
+    "Text": "if played on broken bodypart: dmg +4",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -4902,6 +5366,28 @@
     "Block": 0,
     "DMG": 0
   },
+  "t-dmgbuff-1ap": {
+    "id": "t-dmgbuff-1ap",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "false",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-dmgbuff-1ap.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Token: Dmgbuff 1ap",
+    "type": "false",
+    "cost": 0,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
   "t-dmgbuff-gun": {
     "id": "t-dmgbuff-gun",
     "isToken": true,
@@ -5056,19 +5542,19 @@
     "Block": 0,
     "DMG": 0
   },
-  "t-invisible": {
-    "id": "t-invisible",
+  "t-freecost-melee": {
+    "id": "t-freecost-melee",
     "isToken": true,
     "face": {
       "front": {
         "name": "",
         "type": "false",
         "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-invisible.png",
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-freecost-melee.png",
         "isHorizontal": false
       }
     },
-    "name": "Token: Invisible",
+    "name": "Token: Freecost Melee",
     "type": "false",
     "cost": 0,
     "AttackHead?": false,
@@ -5078,19 +5564,19 @@
     "Block": 0,
     "DMG": 0
   },
-  "t-meleecombo": {
-    "id": "t-meleecombo",
+  "t-hidden": {
+    "id": "t-hidden",
     "isToken": true,
     "face": {
       "front": {
         "name": "",
         "type": "false",
         "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-meleecombo.png",
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-hidden.png",
         "isHorizontal": false
       }
     },
-    "name": "Token: Meleecombo",
+    "name": "Token: Hidden",
     "type": "false",
     "cost": 0,
     "AttackHead?": false,
@@ -5122,19 +5608,19 @@
     "Block": 0,
     "DMG": 0
   },
-  "t-overwhelm": {
-    "id": "t-overwhelm",
+  "t-pierce": {
+    "id": "t-pierce",
     "isToken": true,
     "face": {
       "front": {
         "name": "",
         "type": "false",
         "cost": 0,
-        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-overwhelm.png",
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-pierce.png",
         "isHorizontal": false
       }
     },
-    "name": "Token: Overwhelm",
+    "name": "Token: Pierce",
     "type": "false",
     "cost": 0,
     "AttackHead?": false,
@@ -5179,6 +5665,50 @@
       }
     },
     "name": "Token: Reveal",
+    "type": "false",
+    "cost": 0,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "t-tempo": {
+    "id": "t-tempo",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "false",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-tempo.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Token: Tempo",
+    "type": "false",
+    "cost": 0,
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "t-toxic": {
+    "id": "t-toxic",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "false",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-toxic.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Token: Toxic",
     "type": "false",
     "cost": 0,
     "AttackHead?": false,
