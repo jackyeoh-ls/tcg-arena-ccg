@@ -1,407 +1,647 @@
-[{
-  "title": "Josh's Deck",
-  "id": "b4ae1ed4-0cbd-497a-a3ee-53c17da20b1b",
-  "game": "Combat Card Game",
-  "format": [
-    "Classic"
-  ],
-  "cardCount": 16,
-  "createdAt": "2025-12-09T08:17:04.499Z",
-  "lastModifiedAt": "2025-12-09T08:17:04.499Z",
-  "deckList": {
-    "categoriesOrder": [
-      "Tactics",
-      "Gun",
-      "Melee"
-    ],
-    "Sideboard": [],
-    "Tactics": [
-      {
-        "count": 1,
-        "id": "0"
-      },
-      {
-        "count": 1,
-        "id": "2"
-      },
-      {
-        "count": 1,
-        "id": "5"
-      },
-      {
-        "count": 1,
-        "id": "7"
-      },
-      {
-        "count": 1,
-        "id": "10"
-      },
-      {
-        "count": 1,
-        "id": "15"
-      }
-    ],
-    "Gun": [
-      {
-        "count": 1,
-        "id": "1"
-      },
-      {
-        "count": 1,
-        "id": "3"
-      },
-      {
-        "count": 1,
-        "id": "8"
-      },
-      {
-        "count": 1,
-        "id": "12"
-      }
-    ],
-    "Melee": [
-      {
-        "count": 1,
-        "id": "4"
-      },
-      {
-        "count": 1,
-        "id": "6"
-      },
-      {
-        "count": 1,
-        "id": "9"
-      },
-      {
-        "count": 1,
-        "id": "11"
-      },
-      {
-        "count": 1,
-        "id": "13"
-      },
-      {
-        "count": 1,
-        "id": "14"
-      }
-    ]
-  }
-},
-{
-  "title": "Jack's Deck",
-  "id": "ccab2933-0992-4532-b091-bc6c43d27e68",
-  "game": "Combat Card Game",
-  "format": [
-    "Classic"
-  ],
-  "cardCount": 16,
-  "createdAt": "2025-12-09T08:24:12.843Z",
-  "lastModifiedAt": "2025-12-09T08:24:36.234Z",
-  "deckList": {
-    "categoriesOrder": [
-      "Tactics",
-      "Gun",
-      "Melee"
-    ],
-    "Sideboard": [],
-    "Tactics": [
-      {
-        "count": 1,
-        "id": "16"
-      },
-      {
-        "count": 1,
-        "id": "17"
-      },
-      {
-        "count": 1,
-        "id": "24"
-      },
-      {
-        "count": 1,
-        "id": "29"
-      },
-      {
-        "count": 1,
-        "id": "30"
-      }
-    ],
-    "Gun": [
-      {
-        "count": 1,
-        "id": "18"
-      },
-      {
-        "count": 1,
-        "id": "19"
-      },
-      {
-        "count": 1,
-        "id": "20"
-      },
-      {
-        "count": 1,
-        "id": "23"
-      },
-      {
-        "count": 1,
-        "id": "25"
-      }
-    ],
-    "Melee": [
-      {
-        "count": 1,
-        "id": "21"
-      },
-      {
-        "count": 1,
-        "id": "22"
-      },
-      {
-        "count": 1,
-        "id": "26"
-      },
-      {
-        "count": 1,
-        "id": "27"
-      },
-      {
-        "count": 1,
-        "id": "28"
-      },
-      {
-        "count": 1,
-        "id": "31"
-      }
-    ]
-  }
-},
-{
-  "title": "NateH's Deck",
-  "id": "75b340bb-6f1b-4fbb-8e81-dedbf8c16999",
-  "game": "Combat Card Game",
-  "format": [
-    "Classic"
-  ],
-  "cardCount": 16,
-  "createdAt": "2025-12-09T08:24:53.130Z",
-  "lastModifiedAt": "2025-12-09T08:25:34.010Z",
-  "deckList": {
-    "categoriesOrder": [
-      "Tactics",
-      "Melee"
-    ],
-    "Sideboard": [],
-    "Tactics": [
-      {
-        "count": 2,
-        "id": "32"
-      },
-      {
-        "count": 2,
-        "id": "34"
-      },
-      {
-        "count": 2,
-        "id": "35"
-      },
-      {
-        "count": 2,
-        "id": "36"
-      }
-    ],
-    "Melee": [
-      {
-        "count": 2,
-        "id": "33"
-      },
-      {
-        "count": 2,
-        "id": "37"
-      },
-      {
-        "count": 2,
-        "id": "38"
-      },
-      {
-        "count": 2,
-        "id": "39"
-      }
-    ]
-  }
-},
-{
-  "title": "Nathan's Deck",
-  "id": "581a5560-f143-4a67-af3f-716baea569a2",
-  "game": "Combat Card Game",
-  "format": [
-    "Classic"
-  ],
-  "cardCount": 16,
-  "createdAt": "2025-12-09T08:25:50.546Z",
-  "lastModifiedAt": "2025-12-09T08:26:57.626Z",
-  "deckList": {
-    "categoriesOrder": [
-      "Melee",
-      "Throw",
-      "Tactics",
-      "Kick",
-      "Gun"
-    ],
-    "Sideboard": [],
-    "Melee": [
-      {
-        "count": 1,
-        "id": "48"
-      },
-      {
-        "count": 1,
-        "id": "51"
-      },
-      {
-        "count": 1,
-        "id": "52"
-      },
-      {
-        "count": 1,
-        "id": "55"
-      },
-      {
-        "count": 1,
-        "id": "56"
-      },
-      {
-        "count": 1,
-        "id": "58"
-      },
-      {
-        "count": 1,
-        "id": "60"
-      }
-    ],
-    "Throw": [
-      {
-        "count": 2,
-        "id": "50"
-      },
-      {
-        "count": 1,
-        "id": "53"
-      },
-      {
-        "count": 1,
-        "id": "57"
-      },
-      {
-        "count": 1,
-        "id": "61"
-      }
-    ],
-    "Tactics": [
-      {
-        "count": 1,
-        "id": "59"
-      },
-      {
-        "count": 1,
-        "id": "54"
-      }
-    ],
-    "Kick": [
-      {
-        "count": 1,
-        "id": "62"
-      }
-    ],
-    "Gun": [
-      {
-        "count": 1,
-        "id": "63"
-      }
-    ]
-  }
-},
-  {
-  "title": "Bryan's Deck",
-  "id": "084849ab-a502-40f9-8872-55506b6c3f97",
-  "game": "Combat Card Game",
-  "format": [
-    "Classic"
-  ],
-  "cardCount": 16,
-  "createdAt": "2025-12-09T08:27:16.498Z",
-  "lastModifiedAt": "2025-12-09T08:27:39.324Z",
-  "deckList": {
-    "categoriesOrder": [
-      "Tactics"
-    ],
-    "Sideboard": [],
-    "Tactics": [
-      {
-        "count": 1,
-        "id": "64"
-      },
-      {
-        "count": 1,
-        "id": "65"
-      },
-      {
-        "count": 1,
-        "id": "66"
-      },
-      {
-        "count": 1,
-        "id": "67"
-      },
-      {
-        "count": 1,
-        "id": "68"
-      },
-      {
-        "count": 1,
-        "id": "69"
-      },
-      {
-        "count": 1,
-        "id": "70"
-      },
-      {
-        "count": 1,
-        "id": "71"
-      },
-      {
-        "count": 1,
-        "id": "72"
-      },
-      {
-        "count": 1,
-        "id": "73"
-      },
-      {
-        "count": 1,
-        "id": "74"
-      },
-      {
-        "count": 1,
-        "id": "75"
-      },
-      {
-        "count": 1,
-        "id": "76"
-      },
-      {
-        "count": 1,
-        "id": "77"
-      },
-      {
-        "count": 1,
-        "id": "78"
-      },
-      {
-        "count": 1,
-        "id": "79"
-      }
-    ]
-  }
-}
+[
+    {
+        "title": "SyncFu (Caine + Marcus)",
+        "id": "9cb44ef3-3bd9-4107-950f-10cb0be910f8",
+        "game": "Combat Card Game",
+        "format": [
+            "Classic"
+        ],
+        "cardCount": 24,
+        "createdAt": "2025-12-17T07:00:01.088Z",
+        "lastModifiedAt": "2025-12-18T11:11:33.885Z",
+        "deckList": {
+            "categoriesOrder": [
+                "Melee",
+                "Gun",
+                "Tactics"
+            ],
+            "Sideboard": [],
+            "Melee": [
+                {
+                    "count": 1,
+                    "id": "154"
+                },
+                {
+                    "count": 1,
+                    "id": "155"
+                },
+                {
+                    "count": 1,
+                    "id": "136"
+                },
+                {
+                    "count": 1,
+                    "id": "137"
+                },
+                {
+                    "count": 1,
+                    "id": "138"
+                },
+                {
+                    "count": 1,
+                    "id": "135"
+                },
+                {
+                    "count": 1,
+                    "id": "152"
+                },
+                {
+                    "count": 1,
+                    "id": "21"
+                },
+                {
+                    "count": 1,
+                    "id": "71"
+                },
+                {
+                    "count": 1,
+                    "id": "10"
+                }
+            ],
+            "Gun": [
+                {
+                    "count": 1,
+                    "id": "153"
+                },
+                {
+                    "count": 1,
+                    "id": "156"
+                },
+                {
+                    "count": 1,
+                    "id": "157"
+                },
+                {
+                    "count": 1,
+                    "id": "158"
+                },
+                {
+                    "count": 1,
+                    "id": "19"
+                },
+                {
+                    "count": 1,
+                    "id": "23"
+                },
+                {
+                    "count": 1,
+                    "id": "30"
+                },
+                {
+                    "count": 1,
+                    "id": "63"
+                },
+                {
+                    "count": 1,
+                    "id": "77"
+                },
+                {
+                    "count": 1,
+                    "id": "162"
+                }
+            ],
+            "Tactics": [
+                {
+                    "count": 1,
+                    "id": "143"
+                },
+                {
+                    "count": 1,
+                    "id": "142"
+                },
+                {
+                    "count": 1,
+                    "id": "141"
+                },
+                {
+                    "count": 1,
+                    "id": "140"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Mike Tyson (Adj, Cai)",
+        "id": "af7c7c0f-7d00-4391-b655-313d80013f0a",
+        "game": "Combat Card Game",
+        "format": [
+            "Classic"
+        ],
+        "cardCount": 24,
+        "createdAt": "2025-12-16T08:55:50.387Z",
+        "lastModifiedAt": "2025-12-18T11:13:38.516Z",
+        "deckList": {
+            "categoriesOrder": [
+                "Melee",
+                "Tactics"
+            ],
+            "Sideboard": [],
+            "Melee": [
+                {
+                    "count": 1,
+                    "id": "80"
+                },
+                {
+                    "count": 1,
+                    "id": "81"
+                },
+                {
+                    "count": 1,
+                    "id": "83"
+                },
+                {
+                    "count": 1,
+                    "id": "84"
+                },
+                {
+                    "count": 1,
+                    "id": "85"
+                },
+                {
+                    "count": 1,
+                    "id": "86"
+                },
+                {
+                    "count": 1,
+                    "id": "87"
+                },
+                {
+                    "count": 1,
+                    "id": "90"
+                },
+                {
+                    "count": 1,
+                    "id": "92"
+                },
+                {
+                    "count": 1,
+                    "id": "93"
+                },
+                {
+                    "count": 1,
+                    "id": "115"
+                },
+                {
+                    "count": 1,
+                    "id": "154"
+                },
+                {
+                    "count": 1,
+                    "id": "155"
+                },
+                {
+                    "count": 1,
+                    "id": "135"
+                },
+                {
+                    "count": 1,
+                    "id": "138"
+                },
+                {
+                    "count": 1,
+                    "id": "161"
+                },
+                {
+                    "count": 1,
+                    "id": "160"
+                }
+            ],
+            "Tactics": [
+                {
+                    "count": 1,
+                    "id": "88"
+                },
+                {
+                    "count": 1,
+                    "id": "89"
+                },
+                {
+                    "count": 1,
+                    "id": "111"
+                },
+                {
+                    "count": 1,
+                    "id": "169"
+                },
+                {
+                    "count": 1,
+                    "id": "171"
+                },
+                {
+                    "count": 1,
+                    "id": "170"
+                },
+                {
+                    "count": 1,
+                    "id": "133"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Josh's Deck",
+        "id": "b4ae1ed4-0cbd-497a-a3ee-53c17da20b1b",
+        "game": "Combat Card Game",
+        "format": [
+            "Classic"
+        ],
+        "cardCount": 16,
+        "createdAt": "2025-12-09T08:17:04.499Z",
+        "lastModifiedAt": "2025-12-09T08:17:04.499Z",
+        "deckList": {
+            "categoriesOrder": [
+                "Tactics",
+                "Gun",
+                "Melee"
+            ],
+            "Sideboard": [],
+            "Tactics": [
+                {
+                    "count": 1,
+                    "id": "0"
+                },
+                {
+                    "count": 1,
+                    "id": "2"
+                },
+                {
+                    "count": 1,
+                    "id": "5"
+                },
+                {
+                    "count": 1,
+                    "id": "7"
+                },
+                {
+                    "count": 1,
+                    "id": "10"
+                },
+                {
+                    "count": 1,
+                    "id": "15"
+                }
+            ],
+            "Gun": [
+                {
+                    "count": 1,
+                    "id": "1"
+                },
+                {
+                    "count": 1,
+                    "id": "3"
+                },
+                {
+                    "count": 1,
+                    "id": "8"
+                },
+                {
+                    "count": 1,
+                    "id": "12"
+                }
+            ],
+            "Melee": [
+                {
+                    "count": 1,
+                    "id": "4"
+                },
+                {
+                    "count": 1,
+                    "id": "6"
+                },
+                {
+                    "count": 1,
+                    "id": "9"
+                },
+                {
+                    "count": 1,
+                    "id": "11"
+                },
+                {
+                    "count": 1,
+                    "id": "13"
+                },
+                {
+                    "count": 1,
+                    "id": "14"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Jack's Deck",
+        "id": "ccab2933-0992-4532-b091-bc6c43d27e68",
+        "game": "Combat Card Game",
+        "format": [
+            "Classic"
+        ],
+        "cardCount": 16,
+        "createdAt": "2025-12-09T08:24:12.843Z",
+        "lastModifiedAt": "2025-12-09T08:24:36.234Z",
+        "deckList": {
+            "categoriesOrder": [
+                "Tactics",
+                "Gun",
+                "Melee"
+            ],
+            "Sideboard": [],
+            "Tactics": [
+                {
+                    "count": 1,
+                    "id": "16"
+                },
+                {
+                    "count": 1,
+                    "id": "17"
+                },
+                {
+                    "count": 1,
+                    "id": "24"
+                },
+                {
+                    "count": 1,
+                    "id": "29"
+                },
+                {
+                    "count": 1,
+                    "id": "30"
+                }
+            ],
+            "Gun": [
+                {
+                    "count": 1,
+                    "id": "18"
+                },
+                {
+                    "count": 1,
+                    "id": "19"
+                },
+                {
+                    "count": 1,
+                    "id": "20"
+                },
+                {
+                    "count": 1,
+                    "id": "23"
+                },
+                {
+                    "count": 1,
+                    "id": "25"
+                }
+            ],
+            "Melee": [
+                {
+                    "count": 1,
+                    "id": "21"
+                },
+                {
+                    "count": 1,
+                    "id": "22"
+                },
+                {
+                    "count": 1,
+                    "id": "26"
+                },
+                {
+                    "count": 1,
+                    "id": "27"
+                },
+                {
+                    "count": 1,
+                    "id": "28"
+                },
+                {
+                    "count": 1,
+                    "id": "31"
+                }
+            ]
+        }
+    },
+    {
+        "title": "NateH's Deck",
+        "id": "75b340bb-6f1b-4fbb-8e81-dedbf8c16999",
+        "game": "Combat Card Game",
+        "format": [
+            "Classic"
+        ],
+        "cardCount": 16,
+        "createdAt": "2025-12-09T08:24:53.130Z",
+        "lastModifiedAt": "2025-12-09T08:25:34.010Z",
+        "deckList": {
+            "categoriesOrder": [
+                "Tactics",
+                "Melee"
+            ],
+            "Sideboard": [],
+            "Tactics": [
+                {
+                    "count": 2,
+                    "id": "32"
+                },
+                {
+                    "count": 2,
+                    "id": "34"
+                },
+                {
+                    "count": 2,
+                    "id": "35"
+                },
+                {
+                    "count": 2,
+                    "id": "36"
+                }
+            ],
+            "Melee": [
+                {
+                    "count": 2,
+                    "id": "33"
+                },
+                {
+                    "count": 2,
+                    "id": "37"
+                },
+                {
+                    "count": 2,
+                    "id": "38"
+                },
+                {
+                    "count": 2,
+                    "id": "39"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Nathan's Deck",
+        "id": "581a5560-f143-4a67-af3f-716baea569a2",
+        "game": "Combat Card Game",
+        "format": [
+            "Classic"
+        ],
+        "cardCount": 16,
+        "createdAt": "2025-12-09T08:25:50.546Z",
+        "lastModifiedAt": "2025-12-09T08:26:57.626Z",
+        "deckList": {
+            "categoriesOrder": [
+                "Melee",
+                "Throw",
+                "Tactics",
+                "Kick",
+                "Gun"
+            ],
+            "Sideboard": [],
+            "Melee": [
+                {
+                    "count": 1,
+                    "id": "48"
+                },
+                {
+                    "count": 1,
+                    "id": "51"
+                },
+                {
+                    "count": 1,
+                    "id": "52"
+                },
+                {
+                    "count": 1,
+                    "id": "55"
+                },
+                {
+                    "count": 1,
+                    "id": "56"
+                },
+                {
+                    "count": 1,
+                    "id": "58"
+                },
+                {
+                    "count": 1,
+                    "id": "60"
+                }
+            ],
+            "Throw": [
+                {
+                    "count": 2,
+                    "id": "50"
+                },
+                {
+                    "count": 1,
+                    "id": "53"
+                },
+                {
+                    "count": 1,
+                    "id": "57"
+                },
+                {
+                    "count": 1,
+                    "id": "61"
+                }
+            ],
+            "Tactics": [
+                {
+                    "count": 1,
+                    "id": "59"
+                },
+                {
+                    "count": 1,
+                    "id": "54"
+                }
+            ],
+            "Kick": [
+                {
+                    "count": 1,
+                    "id": "62"
+                }
+            ],
+            "Gun": [
+                {
+                    "count": 1,
+                    "id": "63"
+                }
+            ]
+        }
+    },
+    {
+        "title": "Bryan's Deck",
+        "id": "084849ab-a502-40f9-8872-55506b6c3f97",
+        "game": "Combat Card Game",
+        "format": [
+            "Classic"
+        ],
+        "cardCount": 16,
+        "createdAt": "2025-12-09T08:27:16.498Z",
+        "lastModifiedAt": "2025-12-09T08:27:39.324Z",
+        "deckList": {
+            "categoriesOrder": [
+                "Tactics"
+            ],
+            "Sideboard": [],
+            "Tactics": [
+                {
+                    "count": 1,
+                    "id": "64"
+                },
+                {
+                    "count": 1,
+                    "id": "65"
+                },
+                {
+                    "count": 1,
+                    "id": "66"
+                },
+                {
+                    "count": 1,
+                    "id": "67"
+                },
+                {
+                    "count": 1,
+                    "id": "68"
+                },
+                {
+                    "count": 1,
+                    "id": "69"
+                },
+                {
+                    "count": 1,
+                    "id": "70"
+                },
+                {
+                    "count": 1,
+                    "id": "71"
+                },
+                {
+                    "count": 1,
+                    "id": "72"
+                },
+                {
+                    "count": 1,
+                    "id": "73"
+                },
+                {
+                    "count": 1,
+                    "id": "74"
+                },
+                {
+                    "count": 1,
+                    "id": "75"
+                },
+                {
+                    "count": 1,
+                    "id": "76"
+                },
+                {
+                    "count": 1,
+                    "id": "77"
+                },
+                {
+                    "count": 1,
+                    "id": "78"
+                },
+                {
+                    "count": 1,
+                    "id": "79"
+                }
+            ]
+        }
+    }
 ]
