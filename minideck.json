@@ -2,7 +2,7 @@
   {
     "name": "Ways of the Ninja",
     "description": "Generated from Figma",
-    "color": "#BF375D",
+    "color": "#7A99AA",
     "cardPool": [
       {
         "name": "Hidden Stash",
@@ -169,7 +169,7 @@
   {
     "name": "Cunning Tricks",
     "description": "Generated from Figma",
-    "color": "#90C83E",
+    "color": "#ACA4D3",
     "cardPool": [
       {
         "name": "Viper’s Block",
@@ -336,7 +336,7 @@
   {
     "name": "Mike Tyson",
     "description": "Generated from Figma",
-    "color": "#75A15F",
+    "color": "#2C9AC1",
     "cardPool": [
       {
         "name": "Jab",
@@ -505,7 +505,7 @@
   {
     "name": "John Weak Gunfu",
     "description": "Generated from Figma",
-    "color": "#D89C54",
+    "color": "#29757C",
     "cardPool": [
       {
         "name": "Quick Shot",
@@ -672,7 +672,7 @@
   {
     "name": "Warrior Monk",
     "description": "Generated from Figma",
-    "color": "#D215F0",
+    "color": "#193A85",
     "cardPool": [
       {
         "name": "Iron Body",
@@ -845,7 +845,7 @@
   {
     "name": "Angery Boi",
     "description": "Generated from Figma",
-    "color": "#BBA3A1",
+    "color": "#AFB4EC",
     "cardPool": [
       {
         "name": "Angry Punch",
@@ -944,7 +944,7 @@
         ]
       },
       {
-        "name": "Bob & Weave",
+        "name": "Focus Breathing",
         "rarity": "rare",
         "synergies": [
           "1 AP",
@@ -1012,7 +1012,7 @@
   {
     "name": "Defensive is Best Offense",
     "description": "Generated from Figma",
-    "color": "#88FBF2",
+    "color": "#CF123F",
     "cardPool": [
       {
         "name": "One Step Ahead",
