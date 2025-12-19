@@ -5756,9 +5756,9 @@
       "Throw"
     ],
     "cost": 1,
-    "DMG": 1,
+    "DMG": 3,
     "Block": 3,
-    "Text": "sync atk: throw 1 random card from hand into a random bodypart",
+    "Text": "sync atk: throw 1 random attack card from hand into a random bodypart",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -5769,7 +5769,7 @@
     "face": {
       "front": {
         "name": "Front",
-        "type": "Throw",
+        "type": "Tactics",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-181.png",
         "isHorizontal": false
@@ -5783,17 +5783,17 @@
       }
     },
     "name": "Close Quarters Throw",
-    "type": "Throw",
+    "type": "Tactics",
     "types": [
-      "Throw"
+      "Tactics"
     ],
     "cost": 1,
-    "DMG": 3,
+    "DMG": 0,
     "Block": 3,
-    "Text": "if opponent plays a melee card here,",
+    "Text": "if opponent plays a melee card here, move throw here into another body part",
     "AttackHead?": true,
     "AttackBody?": true,
-    "AttackLeg?": true
+    "AttackLeg?": false
   },
   "182": {
     "id": "182",
@@ -5852,9 +5852,9 @@
       "Throw"
     ],
     "cost": 3,
-    "DMG": 0,
+    "DMG": 7,
     "Block": 5,
-    "Text": "?",
+    "Text": "if this is the only card in your hand, piercing 7, otherwise piercing 5",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -6113,6 +6113,38 @@
     "Text": "on hit → apply  weak",
     "AttackHead?": true,
     "AttackBody?": false,
+    "AttackLeg?": false
+  },
+  "192": {
+    "id": "192",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Throw",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-192.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Quick Throw",
+    "type": "Throw",
+    "types": [
+      "Throw"
+    ],
+    "cost": 2,
+    "DMG": 5,
+    "Block": 4,
+    "Text": "deal 1 dmg to head deal 2 dmg to body deal 1 dmg to leg",
+    "AttackHead?": false,
+    "AttackBody?": true,
     "AttackLeg?": false
   },
   "t-7days": {
