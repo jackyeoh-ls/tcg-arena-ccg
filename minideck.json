@@ -1,158 +1,1180 @@
 [
   {
-    "name": "token-7days",
+    "name": "Ways of the Ninja",
     "description": "Generated from Figma",
-    "color": "#BFCB91",
-    "cardPool": []
+    "color": "#BF375D",
+    "cardPool": [
+      {
+        "name": "Hidden Stash",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Peace Of Mind",
+        "rarity": "common",
+        "synergies": [
+          "2 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Up The Sleeves",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Coat Weaponry",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Toxic Flask",
+        "rarity": "common",
+        "synergies": [
+          "2 AP",
+          "Throw"
+        ]
+      },
+      {
+        "name": "Silencer Shot",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Gun"
+        ]
+      },
+      {
+        "name": "One With Shadows",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Backstab",
+        "rarity": "common",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Shattering Kick",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Melee",
+          "Kick"
+        ]
+      },
+      {
+        "name": "Feint Shot",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Gun"
+        ]
+      },
+      {
+        "name": "Ninja Storm",
+        "rarity": "rare",
+        "synergies": [
+          "3 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Hidden Strings",
+        "rarity": "rare",
+        "synergies": [
+          "2 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Flashbang",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Feint",
+        "rarity": "rare",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Sucker Punch",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Scavenge",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Deflection",
+        "rarity": "epic",
+        "synergies": [
+          "0 AP"
+        ]
+      },
+      {
+        "name": "Mirror Maze",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Hidden Pocket",
+        "rarity": "legendary",
+        "synergies": [
+          "3 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Double Tap",
+        "rarity": "legendary",
+        "synergies": [
+          "3 AP",
+          "Melee"
+        ]
+      }
+    ]
   },
   {
-    "name": "token-ap",
+    "name": "Cunning Tricks",
     "description": "Generated from Figma",
-    "color": "#1ECEFC",
-    "cardPool": []
+    "color": "#90C83E",
+    "cardPool": [
+      {
+        "name": "Viper’s Block",
+        "rarity": "common",
+        "synergies": [
+          "2 AP",
+          "Throw"
+        ]
+      },
+      {
+        "name": "Gas Bomb",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Throw"
+        ]
+      },
+      {
+        "name": "Toxin Infused Dagger",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Up The Sleeves",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Phantom Strike",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Smoke Bomb",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Throw"
+        ]
+      },
+      {
+        "name": "Tactical Strike",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Adrenaline",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Knock Knock",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Execution",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Gun"
+        ]
+      },
+      {
+        "name": "Toxic Vapors",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Toxic Reversion",
+        "rarity": "rare",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Combo Strike",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Head Scissors Lock",
+        "rarity": "rare",
+        "synergies": [
+          "2 AP",
+          "Throw"
+        ]
+      },
+      {
+        "name": "Disarm",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Concentrated Formula",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Siphon Bomb",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Throw"
+        ]
+      },
+      {
+        "name": "Rest",
+        "rarity": "epic",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Toxic Research I",
+        "rarity": "legendary",
+        "synergies": [
+          "3 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Deadly Mark",
+        "rarity": "legendary",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      }
+    ]
   },
   {
-    "name": "token-attack",
+    "name": "Mike Tyson",
     "description": "Generated from Figma",
-    "color": "#D490E2",
-    "cardPool": []
+    "color": "#75A15F",
+    "cardPool": [
+      {
+        "name": "Jab",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Cross",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Hook",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Shoulder Push",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Uppercut",
+        "rarity": "common",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Crouching Stance",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Block",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Slip",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Iron Body",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee",
+          "Body"
+        ]
+      },
+      {
+        "name": "Combo Strike",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Clinch",
+        "rarity": "rare",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Combo Strike",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Opening Jab",
+        "rarity": "rare",
+        "synergies": [
+          "0 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Upright Stance",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Headbutt",
+        "rarity": "rare",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Liver Shot",
+        "rarity": "epic",
+        "synergies": [
+          "3 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Flurry",
+        "rarity": "epic",
+        "synergies": [
+          "0 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Si Bi Quan",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics",
+          "Stance"
+        ]
+      },
+      {
+        "name": "Bob & Weave",
+        "rarity": "legendary",
+        "synergies": [
+          "0 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Fatal Strike",
+        "rarity": "legendary",
+        "synergies": [
+          "3 AP",
+          "Melee"
+        ]
+      }
+    ]
   },
   {
-    "name": "token-backupplan",
+    "name": "John Weak Gunfu",
     "description": "Generated from Figma",
-    "color": "#C04EC8",
-    "cardPool": []
+    "color": "#D89C54",
+    "cardPool": [
+      {
+        "name": "Quick Shot",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Gun"
+        ]
+      },
+      {
+        "name": "Cover Fire",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Gun"
+        ]
+      },
+      {
+        "name": "Take Aim",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Stockpile",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Bring Gun To Fist Fight",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Quick Jab",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Heal 2",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Body Slam",
+        "rarity": "common",
+        "synergies": [
+          "3 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Coat Weaponry",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Toxic Flask",
+        "rarity": "common",
+        "synergies": [
+          "2 AP",
+          "Throw"
+        ]
+      },
+      {
+        "name": "Outgunned",
+        "rarity": "rare",
+        "synergies": [
+          "0 AP",
+          "Gun"
+        ]
+      },
+      {
+        "name": "Preparation",
+        "rarity": "rare",
+        "synergies": [
+          "3 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Roll & Load",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Tactical Reload",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Disorient",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Minigun",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Gun"
+        ]
+      },
+      {
+        "name": "Piercing Shot",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Gun"
+        ]
+      },
+      {
+        "name": "Crumpling Strike",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Armor Melting Rounds",
+        "rarity": "legendary",
+        "synergies": [
+          "2 AP",
+          "Gun"
+        ]
+      },
+      {
+        "name": "Finishing Shot",
+        "rarity": "legendary",
+        "synergies": [
+          "2 AP",
+          "Gun"
+        ]
+      }
+    ]
   },
   {
-    "name": "token-blind",
+    "name": "Warrior Monk",
     "description": "Generated from Figma",
-    "color": "#B96FEF",
-    "cardPool": []
+    "color": "#D215F0",
+    "cardPool": [
+      {
+        "name": "Iron Body",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Iron Fist",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Iron Leg",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee",
+          "Kick"
+        ]
+      },
+      {
+        "name": "Brew Tincture",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Ma Bu",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Crescent Kick",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Melee",
+          "Kick"
+        ]
+      },
+      {
+        "name": "Gong Bu",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Counter Stance",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Cat Stance",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Melee",
+          "Kick"
+        ]
+      },
+      {
+        "name": "Sweep Kick",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Hamstring",
+        "rarity": "rare",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Three-circle Stance",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Si Bi Quan",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Sweeping Kick",
+        "rarity": "rare",
+        "synergies": [
+          "2 AP",
+          "Melee",
+          "Kick"
+        ]
+      },
+      {
+        "name": "Flying Kick",
+        "rarity": "rare",
+        "synergies": [
+          "2 AP",
+          "Melee",
+          "Kick"
+        ]
+      },
+      {
+        "name": "Qi Gong Technique",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Dodge Head",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Foresight",
+        "rarity": "epic",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Warrior Monk",
+        "rarity": "legendary",
+        "synergies": [
+          "3 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Qi Gong Mastery",
+        "rarity": "legendary",
+        "synergies": [
+          "3 AP",
+          "Tactics"
+        ]
+      }
+    ]
   },
   {
-    "name": "token-daze",
+    "name": "Angery Boi",
     "description": "Generated from Figma",
-    "color": "#D1D6AD",
-    "cardPool": []
+    "color": "#BBA3A1",
+    "cardPool": [
+      {
+        "name": "Angry Punch",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Desperate Strike",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Tight Grip",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Brass Knuckles",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Zen State",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Opening Jab",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "In-sync",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Blade Distraction",
+        "rarity": "common",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Blind Fire",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Gun"
+        ]
+      },
+      {
+        "name": "Disorient",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Charged Strike",
+        "rarity": "rare",
+        "synergies": [
+          "0 AP",
+          "Gun"
+        ]
+      },
+      {
+        "name": "Overwhelming Strike",
+        "rarity": "rare",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Bob & Weave",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Counter",
+        "rarity": "rare",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Open Fire",
+        "rarity": "rare",
+        "synergies": [
+          "2 AP",
+          "Gun"
+        ]
+      },
+      {
+        "name": "Wraparound",
+        "rarity": "epic",
+        "synergies": [
+          "3 AP",
+          "Melee Weapon"
+        ]
+      },
+      {
+        "name": "Hollow Point",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Gun"
+        ]
+      },
+      {
+        "name": "Flurry",
+        "rarity": "epic",
+        "synergies": [
+          "0 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Push The Pace",
+        "rarity": "legendary",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Weapon Master",
+        "rarity": "legendary",
+        "synergies": [
+          "2 AP",
+          "Tactics"
+        ]
+      }
+    ]
   },
   {
-    "name": "token-disable",
+    "name": "Defensive is Best Offense",
     "description": "Generated from Figma",
-    "color": "#EE0CC0",
-    "cardPool": []
-  },
-  {
-    "name": "token-dmgbuff",
-    "description": "Generated from Figma",
-    "color": "#321A9D",
-    "cardPool": []
-  },
-  {
-    "name": "token-dmgbuff-1ap",
-    "description": "Generated from Figma",
-    "color": "#D292AA",
-    "cardPool": []
-  },
-  {
-    "name": "token-dmgbuff-gun",
-    "description": "Generated from Figma",
-    "color": "#B210D5",
-    "cardPool": []
-  },
-  {
-    "name": "token-dmgbuff-melee",
-    "description": "Generated from Figma",
-    "color": "#760C13",
-    "cardPool": []
-  },
-  {
-    "name": "token-dodge",
-    "description": "Generated from Figma",
-    "color": "#A7886A",
-    "cardPool": []
-  },
-  {
-    "name": "token-echo",
-    "description": "Generated from Figma",
-    "color": "#79B9F7",
-    "cardPool": []
-  },
-  {
-    "name": "token-excommunicado",
-    "description": "Generated from Figma",
-    "color": "#939734",
-    "cardPool": []
-  },
-  {
-    "name": "token-exposed",
-    "description": "Generated from Figma",
-    "color": "#604FBA",
-    "cardPool": []
-  },
-  {
-    "name": "token-fragile",
-    "description": "Generated from Figma",
-    "color": "#EFD266",
-    "cardPool": []
-  },
-  {
-    "name": "token-freecost-melee",
-    "description": "Generated from Figma",
-    "color": "#01FFB2",
-    "cardPool": []
-  },
-  {
-    "name": "token-hidden",
-    "description": "Generated from Figma",
-    "color": "#A92F33",
-    "cardPool": []
-  },
-  {
-    "name": "token-obscure",
-    "description": "Generated from Figma",
-    "color": "#C1396F",
-    "cardPool": []
-  },
-  {
-    "name": "token-pierce",
-    "description": "Generated from Figma",
-    "color": "#BCF1BA",
-    "cardPool": []
-  },
-  {
-    "name": "token-removed",
-    "description": "Generated from Figma",
-    "color": "#9A4D21",
-    "cardPool": []
-  },
-  {
-    "name": "token-reveal",
-    "description": "Generated from Figma",
-    "color": "#3ADB14",
-    "cardPool": []
-  },
-  {
-    "name": "token-tempo",
-    "description": "Generated from Figma",
-    "color": "#677A1E",
-    "cardPool": []
-  },
-  {
-    "name": "token-toxic",
-    "description": "Generated from Figma",
-    "color": "#339EEB",
-    "cardPool": []
-  },
-  {
-    "name": "token-truestrike",
-    "description": "Generated from Figma",
-    "color": "#0B860A",
-    "cardPool": []
-  },
-  {
-    "name": "token-weak",
-    "description": "Generated from Figma",
-    "color": "#4DC3B7",
-    "cardPool": []
+    "color": "#88FBF2",
+    "cardPool": [
+      {
+        "name": "One Step Ahead",
+        "rarity": "common",
+        "synergies": [
+          "3 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Stand Your Ground",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Pistol Whip",
+        "rarity": "common",
+        "synergies": [
+          "0 AP"
+        ]
+      },
+      {
+        "name": "Iron Leg",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee",
+          "Kick"
+        ]
+      },
+      {
+        "name": "Brew Tincture",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Iron Fist",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee",
+          "Fist"
+        ]
+      },
+      {
+        "name": "Experimental Leech",
+        "rarity": "common",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Viper’s Block",
+        "rarity": "common",
+        "synergies": [
+          "2 AP",
+          "Throw"
+        ]
+      },
+      {
+        "name": "Vertical Slice",
+        "rarity": "common",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Block",
+        "rarity": "common",
+        "synergies": [
+          "0 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Grapple",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Limb-wrench",
+        "rarity": "rare",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Coat Armory",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Ricochet Trap",
+        "rarity": "rare",
+        "synergies": [
+          "2 AP",
+          "Gun"
+        ]
+      },
+      {
+        "name": "Footwork Feint",
+        "rarity": "rare",
+        "synergies": [
+          "1 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Rest",
+        "rarity": "epic",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Tenacious Will",
+        "rarity": "epic",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Second Wind",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Quick Thinking",
+        "rarity": "legendary",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Planning",
+        "rarity": "legendary",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      }
+    ]
   }
 ]
