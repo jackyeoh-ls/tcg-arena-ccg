@@ -20,6 +20,9 @@
     },
     "name": "Foresight",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 0,
@@ -49,6 +52,9 @@
     },
     "name": "Quick Thinking",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
@@ -78,6 +84,9 @@
     },
     "name": "Bob & Weave",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": -1,
@@ -107,6 +116,9 @@
     },
     "name": "Double Tap",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 2,
@@ -136,6 +148,9 @@
     },
     "name": "Fatal Strike",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 3,
     "DMG": 4,
     "Block": 2,
@@ -165,6 +180,9 @@
     },
     "name": "Counter",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
@@ -194,6 +212,9 @@
     },
     "name": "Grapple",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
@@ -223,6 +244,9 @@
     },
     "name": "Tight Grip",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
@@ -252,6 +276,9 @@
     },
     "name": "Blind Fire",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -281,6 +308,9 @@
     },
     "name": "Limb-wrench",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 2,
@@ -310,6 +340,9 @@
     },
     "name": "Footwork Feint",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 2,
@@ -339,6 +372,9 @@
     },
     "name": "Sweep Kick",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
@@ -368,6 +404,9 @@
     },
     "name": "Feint Shot",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
@@ -397,6 +436,9 @@
     },
     "name": "Blade Distraction",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 0,
     "Block": 2,
@@ -426,6 +468,9 @@
     },
     "name": "Hamstring",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 2,
@@ -455,6 +500,9 @@
     },
     "name": "Stand Your Ground",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
@@ -484,6 +532,9 @@
     },
     "name": "Take Aim",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
@@ -513,6 +564,9 @@
     },
     "name": "Bring Gun To Fist Fight",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 3,
@@ -542,6 +596,9 @@
     },
     "name": "Tactical Reload",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 1,
@@ -571,6 +628,9 @@
     },
     "name": "Quick Shot",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -600,6 +660,9 @@
     },
     "name": "Cover Fire",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 1,
     "DMG": 1,
     "Block": 1,
@@ -629,6 +692,9 @@
     },
     "name": "Quick Jab",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -658,6 +724,9 @@
     },
     "name": "Heal 2",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 0,
@@ -687,6 +756,9 @@
     },
     "name": "Minigun",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 2,
     "DMG": 5,
     "Block": 2,
@@ -716,6 +788,9 @@
     },
     "name": "Roll & Load",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": -1,
@@ -745,6 +820,9 @@
     },
     "name": "Piercing Shot",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
@@ -774,6 +852,10 @@
     },
     "name": "Cat Stance",
     "type": "Melee",
+    "types": [
+      "Melee",
+      "Kick"
+    ],
     "cost": 0,
     "DMG": 2,
     "Block": 1,
@@ -803,6 +885,10 @@
     },
     "name": "Flying Kick",
     "type": "Melee",
+    "types": [
+      "Melee",
+      "Kick"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": -1,
@@ -832,6 +918,10 @@
     },
     "name": "Sweeping Kick",
     "type": "Melee",
+    "types": [
+      "Melee",
+      "Kick"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 2,
@@ -861,6 +951,9 @@
     },
     "name": "Preparation",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 3,
@@ -890,6 +983,9 @@
     },
     "name": "Armor Melting Rounds",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 1,
@@ -919,6 +1015,9 @@
     },
     "name": "Knock Knock",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
@@ -948,6 +1047,9 @@
     },
     "name": "One With Shadows",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": -1,
@@ -977,6 +1079,9 @@
     },
     "name": "Backstab",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 1,
@@ -1006,6 +1111,9 @@
     },
     "name": "Smoke Bomb",
     "type": "Throw",
+    "types": [
+      "Throw"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": -1,
@@ -1035,6 +1143,9 @@
     },
     "name": "Mirror Maze",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 2,
@@ -1049,7 +1160,7 @@
     "face": {
       "front": {
         "name": "Front",
-        "type": "Tactic",
+        "type": "Tactics",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-36.png",
         "isHorizontal": false
@@ -1063,7 +1174,10 @@
       }
     },
     "name": "Feint",
-    "type": "Tactic",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": -1,
@@ -1093,6 +1207,9 @@
     },
     "name": "Sucker Punch",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 1,
     "Block": 3,
@@ -1122,6 +1239,9 @@
     },
     "name": "Vertical Slice",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 2,
     "Block": 2,
@@ -1151,6 +1271,9 @@
     },
     "name": "Double Tap",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 3,
     "DMG": 6,
     "Block": 0,
@@ -1180,6 +1303,9 @@
     },
     "name": "?",
     "type": "?",
+    "types": [
+      "?"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1209,6 +1335,9 @@
     },
     "name": "?",
     "type": "?",
+    "types": [
+      "?"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1238,6 +1367,9 @@
     },
     "name": "?",
     "type": "?",
+    "types": [
+      "?"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1267,6 +1399,9 @@
     },
     "name": "?",
     "type": "?",
+    "types": [
+      "?"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1296,6 +1431,9 @@
     },
     "name": "?",
     "type": "?",
+    "types": [
+      "?"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1325,6 +1463,9 @@
     },
     "name": "?",
     "type": "?",
+    "types": [
+      "?"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1354,6 +1495,9 @@
     },
     "name": "?",
     "type": "?",
+    "types": [
+      "?"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1383,6 +1527,9 @@
     },
     "name": "?",
     "type": "?",
+    "types": [
+      "?"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1412,6 +1559,9 @@
     },
     "name": "One Step Ahead",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 2,
@@ -1441,6 +1591,9 @@
     },
     "name": "Omega Throw",
     "type": "Throw",
+    "types": [
+      "Throw"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
@@ -1470,6 +1623,9 @@
     },
     "name": "Omega Throw",
     "type": "Throw",
+    "types": [
+      "Throw"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
@@ -1499,6 +1655,9 @@
     },
     "name": "Plus One Shot",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 0,
     "DMG": 1,
     "Block": 3,
@@ -1528,6 +1687,9 @@
     },
     "name": "Disorient",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 2,
@@ -1557,6 +1719,9 @@
     },
     "name": "Head Scissors Lock",
     "type": "Throw",
+    "types": [
+      "Throw"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": -1,
@@ -1571,7 +1736,7 @@
     "face": {
       "front": {
         "name": "Front",
-        "type": "Tactic",
+        "type": "Tactics",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-54.png",
         "isHorizontal": false
@@ -1585,7 +1750,10 @@
       }
     },
     "name": "Dodge Head",
-    "type": "Tactic",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 0,
@@ -1600,7 +1768,7 @@
     "face": {
       "front": {
         "name": "Front",
-        "type": "Melee",
+        "type": "Melee Ranged Weapon",
         "cost": 0,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-55.png",
         "isHorizontal": false
@@ -1614,7 +1782,10 @@
       }
     },
     "name": "Hidden Blade",
-    "type": "Melee",
+    "type": "Melee Ranged Weapon",
+    "types": [
+      "Melee Ranged Weapon"
+    ],
     "cost": 0,
     "DMG": 1,
     "Block": 1,
@@ -1629,7 +1800,7 @@
     "face": {
       "front": {
         "name": "Front",
-        "type": "Melee",
+        "type": "Melee Weapon",
         "cost": 3,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-56.png",
         "isHorizontal": false
@@ -1643,7 +1814,10 @@
       }
     },
     "name": "Wraparound",
-    "type": "Melee",
+    "type": "Melee Weapon",
+    "types": [
+      "Melee Weapon"
+    ],
     "cost": 3,
     "DMG": 7,
     "Block": -1,
@@ -1673,6 +1847,9 @@
     },
     "name": "Takedown",
     "type": "Throw",
+    "types": [
+      "Throw"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 1,
@@ -1702,6 +1879,9 @@
     },
     "name": "Rapid Strikes",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 0,
     "DMG": 1,
     "Block": 2,
@@ -1731,6 +1911,9 @@
     },
     "name": "Push The Pace",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
@@ -1760,6 +1943,9 @@
     },
     "name": "Disorient",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 2,
@@ -1789,6 +1975,9 @@
     },
     "name": "Takedown",
     "type": "Throw",
+    "types": [
+      "Throw"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 1,
@@ -1818,6 +2007,10 @@
     },
     "name": "Rapid Kick",
     "type": "Melee",
+    "types": [
+      "Melee",
+      "Kick"
+    ],
     "cost": 0,
     "DMG": 2,
     "Block": 1,
@@ -1847,6 +2040,9 @@
     },
     "name": "Finishing Shot",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 2,
     "DMG": 2,
     "Block": -1,
@@ -1876,6 +2072,9 @@
     },
     "name": "Silencer Shot",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
@@ -1890,27 +2089,30 @@
     "face": {
       "front": {
         "name": "Front",
-        "type": "Tactics",
-        "cost": 0,
+        "type": "Gun",
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-65.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
     },
-    "name": "Pocket Sand",
-    "type": "Tactics",
-    "cost": 0,
-    "DMG": 1,
-    "Block": 3,
-    "Text": "on hit → apply  weak",
-    "AttackHead?": true,
-    "AttackBody?": false,
+    "name": "Ricochet Trap",
+    "type": "Gun",
+    "types": [
+      "Gun"
+    ],
+    "cost": 2,
+    "DMG": 3,
+    "Block": 2,
+    "Text": "on block → deals 2 dmg to random body part",
+    "AttackHead?": false,
+    "AttackBody?": true,
     "AttackLeg?": false
   },
   "66": {
@@ -1934,6 +2136,9 @@
     },
     "name": "Phantom Strike",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": -1,
@@ -1961,15 +2166,18 @@
         "isHorizontal": false
       }
     },
-    "name": "Dodge",
+    "name": "Flashbang",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
-    "Block": 0,
-    "Text": "obscure",
-    "AttackHead?": false,
-    "AttackBody?": false,
-    "AttackLeg?": false
+    "Block": 2,
+    "Text": "all enemy cards next turn are exposed",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
   },
   "68": {
     "id": "68",
@@ -1992,6 +2200,9 @@
     },
     "name": "Low Blow",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
@@ -2021,6 +2232,9 @@
     },
     "name": "Tactical Strike",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 0,
     "DMG": 2,
     "Block": 2,
@@ -2050,6 +2264,9 @@
     },
     "name": "Body Slam",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 3,
     "DMG": 3,
     "Block": 3,
@@ -2079,6 +2296,9 @@
     },
     "name": "Crumpling Strike",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": -1,
@@ -2108,6 +2328,9 @@
     },
     "name": "Hollow Point",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 1,
@@ -2137,6 +2360,9 @@
     },
     "name": "Zen State",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": -1,
@@ -2166,6 +2392,9 @@
     },
     "name": "Execution",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 2,
@@ -2195,6 +2424,7 @@
     },
     "name": "Pistol Whip",
     "type": "",
+    "types": [],
     "cost": 0,
     "DMG": 2,
     "Block": 1,
@@ -2224,6 +2454,9 @@
     },
     "name": "Adrenaline",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
@@ -2253,6 +2486,9 @@
     },
     "name": "Open Fire",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 2,
     "DMG": 2,
     "Block": 2,
@@ -2282,6 +2518,9 @@
     },
     "name": "Counter Stance",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 1,
@@ -2311,6 +2550,9 @@
     },
     "name": "Disarm",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 1,
     "Block": 2,
@@ -2340,6 +2582,9 @@
     },
     "name": "Jab",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 1,
@@ -2369,6 +2614,9 @@
     },
     "name": "Cross",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
@@ -2398,6 +2646,9 @@
     },
     "name": "Hook",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": -1,
@@ -2427,6 +2678,9 @@
     },
     "name": "Shoulder Push",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 0,
     "DMG": 3,
     "Block": 1,
@@ -2456,6 +2710,9 @@
     },
     "name": "Uppercut",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 2,
@@ -2485,6 +2742,9 @@
     },
     "name": "Clinch",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 2,
@@ -2514,6 +2774,9 @@
     },
     "name": "Headbutt",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 2,
@@ -2543,6 +2806,9 @@
     },
     "name": "Upright Stance",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
@@ -2572,6 +2838,9 @@
     },
     "name": "Crouching Stance",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
@@ -2601,6 +2870,9 @@
     },
     "name": "Slip",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 1,
     "Block": 2,
@@ -2630,6 +2902,9 @@
     },
     "name": "Bob & Weave",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 0,
     "DMG": 3,
     "Block": -1,
@@ -2659,6 +2934,9 @@
     },
     "name": "Block",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 0,
     "DMG": 3,
     "Block": 1,
@@ -2688,6 +2966,9 @@
     },
     "name": "Liver Shot",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 3,
     "DMG": 4,
     "Block": 3,
@@ -2717,6 +2998,9 @@
     },
     "name": "Hidden Stash",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 3,
@@ -2746,6 +3030,9 @@
     },
     "name": "Scavenge",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
@@ -2775,6 +3062,9 @@
     },
     "name": "Peace Of Mind",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 2,
     "DMG": 0,
     "Block": 3,
@@ -2804,6 +3094,9 @@
     },
     "name": "Ninja Storm",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 3,
@@ -2833,6 +3126,7 @@
     },
     "name": "Deflection",
     "type": "",
+    "types": [],
     "cost": 0,
     "DMG": 0,
     "Block": 0,
@@ -2862,6 +3156,9 @@
     },
     "name": "Up The Sleeves",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
@@ -2891,6 +3188,9 @@
     },
     "name": "Hidden Strings",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 2,
     "DMG": 2,
     "Block": 0,
@@ -2920,6 +3220,9 @@
     },
     "name": "Hidden Pocket",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 3,
@@ -2949,6 +3252,9 @@
     },
     "name": "Throwing Star",
     "type": "Throw",
+    "types": [
+      "Throw"
+    ],
     "cost": 0,
     "DMG": 1,
     "Block": 1,
@@ -2978,6 +3284,9 @@
     },
     "name": "Kunai",
     "type": "Throw",
+    "types": [
+      "Throw"
+    ],
     "cost": 0,
     "DMG": 2,
     "Block": 1,
@@ -3007,6 +3316,9 @@
     },
     "name": "Packet Of Sand",
     "type": "Throw",
+    "types": [
+      "Throw"
+    ],
     "cost": 0,
     "DMG": 1,
     "Block": 1,
@@ -3036,6 +3348,9 @@
     },
     "name": "Overwhelming Strike",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 7,
     "Block": 2,
@@ -3065,6 +3380,9 @@
     },
     "name": "Planning",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
@@ -3094,6 +3412,9 @@
     },
     "name": "Combo Strike",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 2,
@@ -3123,6 +3444,9 @@
     },
     "name": "Combo Strike",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 2,
@@ -3152,6 +3476,9 @@
     },
     "name": "Follow Up Punch",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 0,
     "DMG": 1,
     "Block": 1,
@@ -3181,6 +3508,9 @@
     },
     "name": "Weapon Master",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 2,
     "DMG": 0,
     "Block": 1,
@@ -3210,10 +3540,13 @@
     },
     "name": "Si Bi Quan",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 1,
-    "Text": "next melee card deal +4 dmg defense → draw 1 fist card",
+    "Text": "next melee card deal +4 dmg defense → draw 1 iron fist card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3239,6 +3572,9 @@
     },
     "name": "Qi Gong Technique",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 2,
     "DMG": 0,
     "Block": 2,
@@ -3268,6 +3604,9 @@
     },
     "name": "Brew Tincture",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
@@ -3297,6 +3636,9 @@
     },
     "name": "Qi Gong Mastery",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 4,
@@ -3326,6 +3668,9 @@
     },
     "name": "Iron Body",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 1,
@@ -3355,10 +3700,13 @@
     },
     "name": "Three-circle Stance",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "draw 1 stance card partial blocked → deal 4 dmg",
+    "Text": "draw 1 tactics card partial blocked → deal 4 dmg",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3384,6 +3732,9 @@
     },
     "name": "Ma Bu",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
@@ -3413,6 +3764,9 @@
     },
     "name": "Iron Fist",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -3442,6 +3796,10 @@
     },
     "name": "Iron Leg",
     "type": "Melee",
+    "types": [
+      "Melee",
+      "Kick"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -3471,6 +3829,10 @@
     },
     "name": "Gong Bu",
     "type": "Melee",
+    "types": [
+      "Melee",
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 1,
@@ -3500,10 +3862,14 @@
     },
     "name": "Crescent Kick",
     "type": "Melee",
+    "types": [
+      "Melee",
+      "Kick"
+    ],
     "cost": 0,
     "DMG": 4,
     "Block": 3,
-    "Text": "hit head → daze hit body → draw 1 body card",
+    "Text": "hit head → daze hit body → draw 1 iron body card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3529,10 +3895,13 @@
     },
     "name": "Warrior Monk",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 3,
-    "Text": "deal +4 dmg for every iron card in hand",
+    "Text": "plays all 3 iron card in its target zone at halved dmg if you have iron card in hand deal full dmg",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3558,6 +3927,9 @@
     },
     "name": "Coat Weaponry",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
@@ -3587,6 +3959,9 @@
     },
     "name": "Concentrated Formula",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": -1,
@@ -3616,6 +3991,9 @@
     },
     "name": "Gas Bomb",
     "type": "Throw",
+    "types": [
+      "Throw"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
@@ -3645,6 +4023,9 @@
     },
     "name": "Toxin Infused Dagger",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
@@ -3674,6 +4055,9 @@
     },
     "name": "Viper’s Block",
     "type": "Throw",
+    "types": [
+      "Throw"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 0,
@@ -3703,6 +4087,9 @@
     },
     "name": "Toxic Reversion",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 1,
@@ -3732,6 +4119,9 @@
     },
     "name": "Toxic Research Ii",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 3,
@@ -3761,6 +4151,9 @@
     },
     "name": "High Table Decree",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 3,
@@ -3790,6 +4183,9 @@
     },
     "name": "The Rules Are The Rules",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 3,
@@ -3819,6 +4215,9 @@
     },
     "name": "You Have Seven Days",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 7,
@@ -3848,6 +4247,9 @@
     },
     "name": "Consider This… Leniency",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 2,
     "DMG": 0,
     "Block": 4,
@@ -3877,6 +4279,9 @@
     },
     "name": "Motion Sensor",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 3,
@@ -3906,6 +4311,9 @@
     },
     "name": "Rapid Punch",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 2,
     "Block": 3,
@@ -3935,6 +4343,9 @@
     },
     "name": "Cane Jab",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 5,
     "Block": 4,
@@ -3964,6 +4375,9 @@
     },
     "name": "Blind Swordsmanship",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 3,
@@ -3993,6 +4407,9 @@
     },
     "name": "Feint Jab",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 4,
@@ -4022,6 +4439,9 @@
     },
     "name": "Cane Strike",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 4,
@@ -4051,6 +4471,9 @@
     },
     "name": "Timing Attack",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 4,
@@ -4080,6 +4503,9 @@
     },
     "name": "Overwatch",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 1,
@@ -4109,6 +4535,9 @@
     },
     "name": "Warning Shot",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 1,
@@ -4138,6 +4567,9 @@
     },
     "name": "Heavy Caliber",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 4,
@@ -4152,7 +4584,7 @@
     "face": {
       "front": {
         "name": "Front",
-        "type": "Tactic",
+        "type": "Tactics",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-144.png",
         "isHorizontal": false
@@ -4166,7 +4598,10 @@
       }
     },
     "name": "Gambit",
-    "type": "Tactic",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
@@ -4196,6 +4631,9 @@
     },
     "name": "Continental Comfort",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
@@ -4225,6 +4663,9 @@
     },
     "name": "Continental Manager",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 0,
@@ -4254,6 +4695,9 @@
     },
     "name": "Betrayal",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 4,
@@ -4268,7 +4712,7 @@
     "face": {
       "front": {
         "name": "Front",
-        "type": "Tactic",
+        "type": "Tactics",
         "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-148.png",
         "isHorizontal": false
@@ -4282,7 +4726,10 @@
       }
     },
     "name": "Leverage",
-    "type": "Tactic",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
@@ -4312,6 +4759,9 @@
     },
     "name": "Master Tactician",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 1,
@@ -4341,6 +4791,9 @@
     },
     "name": "Continental Grounds",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 0,
@@ -4370,6 +4823,9 @@
     },
     "name": "Hired Guns",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 2,
     "DMG": 0,
     "Block": 4,
@@ -4399,6 +4855,10 @@
     },
     "name": "Shattering Kick",
     "type": "Melee",
+    "types": [
+      "Melee",
+      "Kick"
+    ],
     "cost": 0,
     "DMG": 3,
     "Block": 2,
@@ -4428,6 +4888,9 @@
     },
     "name": "Coordinated Attack",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 0,
     "DMG": 3,
     "Block": 2,
@@ -4457,6 +4920,9 @@
     },
     "name": "Flurry",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 0,
     "DMG": 3,
     "Block": -1,
@@ -4486,6 +4952,9 @@
     },
     "name": "Opening Jab",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 0,
     "DMG": 2,
     "Block": 2,
@@ -4515,6 +4984,9 @@
     },
     "name": "Take Advantage",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 0,
     "DMG": 3,
     "Block": 2,
@@ -4544,6 +5016,9 @@
     },
     "name": "Outgunned",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 0,
     "DMG": 3,
     "Block": 2,
@@ -4573,6 +5048,9 @@
     },
     "name": "Feint Shot",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 0,
     "DMG": 4,
     "Block": 2,
@@ -4602,6 +5080,9 @@
     },
     "name": "In-sync",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
@@ -4631,6 +5112,9 @@
     },
     "name": "Echo Strike",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 4,
@@ -4660,6 +5144,9 @@
     },
     "name": "Martial Master",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 4,
@@ -4689,6 +5176,9 @@
     },
     "name": "Charged Strike",
     "type": "Gun",
+    "types": [
+      "Gun"
+    ],
     "cost": 0,
     "DMG": 3,
     "Block": 2,
@@ -4718,6 +5208,9 @@
     },
     "name": "Tenacious Will",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
@@ -4747,6 +5240,9 @@
     },
     "name": "Coat Armory",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
@@ -4776,6 +5272,9 @@
     },
     "name": "Toxic Research I",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 3,
@@ -4805,6 +5304,9 @@
     },
     "name": "Toxic Research Iii",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 3,
@@ -4834,6 +5336,9 @@
     },
     "name": "Siphon Bomb",
     "type": "Throw",
+    "types": [
+      "Throw"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 1,
@@ -4863,6 +5368,9 @@
     },
     "name": "Experimental Leech",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": -1,
@@ -4892,6 +5400,9 @@
     },
     "name": "The Rules Are The Rules",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 3,
@@ -4921,6 +5432,9 @@
     },
     "name": "Seven Cuts",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 7,
@@ -4950,6 +5464,9 @@
     },
     "name": "High Table Decree",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 3,
@@ -4979,6 +5496,9 @@
     },
     "name": "Stockpile",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 3,
@@ -5008,6 +5528,9 @@
     },
     "name": "Incendiary Rounds",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 0,
@@ -5037,6 +5560,9 @@
     },
     "name": "Brass Knuckles",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 3,
@@ -5066,6 +5592,9 @@
     },
     "name": "Deadly Mark",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 3,
@@ -5095,6 +5624,9 @@
     },
     "name": "Rest",
     "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": -1,
@@ -5124,6 +5656,9 @@
     },
     "name": "Angry Punch",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 0,
     "DMG": 3,
     "Block": 3,
@@ -5153,6 +5688,9 @@
     },
     "name": "Very Angry Punch",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 0,
     "DMG": 5,
     "Block": 3,
@@ -5182,12 +5720,399 @@
     },
     "name": "Desperate Strike",
     "type": "Melee",
+    "types": [
+      "Melee"
+    ],
     "cost": 0,
     "DMG": 3,
     "Block": 3,
     "Text": "if played on broken bodypart: dmg +4",
     "AttackHead?": true,
     "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "180": {
+    "id": "180",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Throw",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-180.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Double Throw",
+    "type": "Throw",
+    "types": [
+      "Throw"
+    ],
+    "cost": 1,
+    "DMG": 1,
+    "Block": 3,
+    "Text": "sync atk: throw 1 random card from hand into a random bodypart",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "181": {
+    "id": "181",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Throw",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-181.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Close Quarters Throw",
+    "type": "Throw",
+    "types": [
+      "Throw"
+    ],
+    "cost": 1,
+    "DMG": 3,
+    "Block": 3,
+    "Text": "if opponent plays a melee card here,",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "182": {
+    "id": "182",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-182.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Forceful Pull",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "cost": 2,
+    "DMG": 0,
+    "Block": 4,
+    "Text": "regain throw card from here last turn, deal 1 dmg per throwables gained",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "183": {
+    "id": "183",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Throw",
+        "cost": 3,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-183.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 3,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Throw Hatchet",
+    "type": "Throw",
+    "types": [
+      "Throw"
+    ],
+    "cost": 3,
+    "DMG": 0,
+    "Block": 5,
+    "Text": "?",
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": false
+  },
+  "184": {
+    "id": "184",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Gun",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-184.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Backstab",
+    "type": "Gun",
+    "types": [
+      "Gun"
+    ],
+    "cost": 2,
+    "DMG": 4,
+    "Block": 2,
+    "Text": "if enemy is exposed, +1 dmg and pierce 4",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "185": {
+    "id": "185",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Melee",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-185.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Knuckle Duster",
+    "type": "Melee",
+    "types": [
+      "Melee"
+    ],
+    "cost": 0,
+    "DMG": 1,
+    "Block": 1,
+    "Text": "+2 melee  dmg stack",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "186": {
+    "id": "186",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Melee",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-186.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Curb Stomp",
+    "type": "Melee",
+    "types": [
+      "Melee"
+    ],
+    "cost": 2,
+    "DMG": 4,
+    "Block": 1,
+    "Text": "if enemy body or leg < 5, deal double damage",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "187": {
+    "id": "187",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-187.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cold Blood",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "+2 gun dmg  stack",
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false
+  },
+  "188": {
+    "id": "188",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Gun",
+        "cost": 3,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-188.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 3,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dead Eye",
+    "type": "Gun",
+    "types": [
+      "Gun"
+    ],
+    "cost": 3,
+    "DMG": 5,
+    "Block": 0,
+    "Text": "deal +2 dmg per stack",
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": false
+  },
+  "189": {
+    "id": "189",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-189.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Dodge",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "cost": 1,
+    "DMG": 0,
+    "Block": 0,
+    "Text": "obscure",
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false
+  },
+  "190": {
+    "id": "190",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-190.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Second Wind",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "cost": 2,
+    "DMG": 0,
+    "Block": 3,
+    "Text": "on defend → gain ap based on dmg received",
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false
+  },
+  "191": {
+    "id": "191",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-191.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Pocket Sand",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "cost": 0,
+    "DMG": 1,
+    "Block": 3,
+    "Text": "on hit → apply  weak",
+    "AttackHead?": true,
+    "AttackBody?": false,
     "AttackLeg?": false
   },
   "t-7days": {
