@@ -334,7 +334,7 @@
     ]
   },
   {
-    "name": "Mike Tyson",
+    "name": "Super Boxing Guy",
     "description": "Generated from Figma",
     "color": "#2C9AC1",
     "cardPool": [
@@ -672,7 +672,7 @@
   {
     "name": "Warrior Monk",
     "description": "Generated from Figma",
-    "color": "#193A85",
+    "color": "#5882DF",
     "cardPool": [
       {
         "name": "Iron Body",
