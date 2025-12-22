@@ -2,7 +2,7 @@
   {
     "name": "Ways of the Ninja",
     "description": "Generated from Figma",
-    "color": "#7A99AA",
+    "color": "#B8A59C",
     "cardPool": [
       {
         "name": "Hidden Stash",
@@ -37,11 +37,11 @@
         ]
       },
       {
-        "name": "Toxic Flask",
+        "name": "Viper’s Block",
         "rarity": "common",
         "synergies": [
           "2 AP",
-          "Throw"
+          "Throwables"
         ]
       },
       {
@@ -169,14 +169,14 @@
   {
     "name": "Cunning Tricks",
     "description": "Generated from Figma",
-    "color": "#ACA4D3",
+    "color": "#4003DE",
     "cardPool": [
       {
         "name": "Viper’s Block",
         "rarity": "common",
         "synergies": [
           "2 AP",
-          "Throw"
+          "Throwables"
         ]
       },
       {
@@ -184,7 +184,7 @@
         "rarity": "common",
         "synergies": [
           "1 AP",
-          "Throw"
+          "Throwables"
         ]
       },
       {
@@ -252,10 +252,10 @@
         ]
       },
       {
-        "name": "Toxic Vapors",
+        "name": "Toxic Research Ii",
         "rarity": "rare",
         "synergies": [
-          "1 AP",
+          "3 AP",
           "Tactics"
         ]
       },
@@ -280,7 +280,7 @@
         "rarity": "rare",
         "synergies": [
           "2 AP",
-          "Throw"
+          "Melee"
         ]
       },
       {
@@ -304,7 +304,7 @@
         "rarity": "epic",
         "synergies": [
           "2 AP",
-          "Throw"
+          "Throwables"
         ]
       },
       {
@@ -336,7 +336,7 @@
   {
     "name": "Super Boxing Guy",
     "description": "Generated from Figma",
-    "color": "#2C9AC1",
+    "color": "#40B24A",
     "cardPool": [
       {
         "name": "Jab",
@@ -407,8 +407,7 @@
         "rarity": "common",
         "synergies": [
           "1 AP",
-          "Melee",
-          "Body"
+          "Melee"
         ]
       },
       {
@@ -480,8 +479,7 @@
         "rarity": "epic",
         "synergies": [
           "1 AP",
-          "Tactics",
-          "Stance"
+          "Tactics"
         ]
       },
       {
@@ -505,7 +503,7 @@
   {
     "name": "John Weak Gunfu",
     "description": "Generated from Figma",
-    "color": "#29757C",
+    "color": "#E1B25B",
     "cardPool": [
       {
         "name": "Quick Shot",
@@ -580,11 +578,11 @@
         ]
       },
       {
-        "name": "Toxic Flask",
+        "name": "Viper’s Block",
         "rarity": "common",
         "synergies": [
           "2 AP",
-          "Throw"
+          "Throwables"
         ]
       },
       {
@@ -672,7 +670,7 @@
   {
     "name": "Warrior Monk",
     "description": "Generated from Figma",
-    "color": "#5882DF",
+    "color": "#259B6A",
     "cardPool": [
       {
         "name": "Iron Body",
@@ -845,7 +843,7 @@
   {
     "name": "Angery Boi",
     "description": "Generated from Figma",
-    "color": "#AFB4EC",
+    "color": "#848E05",
     "cardPool": [
       {
         "name": "Angry Punch",
@@ -883,7 +881,7 @@
         "name": "Zen State",
         "rarity": "common",
         "synergies": [
-          "1 AP",
+          "0 AP",
           "Tactics"
         ]
       },
@@ -972,7 +970,8 @@
         "rarity": "epic",
         "synergies": [
           "3 AP",
-          "Melee Weapon"
+          "Melee",
+          "Gun"
         ]
       },
       {
@@ -1012,7 +1011,7 @@
   {
     "name": "Defensive is Best Offense",
     "description": "Generated from Figma",
-    "color": "#CF123F",
+    "color": "#411965",
     "cardPool": [
       {
         "name": "One Step Ahead",
@@ -1059,8 +1058,7 @@
         "rarity": "common",
         "synergies": [
           "1 AP",
-          "Melee",
-          "Fist"
+          "Melee"
         ]
       },
       {
@@ -1076,7 +1074,7 @@
         "rarity": "common",
         "synergies": [
           "2 AP",
-          "Throw"
+          "Throwables"
         ]
       },
       {
@@ -1152,11 +1150,11 @@
         ]
       },
       {
-        "name": "Second Wind",
+        "name": "Ricochet Trap",
         "rarity": "epic",
         "synergies": [
           "2 AP",
-          "Tactics"
+          "Gun"
         ]
       },
       {
