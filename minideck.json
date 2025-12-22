@@ -2,7 +2,7 @@
   {
     "name": "Ways of the Ninja",
     "description": "Generated from Figma",
-    "color": "#B8A59C",
+    "color": "#5BF5FB",
     "cardPool": [
       {
         "name": "Hidden Stash",
@@ -169,7 +169,7 @@
   {
     "name": "Cunning Tricks",
     "description": "Generated from Figma",
-    "color": "#4003DE",
+    "color": "#F9C2B3",
     "cardPool": [
       {
         "name": "Viper’s Block",
@@ -336,7 +336,7 @@
   {
     "name": "Super Boxing Guy",
     "description": "Generated from Figma",
-    "color": "#40B24A",
+    "color": "#F58EE6",
     "cardPool": [
       {
         "name": "Jab",
@@ -503,7 +503,7 @@
   {
     "name": "John Weak Gunfu",
     "description": "Generated from Figma",
-    "color": "#E1B25B",
+    "color": "#9DFBC9",
     "cardPool": [
       {
         "name": "Quick Shot",
@@ -670,7 +670,7 @@
   {
     "name": "Warrior Monk",
     "description": "Generated from Figma",
-    "color": "#259B6A",
+    "color": "#8795FD",
     "cardPool": [
       {
         "name": "Iron Body",
@@ -843,7 +843,7 @@
   {
     "name": "Angery Boi",
     "description": "Generated from Figma",
-    "color": "#848E05",
+    "color": "#F2FFB3",
     "cardPool": [
       {
         "name": "Angry Punch",
@@ -1011,7 +1011,7 @@
   {
     "name": "Defensive is Best Offense",
     "description": "Generated from Figma",
-    "color": "#411965",
+    "color": "#5DF146",
     "cardPool": [
       {
         "name": "One Step Ahead",
