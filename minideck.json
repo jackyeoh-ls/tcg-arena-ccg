@@ -1,7 +1,7 @@
 [
   {
     "name": "Ways of the Ninja",
-    "description": "Generated from Figma",
+    "description": "Overwhelm your opponent with throwables and lethal toxins",
     "color": "#5BF5FB",
     "cardPool": [
       {
@@ -168,7 +168,7 @@
   },
   {
     "name": "Cunning Tricks",
-    "description": "Generated from Figma",
+    "description": "Distrupt your opponent or pull of cunning tricks to gain advantage",
     "color": "#F9C2B3",
     "cardPool": [
       {
@@ -335,7 +335,7 @@
   },
   {
     "name": "Super Boxing Guy",
-    "description": "Generated from Figma",
+    "description": "Unleash relentless attacks on tempo to overwhelm your opponent",
     "color": "#F58EE6",
     "cardPool": [
       {
@@ -502,7 +502,7 @@
   },
   {
     "name": "John Weak Gunfu",
-    "description": "Generated from Figma",
+    "description": "Masterfully weave firearms and kungfu to eliminate your opponents",
     "color": "#9DFBC9",
     "cardPool": [
       {
@@ -669,7 +669,7 @@
   },
   {
     "name": "Warrior Monk",
-    "description": "Generated from Figma",
+    "description": "Trained with discipline, you learn how to strike with restrain",
     "color": "#8795FD",
     "cardPool": [
       {
@@ -842,7 +842,7 @@
   },
   {
     "name": "Angery Boi",
-    "description": "Generated from Figma",
+    "description": "You unga-bunga you foe, and UNGA-BUNGA when low",
     "color": "#F2FFB3",
     "cardPool": [
       {
@@ -1010,7 +1010,7 @@
   },
   {
     "name": "Defensive is Best Offense",
-    "description": "Generated from Figma",
+    "description": "You are afraid of pain and decided to put all your skill point into defense",
     "color": "#5DF146",
     "cardPool": [
       {
