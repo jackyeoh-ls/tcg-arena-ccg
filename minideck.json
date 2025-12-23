@@ -1,8 +1,8 @@
 [
   {
     "name": "Ways of the Ninja",
-    "description": "Overwhelm your opponent with throwables and lethal toxins",
-    "color": "#5BF5FB",
+    "description": "Generated from Figma",
+    "color": "#AB8FCE",
     "cardPool": [
       {
         "name": "Hidden Stash",
@@ -168,8 +168,8 @@
   },
   {
     "name": "Cunning Tricks",
-    "description": "Distrupt your opponent or pull of cunning tricks to gain advantage",
-    "color": "#F9C2B3",
+    "description": "Generated from Figma",
+    "color": "#C3C19C",
     "cardPool": [
       {
         "name": "Viper’s Block",
@@ -335,8 +335,8 @@
   },
   {
     "name": "Super Boxing Guy",
-    "description": "Unleash relentless attacks on tempo to overwhelm your opponent",
-    "color": "#F58EE6",
+    "description": "Generated from Figma",
+    "color": "#D02E3B",
     "cardPool": [
       {
         "name": "Jab",
@@ -502,8 +502,8 @@
   },
   {
     "name": "John Weak Gunfu",
-    "description": "Masterfully weave firearms and kungfu to eliminate your opponents",
-    "color": "#9DFBC9",
+    "description": "Generated from Figma",
+    "color": "#81DFD1",
     "cardPool": [
       {
         "name": "Quick Shot",
@@ -669,8 +669,8 @@
   },
   {
     "name": "Warrior Monk",
-    "description": "Trained with discipline, you learn how to strike with restrain",
-    "color": "#8795FD",
+    "description": "Generated from Figma",
+    "color": "#73FD07",
     "cardPool": [
       {
         "name": "Iron Body",
@@ -681,7 +681,7 @@
         ]
       },
       {
-        "name": "Iron Fist",
+        "name": "Iron Head",
         "rarity": "common",
         "synergies": [
           "1 AP",
@@ -842,8 +842,8 @@
   },
   {
     "name": "Angery Boi",
-    "description": "You unga-bunga you foe, and UNGA-BUNGA when low",
-    "color": "#F2FFB3",
+    "description": "Generated from Figma",
+    "color": "#16E1DE",
     "cardPool": [
       {
         "name": "Angry Punch",
@@ -1010,8 +1010,8 @@
   },
   {
     "name": "Defensive is Best Offense",
-    "description": "You are afraid of pain and decided to put all your skill point into defense",
-    "color": "#5DF146",
+    "description": "Generated from Figma",
+    "color": "#F88E2E",
     "cardPool": [
       {
         "name": "One Step Ahead",
@@ -1054,7 +1054,7 @@
         ]
       },
       {
-        "name": "Iron Fist",
+        "name": "Iron Head",
         "rarity": "common",
         "synergies": [
           "1 AP",
