@@ -1,8 +1,8 @@
 [
   {
-    "name": "Adjudicator - 1",
+    "name": "A1",
     "description": "Generated from Figma",
-    "color": "#C4ED54",
+    "color": "#143D0B",
     "cardPool": [
       {
         "name": "The Rules Are The Rules (Atk)",
@@ -39,9 +39,9 @@
     ]
   },
   {
-    "name": "Adjudicator - 2",
+    "name": "A2",
     "description": "Generated from Figma",
-    "color": "#F877AB",
+    "color": "#B870D2",
     "cardPool": [
       {
         "name": "The Rules Are The Rules (Def)",
@@ -78,9 +78,9 @@
     ]
   },
   {
-    "name": "Winston - 1",
+    "name": "B1",
     "description": "Generated from Figma",
-    "color": "#FA8557",
+    "color": "#F2DCD3",
     "cardPool": [
       {
         "name": "Gambit",
@@ -117,9 +117,9 @@
     ]
   },
   {
-    "name": "Winston - 2",
+    "name": "B2",
     "description": "Generated from Figma",
-    "color": "#B45DEE",
+    "color": "#DDA110",
     "cardPool": [
       {
         "name": "Continental Comfort",
@@ -156,9 +156,9 @@
     ]
   },
   {
-    "name": "Marcus - 1",
+    "name": "D1",
     "description": "Generated from Figma",
-    "color": "#65FA47",
+    "color": "#320FB3",
     "cardPool": [
       {
         "name": "Timing Attack",
@@ -195,9 +195,9 @@
     ]
   },
   {
-    "name": "Wick - 1",
+    "name": "E1",
     "description": "Generated from Figma",
-    "color": "#AABCFD",
+    "color": "#4075B9",
     "cardPool": [
       {
         "name": "Double Throw",
@@ -234,9 +234,9 @@
     ]
   },
   {
-    "name": "Caine - 1",
+    "name": "C1",
     "description": "Generated from Figma",
-    "color": "#85FFE4",
+    "color": "#BBDD0D",
     "cardPool": [
       {
         "name": "Motion Sensor",
@@ -273,9 +273,9 @@
     ]
   },
   {
-    "name": "Caine - 2",
+    "name": "C2",
     "description": "Generated from Figma",
-    "color": "#EC70FA",
+    "color": "#ACAF98",
     "cardPool": [
       {
         "name": "Blind Swordsmanship",
