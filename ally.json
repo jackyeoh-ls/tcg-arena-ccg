@@ -1,0 +1,314 @@
+[
+  {
+    "name": "Adjudicator - 1",
+    "description": "Generated from Figma",
+    "color": "#C4ED54",
+    "cardPool": [
+      {
+        "name": "The Rules Are The Rules (Atk)",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Seven Cuts",
+        "rarity": "epic",
+        "synergies": [
+          "3 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "You Broke The Rules...",
+        "rarity": "epic",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Consider This… Leniency",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Tactics"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Adjudicator - 2",
+    "description": "Generated from Figma",
+    "color": "#F877AB",
+    "cardPool": [
+      {
+        "name": "The Rules Are The Rules (Def)",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "I Am Here To Adjudge You",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "High Table Decree",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "You Have Seven Days",
+        "rarity": "epic",
+        "synergies": [
+          "3 AP",
+          "Tactics"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Winston - 1",
+    "description": "Generated from Figma",
+    "color": "#FA8557",
+    "cardPool": [
+      {
+        "name": "Gambit",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Continental Manager",
+        "rarity": "epic",
+        "synergies": [
+          "3 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Leverage",
+        "rarity": "epic",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Master Tactician",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Winston - 2",
+    "description": "Generated from Figma",
+    "color": "#B45DEE",
+    "cardPool": [
+      {
+        "name": "Continental Comfort",
+        "rarity": "epic",
+        "synergies": [
+          "0 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Betrayal",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Gun"
+        ]
+      },
+      {
+        "name": "Continental Grounds",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Hired Guns",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Tactics"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Marcus - 1",
+    "description": "Generated from Figma",
+    "color": "#65FA47",
+    "cardPool": [
+      {
+        "name": "Timing Attack",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Overwatch",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Warning Shot",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Heavy Caliber",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Wick - 1",
+    "description": "Generated from Figma",
+    "color": "#AABCFD",
+    "cardPool": [
+      {
+        "name": "Double Throw",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Throw"
+        ]
+      },
+      {
+        "name": "Close Quarters Throw",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Forceful Pull",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Quick Throw",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Throw"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Caine - 1",
+    "description": "Generated from Figma",
+    "color": "#85FFE4",
+    "cardPool": [
+      {
+        "name": "Motion Sensor",
+        "rarity": "epic",
+        "synergies": [
+          "1 AP",
+          "Tactics"
+        ]
+      },
+      {
+        "name": "Rapid Punch",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Cane Jab",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Echo Strike",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      }
+    ]
+  },
+  {
+    "name": "Caine - 2",
+    "description": "Generated from Figma",
+    "color": "#EC70FA",
+    "cardPool": [
+      {
+        "name": "Blind Swordsmanship",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Feint Jab",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Cane Strike",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      },
+      {
+        "name": "Martial Master",
+        "rarity": "epic",
+        "synergies": [
+          "2 AP",
+          "Melee"
+        ]
+      }
+    ]
+  }
+]
