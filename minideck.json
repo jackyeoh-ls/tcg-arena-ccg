@@ -2,7 +2,7 @@
   {
     "name": "Ways of the Ninja",
     "description": "Generated from Figma",
-    "color": "#AB8FCE",
+    "color": "#63EEDD",
     "cardPool": [
       {
         "name": "Hidden Stash",
@@ -72,7 +72,7 @@
         "name": "Shattering Kick",
         "rarity": "common",
         "synergies": [
-          "0 AP",
+          "1 AP",
           "Melee",
           "Kick"
         ]
@@ -81,7 +81,7 @@
         "name": "Feint Shot",
         "rarity": "common",
         "synergies": [
-          "0 AP",
+          "1 AP",
           "Gun"
         ]
       },
@@ -169,7 +169,7 @@
   {
     "name": "Cunning Tricks",
     "description": "Generated from Figma",
-    "color": "#C3C19C",
+    "color": "#F78964",
     "cardPool": [
       {
         "name": "Viper’s Block",
@@ -263,7 +263,7 @@
         "name": "Toxic Reversion",
         "rarity": "rare",
         "synergies": [
-          "0 AP",
+          "2 AP",
           "Tactics"
         ]
       },
@@ -311,7 +311,7 @@
         "name": "Rest",
         "rarity": "epic",
         "synergies": [
-          "0 AP",
+          "1 AP",
           "Tactics"
         ]
       },
@@ -336,7 +336,7 @@
   {
     "name": "Super Boxing Guy",
     "description": "Generated from Figma",
-    "color": "#D02E3B",
+    "color": "#F561FA",
     "cardPool": [
       {
         "name": "Jab",
@@ -438,7 +438,7 @@
         "name": "Opening Jab",
         "rarity": "rare",
         "synergies": [
-          "0 AP",
+          "1 AP",
           "Melee"
         ]
       },
@@ -470,7 +470,7 @@
         "name": "Flurry",
         "rarity": "epic",
         "synergies": [
-          "0 AP",
+          "2 AP",
           "Melee"
         ]
       },
@@ -503,7 +503,7 @@
   {
     "name": "John Weak Gunfu",
     "description": "Generated from Figma",
-    "color": "#81DFD1",
+    "color": "#F15B9C",
     "cardPool": [
       {
         "name": "Quick Shot",
@@ -533,7 +533,7 @@
         "name": "Stockpile",
         "rarity": "common",
         "synergies": [
-          "0 AP",
+          "1 AP",
           "Tactics"
         ]
       },
@@ -589,7 +589,7 @@
         "name": "Outgunned",
         "rarity": "rare",
         "synergies": [
-          "0 AP",
+          "1 AP",
           "Gun"
         ]
       },
@@ -670,7 +670,7 @@
   {
     "name": "Warrior Monk",
     "description": "Generated from Figma",
-    "color": "#73FD07",
+    "color": "#5493F2",
     "cardPool": [
       {
         "name": "Iron Body",
@@ -717,7 +717,7 @@
         "name": "Crescent Kick",
         "rarity": "common",
         "synergies": [
-          "0 AP",
+          "2 AP",
           "Melee",
           "Kick"
         ]
@@ -843,13 +843,13 @@
   {
     "name": "Angery Boi",
     "description": "Generated from Figma",
-    "color": "#16E1DE",
+    "color": "#9FEE5D",
     "cardPool": [
       {
         "name": "Angry Punch",
         "rarity": "common",
         "synergies": [
-          "0 AP",
+          "1 AP",
           "Melee"
         ]
       },
@@ -857,7 +857,7 @@
         "name": "Desperate Strike",
         "rarity": "common",
         "synergies": [
-          "0 AP",
+          "1 AP",
           "Melee"
         ]
       },
@@ -889,7 +889,7 @@
         "name": "Opening Jab",
         "rarity": "common",
         "synergies": [
-          "0 AP",
+          "1 AP",
           "Melee"
         ]
       },
@@ -929,7 +929,7 @@
         "name": "Charged Strike",
         "rarity": "rare",
         "synergies": [
-          "0 AP",
+          "1 AP",
           "Gun"
         ]
       },
@@ -986,7 +986,7 @@
         "name": "Flurry",
         "rarity": "epic",
         "synergies": [
-          "0 AP",
+          "2 AP",
           "Melee"
         ]
       },
@@ -1011,7 +1011,7 @@
   {
     "name": "Defensive is Best Offense",
     "description": "Generated from Figma",
-    "color": "#F88E2E",
+    "color": "#5FF17D",
     "cardPool": [
       {
         "name": "One Step Ahead",
@@ -1137,7 +1137,7 @@
         "name": "Rest",
         "rarity": "epic",
         "synergies": [
-          "0 AP",
+          "1 AP",
           "Tactics"
         ]
       },
@@ -1145,7 +1145,7 @@
         "name": "Tenacious Will",
         "rarity": "epic",
         "synergies": [
-          "0 AP",
+          "1 AP",
           "Tactics"
         ]
       },

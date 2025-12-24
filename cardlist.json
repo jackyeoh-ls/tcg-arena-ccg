@@ -23,10 +23,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "On Defense"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 0,
-    "Text": "deal x dmg per enemy card played on defense → +2 block per enemy card played",
+    "Text": "deal X dmg per enemy card played\n\non Defense → +2 block per enemy card played",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -55,10 +58,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Draw X Extra Cards"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
-    "Text": "consume all remaining ap to draw x extra cards",
+    "Text": "consume all remaining ap to draw X extra cards",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -86,6 +92,9 @@
     "type": "Tactics",
     "types": [
       "Tactics"
+    ],
+    "keywords": [
+      "+4 Body Dmg"
     ],
     "cost": 1,
     "DMG": 0,
@@ -119,10 +128,13 @@
     "types": [
       "Gun"
     ],
+    "keywords": [
+      "On Hit"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 2,
-    "Text": "hit → draw 1 card",
+    "Text": "ON HIT → Draw 1 card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -151,10 +163,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "+3 Dmg"
+    ],
     "cost": 3,
     "DMG": 4,
     "Block": 2,
-    "Text": "if target part has <8 hp, this card deals +3 dmg",
+    "Text": "If target part has <8 HP, this card deals +3 dmg",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -183,10 +198,14 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "When Defended",
+      "+4 Dmg"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
-    "Text": "on blocked → +4 dmg to the first melee card next turn",
+    "Text": "When Defended →\n+4 dmg to the first melee card next turn",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -215,10 +234,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "On Hit",
+      "+1 Ap"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "hit → enemy next attack card costs +1 ap",
+    "Text": "ON HIT → Enemy next attack card costs +1 AP",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -247,10 +270,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "+4 Gun Dmg"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "if played melee card this turn: +4 gun dmg next turn",
+    "Text": "If played melee card this turn: +4 Gun dmg next turn",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -279,10 +305,11 @@
     "types": [
       "Gun"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
-    "Text": "randomly hit head or leg instead",
+    "Text": "randomly Hit head or leg instead",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -311,10 +338,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "On Hit",
+      "Discard"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 2,
-    "Text": "hit → enemy discard 1 random card in hand",
+    "Text": "ON HIT → enemy discard 1 random card in hand",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -343,10 +374,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "On Hit",
+      "Weak 1"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 2,
-    "Text": "hit → apply weak 1 everywhere",
+    "Text": "ON HIT → Apply weak 1 everywhere",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -375,10 +410,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "On Hit",
+      "Weak 1"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "hit → apply weak 1 here for 1 turn",
+    "Text": "ON HIT → Apply weak 1 here for 1 turn",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -407,10 +446,11 @@
     "types": [
       "Gun"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "deal 1 dmg to the other body part",
+    "Text": "Deal 1 dmg to the other body part",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -439,10 +479,11 @@
     "types": [
       "Melee"
     ],
+    "keywords": [],
     "cost": 2,
     "DMG": 0,
     "Block": 2,
-    "Text": "deal 3 dmg to main target, 2 to the other",
+    "Text": "Deal 3 dmg to main target, 2 to the other",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -470,6 +511,10 @@
     "type": "Melee",
     "types": [
       "Melee"
+    ],
+    "keywords": [
+      "Weak",
+      "+3 Dmg"
     ],
     "cost": 2,
     "DMG": 3,
@@ -503,10 +548,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Draw 1 Extra Cards"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
-    "Text": "if enemy play card here, draw 1 extra card",
+    "Text": "If enemy play card here, draw 1 extra cards",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -535,6 +583,7 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
@@ -567,10 +616,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "When Played"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 3,
-    "Text": "when played →  discard a melee card to draw a gun card",
+    "Text": "WHEN PLAYED →  discard a melee card to draw a gun card",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -599,10 +651,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "On Defense"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 1,
-    "Text": "your next gun card this turn +4 dmg on defense → draw a gun card",
+    "Text": "your next gun card this turn +4 dmg\n\non Defense → Draw a gun card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -631,10 +686,13 @@
     "types": [
       "Gun"
     ],
+    "keywords": [
+      "Melee Combo"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
-    "Text": "melee combo",
+    "Text": "melee Combo",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -663,10 +721,11 @@
     "types": [
       "Gun"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 1,
     "Block": 0,
-    "Text": "deal 1 dmg to each bodypart",
+    "Text": "Deal 1 DMG to each Bodypart",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -695,10 +754,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Gun Combo"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
-    "Text": "gun combo",
+    "Text": "Gun Combo",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -727,10 +789,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Weak 2"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 0,
-    "Text": "apply weak 2 here",
+    "Text": "apply Weak 2 here",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -759,6 +824,7 @@
     "types": [
       "Gun"
     ],
+    "keywords": [],
     "cost": 2,
     "DMG": 5,
     "Block": 2,
@@ -791,10 +857,11 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 0,
     "Block": -1,
-    "Text": "next gun card this turn +4 dmg",
+    "Text": "Next gun card this turn +4 DMG",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -823,10 +890,13 @@
     "types": [
       "Gun"
     ],
+    "keywords": [
+      "When Defended"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "blocked: deal 2 dmg directly here",
+    "Text": "When Defended: Deal 2 DMG directly here",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -856,10 +926,14 @@
       "Melee",
       "Kick"
     ],
+    "keywords": [
+      "Melee Combo",
+      "On Defense"
+    ],
     "cost": 0,
     "DMG": 2,
     "Block": 1,
-    "Text": "melee combo on defense → draw a kick card from anywhere",
+    "Text": "Melee Combo\n\non Defense → draw a Kick card from anywhere",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -889,10 +963,11 @@
       "Melee",
       "Kick"
     ],
+    "keywords": [],
     "cost": 2,
     "DMG": 3,
     "Block": -1,
-    "Text": "discard up to 2 cards in hand, deal +3 dmg per discard",
+    "Text": "Discard up to 2 cards in hand, Deal +3 dmg per discard",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -922,10 +997,15 @@
       "Melee",
       "Kick"
     ],
+    "keywords": [
+      "On Hit",
+      "Disable",
+      "Disable"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 2,
-    "Text": "on hit → disable body for 1 turn, otherwise disable leg",
+    "Text": "ON HIT → Disable Body for 1 turn, otherwise Disable leg",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -954,10 +1034,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Choose (Gun/melee)"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 3,
-    "Text": "choose (gun/melee): dmg +1 this game (cannot stack)",
+    "Text": "Choose (Gun/Melee): DMG +1 this game (cannot stack)",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -986,10 +1069,15 @@
     "types": [
       "Gun"
     ],
+    "keywords": [
+      "Piercing 3",
+      "On Defense",
+      "Piercing 3"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 1,
-    "Text": "piercing 3 on defense → your next gun card have piercing 3",
+    "Text": "piercing 3\n\non Defense → your next gun card have piercing 3",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -1018,10 +1106,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Disable"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "disable a random bodypart that has > 7 hp",
+    "Text": "Disable a random bodypart that has > 7 hp",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -1049,6 +1140,9 @@
     "type": "Melee",
     "types": [
       "Melee"
+    ],
+    "keywords": [
+      "Hidden"
     ],
     "cost": 1,
     "DMG": 3,
@@ -1082,6 +1176,7 @@
     "types": [
       "Melee"
     ],
+    "keywords": [],
     "cost": 2,
     "DMG": 3,
     "Block": 1,
@@ -1113,6 +1208,9 @@
     "type": "Throw",
     "types": [
       "Throw"
+    ],
+    "keywords": [
+      "Hidden"
     ],
     "cost": 1,
     "DMG": 2,
@@ -1146,10 +1244,11 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 2,
     "DMG": 4,
     "Block": 2,
-    "Text": "put a fake copy of this in each other bodypart.",
+    "Text": "Put a fake copy of this in each other bodypart.",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -1178,10 +1277,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "On Reveal"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": -1,
-    "Text": "on reveal → play a 1-ap card in another bodypart",
+    "Text": "On reveal → play a 1-AP card in another bodypart",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -1210,6 +1312,7 @@
     "types": [
       "Melee"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 1,
     "Block": 3,
@@ -1242,10 +1345,11 @@
     "types": [
       "Melee"
     ],
+    "keywords": [],
     "cost": 2,
     "DMG": 2,
     "Block": 2,
-    "Text": "deal 1 dmg to body and leg",
+    "Text": "Deal 1 dmg to body and leg",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -1274,6 +1378,7 @@
     "types": [
       "Melee"
     ],
+    "keywords": [],
     "cost": 3,
     "DMG": 5,
     "Block": 0,
@@ -1306,6 +1411,7 @@
     "types": [
       "?"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1338,6 +1444,7 @@
     "types": [
       "?"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1370,6 +1477,7 @@
     "types": [
       "?"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1402,6 +1510,7 @@
     "types": [
       "?"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1434,6 +1543,7 @@
     "types": [
       "?"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1466,6 +1576,7 @@
     "types": [
       "?"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1498,6 +1609,7 @@
     "types": [
       "?"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1530,6 +1642,7 @@
     "types": [
       "?"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
@@ -1562,10 +1675,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "On Hit",
+      "Exposed"
+    ],
     "cost": 3,
-    "DMG": 0,
+    "DMG": 4,
     "Block": 2,
-    "Text": "on hit → enemy next two attacks are exposed.",
+    "Text": "on hit → enemy NEXT two attacks are exposed.",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -1594,10 +1711,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "On Hit"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "on hit → reveal a random card in enemy hand",
+    "Text": "ON HIT → reveal a random card in enemy hand",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -1626,10 +1746,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "On Hit"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "on hit → reveal a random card in enemy hand",
+    "Text": "ON HIT → reveal a random card in enemy hand",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -1658,10 +1781,11 @@
     "types": [
       "Melee"
     ],
+    "keywords": [],
     "cost": 0,
     "DMG": 1,
     "Block": 3,
-    "Text": "must be played with another melee attack",
+    "Text": "must BE PLayed with another melee attack",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -1690,10 +1814,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "When Played",
+      "Weak"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 2,
-    "Text": "when played → apply weak to their head.",
+    "Text": "WHEN PLAYED → apply WEAK to their head.",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -1721,6 +1849,9 @@
     "type": "Melee",
     "types": [
       "Melee"
+    ],
+    "keywords": [
+      "Exposed"
     ],
     "cost": 2,
     "DMG": 4,
@@ -1754,6 +1885,7 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 0,
     "Block": 0,
@@ -1787,6 +1919,7 @@
       "Melee",
       "Gun"
     ],
+    "keywords": [],
     "cost": 0,
     "DMG": 1,
     "Block": 1,
@@ -1820,10 +1953,13 @@
       "Melee",
       "Gun"
     ],
+    "keywords": [
+      "On Hit"
+    ],
     "cost": 3,
     "DMG": 7,
     "Block": -1,
-    "Text": "on hit → you discard a random card.",
+    "Text": "ON HIT → you Discard a random card.",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -1851,6 +1987,9 @@
     "type": "Melee",
     "types": [
       "Melee"
+    ],
+    "keywords": [
+      "Melee Combo"
     ],
     "cost": 1,
     "DMG": 2,
@@ -1884,10 +2023,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "On Hit",
+      "Draw 1 Extra Cards"
+    ],
     "cost": 0,
     "DMG": 2,
     "Block": 2,
-    "Text": "hit → draw 1 extra card",
+    "Text": "ON HIT →\ndraw 1 extra cards",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -1916,10 +2059,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "On Reveal"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
-    "Text": "on reveal → discard a card from hand to play two 1 ap cards from anywhere",
+    "Text": "On Reveal → discard a card from hand to play two 1 AP cards from anywhere",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -1948,10 +2094,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "When Played",
+      "Weak"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 2,
-    "Text": "when played → apply weak to their head.",
+    "Text": "WHEN PLAYED → apply WEAK to their head.",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -1979,6 +2129,9 @@
     "type": "Melee",
     "types": [
       "Melee"
+    ],
+    "keywords": [
+      "Melee Combo"
     ],
     "cost": 1,
     "DMG": 2,
@@ -2013,10 +2166,14 @@
       "Melee",
       "Kick"
     ],
+    "keywords": [
+      "On Defense",
+      "Draw 1 Extra Cards"
+    ],
     "cost": 0,
     "DMG": 3,
     "Block": 1,
-    "Text": "on defense → if you have no cards in hand, draw 1 extra card",
+    "Text": "On Defense → if you have no cards in hand, draw 1 extra cards",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -2045,10 +2202,14 @@
     "types": [
       "Gun"
     ],
+    "keywords": [
+      "Weak",
+      "+2 Dmg"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": -1,
-    "Text": "if enemy have weak anywhere, +2 dmg",
+    "Text": "If enemy have weak anywhere, +2 dmg",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -2076,6 +2237,9 @@
     "type": "Gun",
     "types": [
       "Gun"
+    ],
+    "keywords": [
+      "Hidden"
     ],
     "cost": 1,
     "DMG": 3,
@@ -2109,10 +2273,13 @@
     "types": [
       "Gun"
     ],
+    "keywords": [
+      "When Defended"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 2,
-    "Text": "blocked → deals 2 dmg to random body part",
+    "Text": "When Defended → DEALS 2 DMG TO RANDOM BODY PART",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2141,10 +2308,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Hidden"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": -1,
-    "Text": "this zone is hidden",
+    "Text": "THIS ZONE is hidden",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -2173,10 +2343,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Exposed"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "all enemy cards next turn are exposed",
+    "Text": "ALL ENEMY CARDS NEXT TURN ARE EXPOSED",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -2205,10 +2378,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "On Hit"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "on hit →their melee card cost +1ap next turn",
+    "Text": "ON hit →their melee card cost +1AP next turn",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -2237,10 +2413,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "On Hit"
+    ],
     "cost": 0,
     "DMG": 2,
     "Block": 2,
-    "Text": "on hit → gain +1 ap next turn",
+    "Text": "ON hit → GAIN +1 AP NEXT TURN",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2269,10 +2448,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Weak",
+      "+3 Dmg"
+    ],
     "cost": 3,
     "DMG": 4,
     "Block": 3,
-    "Text": "if enemy have weak anywhere, +3 dmg",
+    "Text": "If enemy have weak anywhere, +3 dmg",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2301,10 +2484,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Weak"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": -1,
-    "Text": "apply weak to head and body",
+    "Text": "APPLY WEAK TO HEAD AND BODY",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -2332,6 +2518,9 @@
     "type": "Gun",
     "types": [
       "Gun"
+    ],
+    "keywords": [
+      "Piercing 3"
     ],
     "cost": 2,
     "DMG": 4,
@@ -2365,6 +2554,9 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "+4 Dmg"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": -1,
@@ -2397,6 +2589,9 @@
     "types": [
       "Gun"
     ],
+    "keywords": [
+      "+3 Dmg"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 2,
@@ -2427,6 +2622,7 @@
     "name": "Pistol Whip",
     "type": "",
     "types": [],
+    "keywords": [],
     "cost": 0,
     "DMG": 3,
     "Block": 1,
@@ -2459,10 +2655,14 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "When Played",
+      "Draw"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
-    "Text": "when played → take 1 dmg to body. draw 2 cards",
+    "Text": "When played → take 1 dmg to body. draw 2 cards",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -2491,6 +2691,7 @@
     "types": [
       "Gun"
     ],
+    "keywords": [],
     "cost": 2,
     "DMG": 2,
     "Block": 2,
@@ -2523,10 +2724,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "On Defense"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 1,
-    "Text": "on defense → if enemy attack here, deal 2 dmg",
+    "Text": "ON defense → if enemy attack here, deal 2 dmg",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -2555,10 +2759,14 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "On Hit",
+      "Discard"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "on hit → discard  1 random card",
+    "Text": "ON hit → discard \n1 random card",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -2587,10 +2795,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Tempo 1",
+      "On Defense"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 1,
-    "Text": "tempo 1 on defense → draw a random tempo 2 card",
+    "Text": "Tempo 1\non Defense → Draw a random Tempo 2 card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2619,10 +2831,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Tempo 2",
+      "Weak 1"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "tempo 2 → apply weak 1",
+    "Text": "Tempo 2 → apply weak 1",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2651,10 +2867,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Tempo 3"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": -1,
-    "Text": "tempo 3 → return this card to hand",
+    "Text": "Tempo 3 → return this card to hand",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2683,10 +2902,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Tempo (*)",
+      "On Defense"
+    ],
     "cost": 0,
     "DMG": 3,
     "Block": 1,
-    "Text": "tempo (*) on defense: draw a next tempo card",
+    "Text": "Tempo (*)\non Defense: Draw a next Tempo card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2715,10 +2938,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Tempo 2",
+      "Tempo 3"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 2,
-    "Text": "tempo 2 → +1 dmg tempo 3 → +2 dmg",
+    "Text": "Tempo 2 →\n+1 dmg\nTempo 3 → +2 dmg",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -2747,10 +2974,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Tempo (*)",
+      "On Hit"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 2,
-    "Text": "tempo (*) hit → enemy first attack card cost +1 ap next turn",
+    "Text": "Tempo (*)\nON HIT → enemy first attack card cost +1 AP next turn",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2779,10 +3010,16 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Tempo 2",
+      "Weak",
+      "Tempo 3",
+      "Daze"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 2,
-    "Text": "tempo 2 → apply weak tempo 3 → apply daze",
+    "Text": "Tempo 2 → apply weak\nTempo 3 → apply Daze",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -2810,6 +3047,9 @@
     "type": "Tactics",
     "types": [
       "Tactics"
+    ],
+    "keywords": [
+      "Piercing 4"
     ],
     "cost": 1,
     "DMG": 0,
@@ -2843,10 +3083,14 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "+1 Dmg",
+      "2 Turns"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "1 ap cards and below deal +1 dmg for 2 turns",
+    "Text": "1 AP cards and below deal +1 dmg for 2 turns",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -2875,10 +3119,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Tempo 1",
+      "When Defended"
+    ],
     "cost": 1,
     "DMG": 1,
     "Block": 2,
-    "Text": "tempo 1 blocked: play a cross card here",
+    "Text": "Tempo 1\nWhen Defended: Play a cross card here",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2907,10 +3155,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Tempo 1/2",
+      "On Defense"
+    ],
     "cost": 0,
     "DMG": 3,
     "Block": -1,
-    "Text": "tempo 1/2 on defense → successful dodge allow current tempo level effect trigger again fully for 1 turn",
+    "Text": "Tempo 1/2\nOn defense → successful dodge allow current tempo level effect trigger again fully for 1 turn",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -2939,10 +3191,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Tempo 1/2",
+      "On Defense"
+    ],
     "cost": 0,
     "DMG": 3,
     "Block": 1,
-    "Text": "tempo 1/2 on defense → if opponent hit here, deal 2 dmg",
+    "Text": "Tempo 1/2\non Defense → If opponent hit here, deal 2 dmg",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -2971,10 +3227,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Tempo 3  Discard"
+    ],
     "cost": 3,
     "DMG": 4,
     "Block": 3,
-    "Text": "tempo 3 → discard all enemy hand, reshuffle their deck and redraw the same amount",
+    "Text": "Tempo 3 → discard all enemy hand, reshuffle their deck and redraw the same amount",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3003,10 +3262,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "When Played"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 3,
-    "Text": "when played → get 2 ninja throwables",
+    "Text": "when played → get 2 Ninja throwables",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3035,10 +3297,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "On Defense"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "get 3 ninja throwables on defense → get a ninja throwables per card enemy plays here",
+    "Text": "get 3 Ninja throwables\n\non Defense → get a Ninja throwables per card enemy plays here",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -3066,6 +3331,9 @@
     "type": "Tactics",
     "types": [
       "Tactics"
+    ],
+    "keywords": [
+      "End Of Turn"
     ],
     "cost": 2,
     "DMG": 0,
@@ -3099,10 +3367,11 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 3,
     "DMG": 0,
     "Block": 3,
-    "Text": "play 4 random ninja throwables, each targeting a random bodypart",
+    "Text": "play 4 random Ninja throwables, each targeting a random bodypart",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -3129,6 +3398,7 @@
     "name": "Deflection",
     "type": "",
     "types": [],
+    "keywords": [],
     "cost": 0,
     "DMG": 0,
     "Block": 0,
@@ -3161,6 +3431,7 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
@@ -3193,10 +3464,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "On Defense"
+    ],
     "cost": 2,
     "DMG": 2,
     "Block": 0,
-    "Text": "deal 1 dmg per throwables played last turn on defense → deals 1 dmg per card targeting here",
+    "Text": "deal 1 dmg per throwables played last turn\non Defense → deals 1 dmg per card targeting here",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -3225,10 +3499,11 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 3,
     "DMG": 0,
     "Block": 3,
-    "Text": "gain 2 ninja throwables  gain 1 ninja throwables every turn",
+    "Text": "gain 2 Ninja throwables \n\ngain 1 Ninja throwables every turn",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3258,10 +3533,15 @@
       "Throwables",
       "Ninja"
     ],
+    "keywords": [
+      "Exhaust",
+      "Ninja Combo",
+      "Fragile 2"
+    ],
     "cost": 0,
     "DMG": 1,
     "Block": 1,
-    "Text": "exhaust ninja combo apply fragile 2",
+    "Text": "exhaust\nninja combo\n\nApply Fragile 2",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3291,10 +3571,15 @@
       "Throwables",
       "Ninja"
     ],
+    "keywords": [
+      "Exhaust",
+      "Ninja Combo",
+      "Pierce 1"
+    ],
     "cost": 0,
     "DMG": 2,
     "Block": 1,
-    "Text": "exhaust ninja combo pierce 1",
+    "Text": "exhaust\nninja combo\n\npierce 1",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3324,10 +3609,16 @@
       "Throwables",
       "Ninja"
     ],
+    "keywords": [
+      "Exhaust",
+      "Ninja Combo",
+      "Toxic",
+      "1"
+    ],
     "cost": 0,
     "DMG": 1,
     "Block": 1,
-    "Text": "exhaust ninja combo apply toxic 1",
+    "Text": "exhaust\nninja combo\n\napply toxic 1",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3356,10 +3647,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Daze"
+    ],
     "cost": 2,
     "DMG": 7,
     "Block": 2,
-    "Text": "you are dazed next turn",
+    "Text": "daze yourself next turn",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3388,10 +3682,16 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "When Played",
+      "Choose",
+      "+1 Ap",
+      "Draw 1 Extra Cards"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
-    "Text": "when played → choose: gain 1 ap or draw 1 extra card",
+    "Text": "when played → choose:\n+1 AP or\ndraw 1 extra cards",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -3420,10 +3720,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Melee Combo"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 2,
-    "Text": "melee combo draw a melee card",
+    "Text": "Melee Combo\nDraw a Melee Card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3452,10 +3755,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Melee Combo",
+      "When Played"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 2,
-    "Text": "melee combo when played → get a follow up punch",
+    "Text": "Melee Combo\nwhen played → Get a Follow up Punch",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3484,10 +3791,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Melee Combo",
+      "Exhaust"
+    ],
     "cost": 0,
     "DMG": 1,
     "Block": 1,
-    "Text": "melee combo exhaust at end of turn",
+    "Text": "Melee Combo\nexhaust at end of turn",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3516,10 +3827,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Gun Combo"
+    ],
     "cost": 2,
     "DMG": 0,
     "Block": 2,
-    "Text": "your gun cards have gun combo this game",
+    "Text": "your gun cards have Gun Combo this game",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3548,10 +3862,14 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "+4 Dmg",
+      "On Defense"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 1,
-    "Text": "next melee card deal +4 dmg on defense → draw 1 iron fist card",
+    "Text": "next melee card deal +4 dmg\non defense → draw 1 iron fist card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3580,10 +3898,11 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 2,
     "DMG": 0,
     "Block": 2,
-    "Text": "your next 2 melee cards cost -1 ap",
+    "Text": "Your next 2 melee cards cost -1 Ap",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3612,10 +3931,11 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
-    "Text": "+3 hp on next full block",
+    "Text": "+3 HP on next full block",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3644,10 +3964,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Armor 1"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 4,
-    "Text": "gain armor 1 for every iron card in hand for 1 turn",
+    "Text": "Gain ARMOR 1 for every iron card in hand for 1 turn",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3676,10 +3999,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "When Partial Blocked"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 1,
-    "Text": "partial blocked → deal 2 dmg",
+    "Text": "when partial blocked → deal 2 dmg",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3708,10 +4034,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "When Partial Blocked"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "draw 1 tactics card partial blocked → deal 3 dmg",
+    "Text": "Draw 1 tactics card\nwhen partial blocked → deal 3 dmg",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3740,10 +4069,11 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "deal up to 6 dmg based on total block value in hand",
+    "Text": "Deal up to 6 dmg based on total block value in hand",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3772,10 +4102,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "+1 Block"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
-    "Text": "next block card played +1 block",
+    "Text": "Next block card played +1 block",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -3805,10 +4138,13 @@
       "Melee",
       "Kick"
     ],
+    "keywords": [
+      "+1 Block"
+    ],
     "cost": 1,
     "DMG": 4,
     "Block": 2,
-    "Text": "next block card played +1 block",
+    "Text": "Next block card played +1 block",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -3838,10 +4174,14 @@
       "Melee",
       "Tactics"
     ],
+    "keywords": [
+      "Melee Combo",
+      "On Defense"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 1,
-    "Text": "melee combo on defense → draw 1 kick card",
+    "Text": "Melee Combo\non Defense → draw 1 kick card",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -3853,14 +4193,14 @@
       "front": {
         "name": "Front",
         "type": "Melee",
-        "cost": 0,
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-121.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -3871,10 +4211,15 @@
       "Melee",
       "Kick"
     ],
-    "cost": 0,
+    "keywords": [
+      "Hit Head",
+      "Daze",
+      "Hit Body"
+    ],
+    "cost": 2,
     "DMG": 4,
     "Block": 3,
-    "Text": "hit head → daze hit body → draw 1 iron body card",
+    "Text": "Hit Head → Daze\nHit Body → Draw 1 iron body card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3903,10 +4248,11 @@
     "types": [
       "Melee"
     ],
+    "keywords": [],
     "cost": 3,
     "DMG": 0,
     "Block": 3,
-    "Text": "play iron head, iron body, and iron leg onto their respective zones, dealing 50% damage. if any iron card is in your hand, deal full damage instead.",
+    "Text": "Play Iron Head, Iron Body, and Iron Leg onto their respective zones, dealing 50% damage.\n\nIf any Iron card is in your hand, deal full damage instead.",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3935,10 +4281,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Toxic 1"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "your next 4 attack card applies toxic 1",
+    "Text": "Your next 4 attack card applies toxic 1",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -3967,6 +4316,7 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 0,
     "Block": -1,
@@ -3999,10 +4349,14 @@
     "types": [
       "Throwables"
     ],
+    "keywords": [
+      "Toxic 1",
+      "Toxic 2"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 2,
-    "Text": "apply toxic 1 if target part has <8 hp, apply toxic 2 instead",
+    "Text": "Apply toxic 1\nIf target part has <8 HP, apply toxic 2 instead",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4031,10 +4385,16 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Choose",
+      "Toxic 2",
+      "Consume Toxic 1",
+      "+2 Dmg"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": 2,
-    "Text": "choose: apply toxic 2 or consume 1 toxic > +2 dmg",
+    "Text": "Choose: Apply toxic 2 or consume toxic 1 to deal +2 dmg",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4063,10 +4423,16 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Toxic 2",
+      "On Defense",
+      "+X Block",
+      "Toxic"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 0,
-    "Text": "apply toxic 2 on defense → +x block per toxic stack here",
+    "Text": "Apply toxic 2\n\non Defense →\n+X block per toxic stack here",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4078,14 +4444,14 @@
       "front": {
         "name": "Front",
         "type": "Tactics",
-        "cost": 0,
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-128.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -4095,10 +4461,13 @@
     "types": [
       "Tactics"
     ],
-    "cost": 0,
+    "keywords": [
+      "Consume Toxic X"
+    ],
+    "cost": 2,
     "DMG": 0,
     "Block": 1,
-    "Text": "consume all status effect → deal dmg equal to its stacks",
+    "Text": "consume toxic X → deal dmg equal to its stacks",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4127,10 +4496,14 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Exhaust",
+      "Toxic"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 3,
-    "Text": "exhaust > tr iii toxic now deals 2 dmg instead",
+    "Text": "Exhaust\nGain TR III &\nToxic now deals 2 dmg instead",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -4159,10 +4532,11 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 0,
     "Block": 3,
-    "Text": "deal 2 dmg per tactics cards in both players hand",
+    "Text": "Deal 2 dmg per tactics cards in both players hand",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4191,10 +4565,11 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 0,
     "Block": 3,
-    "Text": "enemy must attack here next turn.",
+    "Text": "ENEMY MUST ATTACK here NEXT TURN.DRAW A CARD.",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4223,10 +4598,14 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Exhaust",
+      "After 7 Cards Are Played Here"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 7,
-    "Text": "exhaust after 7 cards are played here → destroy this part.",
+    "Text": "EXHAUST\n\nAfter 7 cards are played here → destroy this part.",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4255,10 +4634,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Choose (Self / Enemy)"
+    ],
     "cost": 2,
     "DMG": 0,
     "Block": 4,
-    "Text": "choose (self / enemy) → redistribute hp evenly across all body parts",
+    "Text": "Choose (Self / enemy) → Redistribute hp evenly across all body parts",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4286,6 +4668,9 @@
     "type": "Tactics",
     "types": [
       "Tactics"
+    ],
+    "keywords": [
+      "Expose"
     ],
     "cost": 1,
     "DMG": 0,
@@ -4319,6 +4704,7 @@
     "types": [
       "Melee"
     ],
+    "keywords": [],
     "cost": 2,
     "DMG": 2,
     "Block": 3,
@@ -4351,10 +4737,16 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Head",
+      "Daze",
+      "Body",
+      "Weak 2"
+    ],
     "cost": 2,
     "DMG": 5,
     "Block": 4,
-    "Text": "head: apply daze body: apply weak 2",
+    "Text": "Head: Apply Daze\nBody: Apply weak 2",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -4383,10 +4775,14 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "When Defended",
+      "Defense"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 3,
-    "Text": "blocked: deal 3 dmg defense: draw a melee card",
+    "Text": "When Defended: Deal 3 dmg\nDefense: Draw a melee card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4415,10 +4811,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "On Resolve"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 4,
-    "Text": "on resolve → move this card to the other body part",
+    "Text": "On resolve → Move this card to the other body part",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -4447,10 +4846,15 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Choose",
+      "Weak 2",
+      "Melee Combo"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 4,
-    "Text": "choose: apply weak 2 or melee combo",
+    "Text": "Choose: apply weak 2 or melee combo",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4479,10 +4883,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Next Time You Play A  Gun Card"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 4,
-    "Text": "next time you play a  gun card → deal 4 dmg here",
+    "Text": "Next time you play a  gun card → Deal 4 DMG here",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4511,10 +4918,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Hidden"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 1,
-    "Text": "hidden next time you are attacked here, deal 4 dmg to opponent",
+    "Text": "hidden\nNext time you are attacked here, Deal 4 DMG to opponent",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -4543,10 +4953,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Hidden"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 0,
-    "Text": "hidden next time you are attacked here, take 1 dmg to dodge the attack",
+    "Text": "hidden\nnext time you are attacked here, take 1 dmg to dodge the attack",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -4575,10 +4988,11 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 0,
     "Block": 4,
-    "Text": "your next gun card  has +3 dmg",
+    "Text": "your next gun card  has +3 DMG",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -4607,10 +5021,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "On Defense"
+    ],
     "cost": 1,
-    "DMG": 0,
+    "DMG": 1,
     "Block": 2,
-    "Text": "get a copy of the last tactic card enemy played. on defense → exhaust this and draw an ally card",
+    "Text": "get a copy of the last tactic card ENEMY playED.\nON Defense → EXHAUST THIS and draw AN ally card",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -4639,10 +5056,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "On Defense"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
-    "Text": "your heal 2*x health here on defense → cleanse 1 debuff",
+    "Text": "YOUR heal 2*X HEALTH here\n\nON Defense → Cleanse 1 debuff",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4671,10 +5091,14 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Exhaust",
+      "When You Play An Attack Card"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 0,
-    "Text": "exhaust gain 6 block randomly on body parts every turn when you play an attack card → reduce the random block by 2 that turn",
+    "Text": "exhaust\nGain 6 block randomly on body parts every turn\nwhen you play an attack card → reduce THE RANDOM BLOCK by 2 THAT turn",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -4703,10 +5127,14 @@
     "types": [
       "Gun"
     ],
+    "keywords": [
+      "On Hit",
+      "Excommunicado"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 4,
-    "Text": "dmg is dealt to weakest bodypart on hit → if excommunicado, deal +5 dmg to that part.",
+    "Text": "dmg is dealt to weakest bodypart\nON HIT → IF Excommunicado, DEAL +5 dmg TO THAT PART.",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4735,10 +5163,14 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Choose One",
+      "On Defense"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
-    "Text": "choose one: enemy can’t play 3-cost or tactics next turn. on defense → exhaust this and draw an ally card",
+    "Text": "CHOOSE ONE: ENEMY CAN’T PLAY 3-COST OR TACTICS NEXT TURN.\n\non Defense → EXHAUST THIS and draw AN ally card",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -4767,10 +5199,14 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Backup Plan 1",
+      "On Defense"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 1,
-    "Text": "gain backup plan 1 on defense → if the top card of your deck is a tactic, draw it.",
+    "Text": "Gain backup plan 1\n\non Defense → IF THE TOP CARD OF YOUR DECK IS A TACTIC, DRAW IT.",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4799,10 +5235,15 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Armor 2",
+      "On Defense",
+      "Excommunicado"
+    ],
     "cost": 2,
     "DMG": 0,
     "Block": 0,
-    "Text": "gain armor 2 on defense → if you have a destroyed bodypart, apply excommunicado here",
+    "Text": "Gain ARMOR 2\n\non Defense → IF YOU HAVE A DESTROYED BODYPART, apply excommunicado here",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -4831,10 +5272,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Excommunicado"
+    ],
     "cost": 2,
     "DMG": 0,
     "Block": 4,
-    "Text": "deals 2 dmg to random body part at the start of the next 3 turns if excommunicado: deal 5 damage instead.",
+    "Text": "Deals 2 dmg to random body part at the start of the next 3 turns\n\nif Excommunicado: DEAL 5 DAMAGE INSTEAD.",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -4846,14 +5290,14 @@
       "front": {
         "name": "Front",
         "type": "Melee",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-152.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -4864,10 +5308,14 @@
       "Melee",
       "Kick"
     ],
-    "cost": 0,
+    "keywords": [
+      "Sync Atk",
+      "Fragile 2"
+    ],
+    "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "sync atk: apply fragile 2",
+    "Text": "Sync Atk: Apply Fragile 2",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -4879,14 +5327,14 @@
       "front": {
         "name": "Front",
         "type": "Gun",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-153.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -4896,10 +5344,13 @@
     "types": [
       "Gun"
     ],
-    "cost": 0,
+    "keywords": [
+      "Sync Atk"
+    ],
+    "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "sync atk: deal +2 dmg",
+    "Text": "Sync Atk: Deal +2 DMG",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -4911,14 +5362,14 @@
       "front": {
         "name": "Front",
         "type": "Melee",
-        "cost": 0,
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-154.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -4928,10 +5379,13 @@
     "types": [
       "Melee"
     ],
-    "cost": 0,
+    "keywords": [
+      "Sync Atk"
+    ],
+    "cost": 2,
     "DMG": 3,
     "Block": -1,
-    "Text": "sync atk: repeat the activator card here",
+    "Text": "Sync Atk: repeat the activator card here",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -4943,14 +5397,14 @@
       "front": {
         "name": "Front",
         "type": "Melee",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-155.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -4960,10 +5414,13 @@
     "types": [
       "Melee"
     ],
-    "cost": 0,
+    "keywords": [
+      "Sync Atk"
+    ],
+    "cost": 1,
     "DMG": 2,
     "Block": 2,
-    "Text": "sync atk: gain 1 ap next turn",
+    "Text": "Sync Atk: gain 1 ap next turn",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -4975,14 +5432,14 @@
       "front": {
         "name": "Front",
         "type": "Gun",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-156.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -4992,10 +5449,14 @@
     "types": [
       "Gun"
     ],
-    "cost": 0,
+    "keywords": [
+      "Sync Atk",
+      "Piercing 2"
+    ],
+    "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "sync atk: piercing 2",
+    "Text": "Sync Atk:\npiercing 2",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -5007,14 +5468,14 @@
       "front": {
         "name": "Front",
         "type": "Gun",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-157.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -5024,10 +5485,14 @@
     "types": [
       "Gun"
     ],
-    "cost": 0,
+    "keywords": [
+      "Sync Atk",
+      "Draw 1 Extra Cards"
+    ],
+    "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "sync atk: draw 1 extra card",
+    "Text": "Sync Atk:\ndraw 1 extra cards",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -5039,14 +5504,14 @@
       "front": {
         "name": "Front",
         "type": "Gun",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-158.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -5056,10 +5521,14 @@
     "types": [
       "Gun"
     ],
-    "cost": 0,
+    "keywords": [
+      "Sync Atk",
+      "Hidden"
+    ],
+    "cost": 1,
     "DMG": 4,
     "Block": 2,
-    "Text": "sync atk: activator card is hidden",
+    "Text": "Sync Atk: activator card is hidden",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -5088,10 +5557,14 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "When Played",
+      "Sync Atk"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
-    "Text": "when played → activates next sync atk card this turn",
+    "Text": "when played → activates next Sync Atk card this turn",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -5120,10 +5593,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Attack Echo"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 4,
-    "Text": "gain attack echo next turn",
+    "Text": "Gain attack echo next turn",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -5152,10 +5628,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Tempo 4"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 4,
-    "Text": "tempo 4 → play the last melee card",
+    "Text": "Tempo 4 → Play the last melee card",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -5167,14 +5646,14 @@
       "front": {
         "name": "Front",
         "type": "Gun",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-162.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -5184,10 +5663,15 @@
     "types": [
       "Gun"
     ],
-    "cost": 0,
+    "keywords": [
+      "Pierce 2",
+      "Hold",
+      "Pierce"
+    ],
+    "cost": 1,
     "DMG": 3,
     "Block": 2,
-    "Text": "pierce 2 hold: dmg +1 & pierce +2",
+    "Text": "pierce 2\nhold: DMG +1 & pierce +2",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -5199,14 +5683,14 @@
       "front": {
         "name": "Front",
         "type": "Tactics",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-163.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -5216,10 +5700,14 @@
     "types": [
       "Tactics"
     ],
-    "cost": 0,
+    "keywords": [
+      "2 Block",
+      "Hold"
+    ],
+    "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "gain 2 block here for 1 turn hold: both block values +2",
+    "Text": "Gain 2 block here for 1 turn\nhold: both block values +2",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -5248,10 +5736,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Toxic 1"
+    ],
     "cost": 1,
     "DMG": 0,
     "Block": 2,
-    "Text": "your next 4 defense card applies toxic 1",
+    "Text": "Your next 4 defense card applies toxic 1",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -5280,10 +5771,14 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Exhaust",
+      "Toxic"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 3,
-    "Text": "exhaust >tr ii when toxic dmg triggers, another body part with toxic triggers too",
+    "Text": "Exhaust\nGain TR II &\nWhen toxic dmg triggers, another body part with toxic triggers too",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -5312,10 +5807,14 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Exhaust",
+      "Toxic"
+    ],
     "cost": 3,
     "DMG": 0,
     "Block": 3,
-    "Text": "exhaust toxic application now immediately trigger dmg instead",
+    "Text": "Exhaust\nToxic application now immediately trigger dmg instead",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": true
@@ -5344,10 +5843,16 @@
     "types": [
       "Throwables"
     ],
+    "keywords": [
+      "Toxic",
+      "On Defense",
+      "Consume Toxic X",
+      "Exhaust"
+    ],
     "cost": 2,
     "DMG": 2,
     "Block": 0,
-    "Text": "double toxic here defense (exhaust) → consume status effect to heal x yourself per stack",
+    "Text": "double toxic here\n\non Defense →\nconsume toxic X to heal X yourself per stack. EXHAUST",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -5376,10 +5881,16 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Choose",
+      "Toxic 2",
+      "Consume Toxic 1",
+      "Heal 2"
+    ],
     "cost": 1,
     "DMG": 2,
     "Block": -1,
-    "Text": "choose: apply toxic 2 or consume 1 toxic > heal 2",
+    "Text": "Choose: Apply toxic 2 or\nconsume toxic 1 to heal 2",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -5408,6 +5919,7 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 0,
     "Block": 3,
@@ -5440,6 +5952,7 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 3,
     "DMG": 0,
     "Block": 7,
@@ -5472,6 +5985,7 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 0,
     "Block": 3,
@@ -5487,14 +6001,14 @@
       "front": {
         "name": "Front",
         "type": "Tactics",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-172.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -5504,10 +6018,13 @@
     "types": [
       "Tactics"
     ],
-    "cost": 0,
+    "keywords": [
+      "When Played"
+    ],
+    "cost": 1,
     "DMG": 0,
     "Block": 1,
-    "Text": "when played → get 2 incendiary rounds",
+    "Text": "When Played → get 2 incendiary rounds",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -5536,10 +6053,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "Exhaust"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 0,
-    "Text": "exhaust your next gun card have +2 dmg",
+    "Text": "exhaust\nYour next gun card have +2 dmg",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -5568,10 +6088,11 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 0,
     "DMG": 0,
     "Block": 3,
-    "Text": "your next melee card have +2 dmg",
+    "Text": "Your next melee card have +2 DMG",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -5600,10 +6121,11 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 0,
     "DMG": 0,
     "Block": 3,
-    "Text": "mark a random bodypart: on hit, gain 1 ap next turn (does not stack)",
+    "Text": "mark a random bodypart: on hit, gain 1 ap next turn\n(does not stack)",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -5615,14 +6137,14 @@
       "front": {
         "name": "Front",
         "type": "Tactics",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-176.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -5632,10 +6154,11 @@
     "types": [
       "Tactics"
     ],
-    "cost": 0,
+    "keywords": [],
+    "cost": 1,
     "DMG": 0,
     "Block": -1,
-    "Text": "gain 1 ap next turn",
+    "Text": "gain 1 AP next turn",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -5647,14 +6170,14 @@
       "front": {
         "name": "Front",
         "type": "Melee",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-177.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -5664,10 +6187,11 @@
     "types": [
       "Melee"
     ],
-    "cost": 0,
+    "keywords": [],
+    "cost": 1,
     "DMG": 3,
     "Block": 3,
-    "Text": "if played on bodypart with <= 6 hp: dmg +2",
+    "Text": "If played on bodypart with <= 6 hp: dmg +2",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -5679,14 +6203,14 @@
       "front": {
         "name": "Front",
         "type": "Melee",
-        "cost": 0,
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-178.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 2,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -5696,10 +6220,11 @@
     "types": [
       "Melee"
     ],
-    "cost": 0,
+    "keywords": [],
+    "cost": 2,
     "DMG": 5,
     "Block": 3,
-    "Text": "if played on bodypart with <= 6 hp: cost -1 ap",
+    "Text": "If played on bodypart with <= 6 hp: cost -1 ap",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -5711,14 +6236,14 @@
       "front": {
         "name": "Front",
         "type": "Melee",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-179.png",
         "isHorizontal": false
       },
       "back": {
         "name": "Back",
         "type": "",
-        "cost": 0,
+        "cost": 1,
         "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
         "isHorizontal": false
       }
@@ -5728,10 +6253,11 @@
     "types": [
       "Melee"
     ],
-    "cost": 0,
+    "keywords": [],
+    "cost": 1,
     "DMG": 3,
     "Block": 3,
-    "Text": "if played on broken bodypart: dmg +3",
+    "Text": "If played on broken bodypart: dmg +3",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -5760,10 +6286,13 @@
     "types": [
       "Throw"
     ],
+    "keywords": [
+      "Sync Atk"
+    ],
     "cost": 1,
     "DMG": 3,
     "Block": 3,
-    "Text": "sync atk: throw 1 random attack card from hand into a random bodypart",
+    "Text": "Sync Atk: throw 1 random attack card from hand into a random bodypart",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -5792,10 +6321,11 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 1,
     "DMG": 0,
     "Block": 3,
-    "Text": "if opponent plays a melee card here, move throw here into another body part",
+    "Text": "If opponent plays a melee card here, move throw here into another body part",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -5823,6 +6353,9 @@
     "type": "Tactics",
     "types": [
       "Tactics"
+    ],
+    "keywords": [
+      "Throw"
     ],
     "cost": 2,
     "DMG": 0,
@@ -5856,6 +6389,10 @@
     "types": [
       "Throw"
     ],
+    "keywords": [
+      "Piercing 7",
+      "Piercing 5"
+    ],
     "cost": 3,
     "DMG": 7,
     "Block": 5,
@@ -5888,10 +6425,15 @@
     "types": [
       "Gun"
     ],
+    "keywords": [
+      "Exposed",
+      "+1 Dmg",
+      "Pierce 4"
+    ],
     "cost": 2,
     "DMG": 4,
     "Block": 2,
-    "Text": "if enemy is exposed, +1 dmg and pierce 4",
+    "Text": "IF ENEMY IS EXPOSED, +1 dmg and pierce 4",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -5920,10 +6462,11 @@
     "types": [
       "Melee"
     ],
+    "keywords": [],
     "cost": 0,
     "DMG": 1,
     "Block": 1,
-    "Text": "+2 melee  dmg stack",
+    "Text": "+2 melee \ndmg STACK",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -5952,10 +6495,13 @@
     "types": [
       "Melee"
     ],
+    "keywords": [
+      "Double Damage"
+    ],
     "cost": 2,
     "DMG": 3,
     "Block": 1,
-    "Text": "if enemy body or leg <5 hp, deal double damage",
+    "Text": "IF ENEMY body or leg <5 HP, deal double damage",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -5984,10 +6530,11 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
-    "Text": "+2 gun dmg  stack",
+    "Text": "+2 gun DMG \nSTACK",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -6016,10 +6563,11 @@
     "types": [
       "Gun"
     ],
+    "keywords": [],
     "cost": 3,
     "DMG": 5,
     "Block": 0,
-    "Text": "deal +2 dmg per stack",
+    "Text": "DEAL +2 DMG PER STACK",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -6047,6 +6595,9 @@
     "type": "Tactics",
     "types": [
       "Tactics"
+    ],
+    "keywords": [
+      "Obscure"
     ],
     "cost": 1,
     "DMG": 0,
@@ -6080,10 +6631,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "On Defense"
+    ],
     "cost": 2,
     "DMG": 0,
     "Block": 3,
-    "Text": "on defend → gain ap based on dmg received",
+    "Text": "ON DEFENse → GAIN AP BASED ON DMG RECEIVED",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -6112,10 +6666,14 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "On Hit",
+      "Weak"
+    ],
     "cost": 0,
     "DMG": 1,
     "Block": 3,
-    "Text": "on hit → apply  weak",
+    "Text": "ON hit → aPPLY \nWEAK",
     "AttackHead?": true,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -6144,10 +6702,11 @@
     "types": [
       "Throw"
     ],
+    "keywords": [],
     "cost": 2,
     "DMG": 5,
     "Block": 4,
-    "Text": "deal 1 dmg to head deal 2 dmg to body deal 1 dmg to leg",
+    "Text": "deal 1 dmg to head\ndeal 2 dmg to body\ndeal 1 dmg to leg",
     "AttackHead?": false,
     "AttackBody?": true,
     "AttackLeg?": false
@@ -6176,10 +6735,13 @@
     "types": [
       "Tactics"
     ],
+    "keywords": [
+      "On Defense"
+    ],
     "cost": 0,
     "DMG": 0,
     "Block": 2,
-    "Text": "on defense → if you take dmg here, you take no further damage this turn",
+    "Text": "On defense → if you take dmg here, YOU TAKE NO FURTHER DAMAGE THIS turn",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -6199,6 +6761,7 @@
     "name": "Token: 7days",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6221,6 +6784,7 @@
     "name": "Token: Ap",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6243,6 +6807,7 @@
     "name": "Token: Armor",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6265,6 +6830,7 @@
     "name": "Token: Attack",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6287,6 +6853,7 @@
     "name": "Token: Backupplan",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6309,6 +6876,7 @@
     "name": "Token: Blind",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6331,6 +6899,7 @@
     "name": "Token: Daze",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6353,6 +6922,7 @@
     "name": "Token: Disable",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6375,6 +6945,7 @@
     "name": "Token: Dmgbuff",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6397,6 +6968,7 @@
     "name": "Token: Dmgbuff 1ap",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6419,6 +6991,7 @@
     "name": "Token: Dmgbuff Gun",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6441,6 +7014,7 @@
     "name": "Token: Dmgbuff Melee",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6463,6 +7037,7 @@
     "name": "Token: Dodge",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6485,6 +7060,7 @@
     "name": "Token: Echo",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6507,6 +7083,7 @@
     "name": "Token: Excommunicado",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6529,6 +7106,7 @@
     "name": "Token: Exposed",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6551,6 +7129,7 @@
     "name": "Token: Fragile",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6573,6 +7152,7 @@
     "name": "Token: Freecost Melee",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6595,6 +7175,7 @@
     "name": "Token: Hidden",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6617,6 +7198,7 @@
     "name": "Token: Obscure",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6639,6 +7221,7 @@
     "name": "Token: Pierce",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6661,6 +7244,7 @@
     "name": "Token: Removed",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6683,6 +7267,7 @@
     "name": "Token: Reveal",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6705,6 +7290,7 @@
     "name": "Token: Tempo",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6727,6 +7313,7 @@
     "name": "Token: Toxic",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6749,6 +7336,7 @@
     "name": "Token: Truestrike",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,
@@ -6771,6 +7359,7 @@
     "name": "Token: Weak",
     "type": "false",
     "cost": 0,
+    "keywords": [],
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false,

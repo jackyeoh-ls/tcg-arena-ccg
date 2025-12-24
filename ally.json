@@ -2,7 +2,7 @@
   {
     "name": "A1",
     "description": "Generated from Figma",
-    "color": "#143D0B",
+    "color": "#FE48C1",
     "cardPool": [
       {
         "name": "The Rules Are The Rules (Atk)",
@@ -41,7 +41,7 @@
   {
     "name": "A2",
     "description": "Generated from Figma",
-    "color": "#B870D2",
+    "color": "#F3F97B",
     "cardPool": [
       {
         "name": "The Rules Are The Rules (Def)",
@@ -80,7 +80,7 @@
   {
     "name": "B1",
     "description": "Generated from Figma",
-    "color": "#F2DCD3",
+    "color": "#A7EEF6",
     "cardPool": [
       {
         "name": "Gambit",
@@ -119,7 +119,7 @@
   {
     "name": "B2",
     "description": "Generated from Figma",
-    "color": "#DDA110",
+    "color": "#F6A96A",
     "cardPool": [
       {
         "name": "Continental Comfort",
@@ -158,7 +158,7 @@
   {
     "name": "D1",
     "description": "Generated from Figma",
-    "color": "#320FB3",
+    "color": "#7D74F6",
     "cardPool": [
       {
         "name": "Timing Attack",
@@ -197,7 +197,7 @@
   {
     "name": "E1",
     "description": "Generated from Figma",
-    "color": "#4075B9",
+    "color": "#88F693",
     "cardPool": [
       {
         "name": "Double Throw",
@@ -236,7 +236,7 @@
   {
     "name": "C1",
     "description": "Generated from Figma",
-    "color": "#BBDD0D",
+    "color": "#EB4760",
     "cardPool": [
       {
         "name": "Motion Sensor",
@@ -275,7 +275,7 @@
   {
     "name": "C2",
     "description": "Generated from Figma",
-    "color": "#ACAF98",
+    "color": "#B661EA",
     "cardPool": [
       {
         "name": "Blind Swordsmanship",
