@@ -3470,7 +3470,7 @@
     "cost": 2,
     "DMG": 2,
     "Block": 0,
-    "Text": "deal 1 dmg per throwables played last turn\non Defense → deals 1 dmg per card targeting here",
+    "Text": "deal 1 dmg per throwables played last turn\non Defense → deals 1 dmg per cards attacking here",
     "AttackHead?": false,
     "AttackBody?": false,
     "AttackLeg?": false
@@ -4569,7 +4569,8 @@
     "cost": 1,
     "DMG": 0,
     "Block": 3,
-    "Text": "ENEMY MUST ATTACK here NEXT TURN.DRAW A CARD.",
+    "Text": "ENEMY MUST ATTACK here NEXT TURN.
+DRAW A CARD.",
     "AttackHead?": true,
     "AttackBody?": true,
     "AttackLeg?": true
@@ -6746,6 +6747,2087 @@
     "AttackBody?": false,
     "AttackLeg?": false
   },
+  "194": {
+    "id": "194",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-194.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Counter Stance",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "Deals 1 Dmg"
+    ],
+    "cost": 1,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "deals 1 dmg per card attacking here for the next 2 turn",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "195": {
+    "id": "195",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-195.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Throw Chair",
+    "type": "Melee",
+    "types": [
+      "Melee"
+    ],
+    "keywords": [],
+    "cost": 1,
+    "DMG": 3,
+    "Block": 2,
+    "Text": "get a random destructible",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "196": {
+    "id": "196",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-196.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Frantic Escape",
+    "type": "Melee",
+    "types": [
+      "Melee"
+    ],
+    "keywords": [
+      "When Played",
+      "On Defense"
+    ],
+    "cost": 1,
+    "DMG": 1,
+    "Block": 0,
+    "Text": "when played → get a random destructible\nOn defense: get 2 more",
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": true
+  },
+  "197": {
+    "id": "197",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-197.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Resourceful",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "your melee cards played give you a random destructible for the next 2 turns",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "198": {
+    "id": "198",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Destructible",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-198.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Broken Chair",
+    "type": "Destructible",
+    "types": [
+      "Destructible"
+    ],
+    "keywords": [
+      "Exhaust",
+      "Daze 1"
+    ],
+    "cost": 0,
+    "DMG": 2,
+    "Block": 0,
+    "Text": "exhaust\ndaze 1",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "199": {
+    "id": "199",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Destructible",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-199.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Broken Crate",
+    "type": "Destructible",
+    "types": [
+      "Destructible"
+    ],
+    "keywords": [
+      "Exhaust",
+      "Bleed 1"
+    ],
+    "cost": 0,
+    "DMG": 1,
+    "Block": 0,
+    "Text": "exhaust\nBleed 1",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "200": {
+    "id": "200",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Destructible",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-200.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Broken Table",
+    "type": "Destructible",
+    "types": [
+      "Destructible"
+    ],
+    "keywords": [
+      "Exhaust"
+    ],
+    "cost": 0,
+    "DMG": 2,
+    "Block": 2,
+    "Text": "exhaust",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "201": {
+    "id": "201",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-201.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Load Piercing Bullet",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "When Played",
+      "Pierce 5"
+    ],
+    "cost": 1,
+    "DMG": 0,
+    "Block": 1,
+    "Text": "when played → next gun card have pierce 5",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "202": {
+    "id": "202",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Makeshift",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-202.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Makeshift Pistol",
+    "type": "Makeshift",
+    "types": [
+      "Makeshift",
+      "Gun"
+    ],
+    "keywords": [
+      "Scrappart"
+    ],
+    "cost": 1,
+    "DMG": 3,
+    "Block": 2,
+    "Text": "get 2 scrap-part",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "203": {
+    "id": "203",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-203.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Tool-box",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "Scrappart"
+    ],
+    "cost": 1,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "get 4 scrap-part",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "204": {
+    "id": "204",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Makeshift",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-204.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Makeshift Blade",
+    "type": "Makeshift",
+    "types": [
+      "Makeshift",
+      "Melee"
+    ],
+    "keywords": [
+      "Scrappart"
+    ],
+    "cost": 1,
+    "DMG": 3,
+    "Block": 2,
+    "Text": "get 2 different scrap-part",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "205": {
+    "id": "205",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-205.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Scrap Master",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "Scrappart"
+    ],
+    "cost": 2,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "your makeshift cards give a scrap-part on use",
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": false
+  },
+  "206": {
+    "id": "206",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Scrap-part",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-206.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Launcher",
+    "type": "Scrap-part",
+    "types": [
+      "Scrap-part"
+    ],
+    "keywords": [
+      "Exhaust",
+      "When Played"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 0,
+    "Text": "exhaust\nwhen played → combine with another scrap-part",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "207": {
+    "id": "207",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Makeshift",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-207.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Piercer",
+    "type": "Makeshift",
+    "types": [
+      "Makeshift",
+      "Gun"
+    ],
+    "keywords": [
+      "Piercing 2"
+    ],
+    "cost": 0,
+    "DMG": 1,
+    "Block": 0,
+    "Text": "launcher+blade\npiercing 2",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "208": {
+    "id": "208",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Scrap-part",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-208.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Blade",
+    "type": "Scrap-part",
+    "types": [
+      "Scrap-part"
+    ],
+    "keywords": [
+      "Exhaust",
+      "When Played"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 0,
+    "Text": "exhaust\nwhen played → combine with another scrap-part",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "209": {
+    "id": "209",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Makeshift",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-209.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Scattershot",
+    "type": "Makeshift",
+    "types": [
+      "Makeshift",
+      "Gun"
+    ],
+    "keywords": [
+      "Deals 1 Dmg"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 0,
+    "Text": "launcher+scrapnel\ndeals 1 dmg to each body part",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "210": {
+    "id": "210",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Scrap-part",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-210.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shrapnel",
+    "type": "Scrap-part",
+    "types": [
+      "Scrap-part"
+    ],
+    "keywords": [
+      "Exhaust",
+      "When Played"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 0,
+    "Text": "exhaust\nwhen played → combine with another scrap-part",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "211": {
+    "id": "211",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Scrap-part",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-211.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Spring",
+    "type": "Scrap-part",
+    "types": [
+      "Scrap-part"
+    ],
+    "keywords": [
+      "Exhaust",
+      "When Played"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 0,
+    "Text": "exhaust\nwhen played → combine with another scrap-part",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "212": {
+    "id": "212",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Makeshift",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-212.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Jagged Edge",
+    "type": "Makeshift",
+    "types": [
+      "Makeshift",
+      "Melee"
+    ],
+    "keywords": [
+      "Bleed 1"
+    ],
+    "cost": 0,
+    "DMG": 1,
+    "Block": 0,
+    "Text": "blade+scrapnel\nApply Bleed 1",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "213": {
+    "id": "213",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Makeshift",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-213.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Spring Blade",
+    "type": "Makeshift",
+    "types": [
+      "Makeshift",
+      "Melee"
+    ],
+    "keywords": [],
+    "cost": 0,
+    "DMG": 3,
+    "Block": 0,
+    "Text": "blade+spring",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "214": {
+    "id": "214",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Makeshift",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-214.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Makeshift Gun",
+    "type": "Makeshift",
+    "types": [
+      "Makeshift",
+      "Gun"
+    ],
+    "keywords": [],
+    "cost": 0,
+    "DMG": 3,
+    "Block": 0,
+    "Text": "launcher+spring",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "215": {
+    "id": "215",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Makeshift",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-215.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Stray Fragment",
+    "type": "Makeshift",
+    "types": [
+      "Makeshift",
+      "Gun"
+    ],
+    "keywords": [],
+    "cost": 0,
+    "DMG": 3,
+    "Block": 0,
+    "Text": "shrapnel+spring\n\nrandomly hit a body part instead",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "216": {
+    "id": "216",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-216.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Load Heavy Calibre",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "When Played",
+      "+3 Dmg"
+    ],
+    "cost": 1,
+    "DMG": 0,
+    "Block": 1,
+    "Text": "when played → next gun card have +3 dmg",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "217": {
+    "id": "217",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-217.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Roll & Load",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "Draw"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": -1,
+    "Text": "Draw a Load Card",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "218": {
+    "id": "218",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-218.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Balancé Shift",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [],
+    "cost": 1,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "body cards shift to leg and vice versa",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "219": {
+    "id": "219",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-219.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Sauté Parry",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "On Defense"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 0,
+    "Text": "On defense: gain block equal to base damage of first attacking card",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "220": {
+    "id": "220",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-220.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Relevé Counter",
+    "type": "Melee",
+    "types": [
+      "Melee",
+      "Kick"
+    ],
+    "keywords": [
+      "On Defense"
+    ],
+    "cost": 1,
+    "DMG": 3,
+    "Block": 3,
+    "Text": "On defense: shift first attacking card on body to leg",
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": true
+  },
+  "221": {
+    "id": "221",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Melee",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-221.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Grand Jeté Smash",
+    "type": "Melee",
+    "types": [
+      "Melee",
+      "Kick"
+    ],
+    "keywords": [
+      "Deal +1 Dmg",
+      "Shift"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "deal +1 dmg per card shift this turn",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "222": {
+    "id": "222",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Melee",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-222.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "ÉChappé Escape",
+    "type": "Melee",
+    "types": [
+      "Melee",
+      "Kick"
+    ],
+    "keywords": [],
+    "cost": 2,
+    "DMG": 3,
+    "Block": -1,
+    "Text": "all your card shift to random body part",
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": true
+  },
+  "223": {
+    "id": "223",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-223.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Adrenaline Shot",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "When Played",
+      "Heal 2",
+      "On Attack"
+    ],
+    "cost": 1,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "When played → heal 2\nOn attack: next card deals +2 dmg",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "224": {
+    "id": "224",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-224.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Taichi Stance",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "deflect first attacking card here to enemy",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "225": {
+    "id": "225",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 3,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-225.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 3,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "By Order Of The Hightable",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "Draw",
+      "Play"
+    ],
+    "cost": 3,
+    "DMG": 0,
+    "Block": 3,
+    "Text": "at the start of next turn, draw a highest cost card and randomly play a card from hand for free",
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": false
+  },
+  "226": {
+    "id": "226",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-226.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gang Up",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "Gang 3"
+    ],
+    "cost": 1,
+    "DMG": 0,
+    "Block": 0,
+    "Text": "gain gang 3",
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": false
+  },
+  "227": {
+    "id": "227",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-227.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Call For Help",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "Gang 1"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 0,
+    "Text": "gain gang 1",
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": false
+  },
+  "228": {
+    "id": "228",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-228.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Cheer",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "+1 Dmg"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 0,
+    "Text": "your gangster strikes deals +1 dmg for 2 turns",
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": false
+  },
+  "229": {
+    "id": "229",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-229.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "I Got’chu",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "On Defense",
+      "Gang"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 0,
+    "Text": "on defense: dodge the next attack at the cost of a stack of gang",
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": false
+  },
+  "230": {
+    "id": "230",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-230.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gangster Strike",
+    "type": "Melee",
+    "types": [
+      "Melee"
+    ],
+    "keywords": [
+      "Melee Combo"
+    ],
+    "cost": 1,
+    "DMG": 3,
+    "Block": 0,
+    "Text": "melee combo",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "231": {
+    "id": "231",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Gun",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-231.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Gangster Strike",
+    "type": "Gun",
+    "types": [
+      "Gun"
+    ],
+    "keywords": [
+      "Gun Combo"
+    ],
+    "cost": 1,
+    "DMG": 3,
+    "Block": 0,
+    "Text": "gun combo",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "232": {
+    "id": "232",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-232.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Crack A Cold One",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "Heal 3",
+      "Drunken 2"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 0,
+    "Text": "heal 3\nGain drunken 2",
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": false
+  },
+  "233": {
+    "id": "233",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-233.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Heavy Drinker",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "Druken 3"
+    ],
+    "cost": 1,
+    "DMG": 0,
+    "Block": 0,
+    "Text": "gain Druken 3",
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": false
+  },
+  "234": {
+    "id": "234",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Melee",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-234.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Assimilation Punch",
+    "type": "Melee",
+    "types": [
+      "Melee"
+    ],
+    "keywords": [
+      "On Attack",
+      "On Defense"
+    ],
+    "cost": 2,
+    "DMG": 3,
+    "Block": 1,
+    "Text": "On Attack: discard an 0/1/2/3-cost ally card to +1/2/3/4 DMG\nOn defense: discard  an 0/1/2/3-cost ally card to +2/3/4/5 block",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "235": {
+    "id": "235",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-235.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Borrowed Power",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "+1 Cost",
+      "Cost 1"
+    ],
+    "cost": 2,
+    "DMG": 0,
+    "Block": 3,
+    "Text": "your first ally card each turn have +1 cost\nbut your first non-ally card each turn cost -1",
+    "AttackHead?": true,
+    "AttackBody?": false,
+    "AttackLeg?": false
+  },
+  "236": {
+    "id": "236",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Gun",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-236.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Believe In Yourself",
+    "type": "Gun",
+    "types": [
+      "Gun"
+    ],
+    "keywords": [],
+    "cost": 1,
+    "DMG": 4,
+    "Block": 2,
+    "Text": "stop drawing ally card but gain 1 AP next turn",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "237": {
+    "id": "237",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-237.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "In-depth Learning",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "When Played",
+      "Cost +1",
+      "+4 Dmg"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "when played → your next ally card cost +1 but have +4 dmg",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "238": {
+    "id": "238",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 3,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-238.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 3,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Master Disciple",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "When Played"
+    ],
+    "cost": 3,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "when played → Draw & play 2 random Ally card",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "239": {
+    "id": "239",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-239.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Call For Help",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "When Played",
+      "Cost 1"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "When played → your next ally card cost -1",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "240": {
+    "id": "240",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-240.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Shout Of Courage",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "Heroic 2"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "gain Heroic 2",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "241": {
+    "id": "241",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-241.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Helping Hands",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "When Played",
+      "Draw"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "When played → draw an extra ally card",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "242": {
+    "id": "242",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-242.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Recall Teachings",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "When Played"
+    ],
+    "cost": 1,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "When played → draw an ally card of your choice",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "243": {
+    "id": "243",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Gun",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-243.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Heroic Shot",
+    "type": "Gun",
+    "types": [
+      "Gun"
+    ],
+    "keywords": [
+      "Heroic 1",
+      "Heroic"
+    ],
+    "cost": 1,
+    "DMG": 3,
+    "Block": 2,
+    "Text": "gain heroic 1\ndeals +1 dmg per stack of heroic",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "244": {
+    "id": "244",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Gun",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-244.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Precision Sniping",
+    "type": "Gun",
+    "types": [
+      "Gun"
+    ],
+    "keywords": [
+      "Choose",
+      "Piercing 2",
+      "Reveal"
+    ],
+    "cost": 1,
+    "DMG": 4,
+    "Block": 2,
+    "Text": "choose:\npiercing 2\nor\nreveal this card, move it back in hand with +3 dmg",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "245": {
+    "id": "245",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Gun",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-245.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Steady Aim",
+    "type": "Gun",
+    "types": [
+      "Gun"
+    ],
+    "keywords": [],
+    "cost": 1,
+    "DMG": 8,
+    "Block": 2,
+    "Text": "-1 dmg per card played last turn",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "246": {
+    "id": "246",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-246.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Bag Of Drugs",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "Negative Status Effect"
+    ],
+    "cost": 1,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "apply random negative status effect to each body part",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "247": {
+    "id": "247",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-247.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Withdrawal",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "Deal 2 Dmg"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 2,
+    "Text": "remove all negative status here to deal 2 dmg each",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "248": {
+    "id": "248",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Ranged",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-248.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Lethal Concoction",
+    "type": "Ranged",
+    "types": [
+      "Ranged"
+    ],
+    "keywords": [
+      "Retain"
+    ],
+    "cost": 1,
+    "DMG": 2,
+    "Block": 2,
+    "Text": "retain\ngain +1 dmg per status effect applied while this is in your hand",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "249": {
+    "id": "249",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Ranged",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-249.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Homogenous Injection",
+    "type": "Ranged",
+    "types": [
+      "Ranged"
+    ],
+    "keywords": [
+      "Choose"
+    ],
+    "cost": 1,
+    "DMG": 3,
+    "Block": 2,
+    "Text": "choose a negative status effect present here. convert all other negative status effect to this",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": true
+  },
+  "250": {
+    "id": "250",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Melee",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-250.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 1,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Muscly Arm",
+    "type": "Melee",
+    "types": [
+      "Melee"
+    ],
+    "keywords": [
+      "When Played",
+      "+1 Dmg, +2 Block"
+    ],
+    "cost": 1,
+    "DMG": 4,
+    "Block": 2,
+    "Text": "when played → if this body part have >= 5 hp:\n+1 dmg, +2 block",
+    "AttackHead?": true,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "251": {
+    "id": "251",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Melee",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-251.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 2,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Heavy Punch",
+    "type": "Melee",
+    "types": [
+      "Melee"
+    ],
+    "keywords": [
+      "Blocked"
+    ],
+    "cost": 2,
+    "DMG": 6,
+    "Block": 2,
+    "Text": "can only be blocked by cards with block >= 2",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
+  "252": {
+    "id": "252",
+    "isToken": false,
+    "face": {
+      "front": {
+        "name": "Front",
+        "type": "Tactics",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/card-252.png",
+        "isHorizontal": false
+      },
+      "back": {
+        "name": "Back",
+        "type": "",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/cardback.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Built Different",
+    "type": "Tactics",
+    "types": [
+      "Tactics"
+    ],
+    "keywords": [
+      "When Deckbuilding"
+    ],
+    "cost": 0,
+    "DMG": 0,
+    "Block": 1,
+    "Text": "when deckbuilding → choose a bodypart to have +5 hp",
+    "AttackHead?": false,
+    "AttackBody?": true,
+    "AttackLeg?": false
+  },
   "t-7days": {
     "id": "t-7days",
     "isToken": true,
@@ -7045,6 +9127,29 @@
     "Block": 0,
     "DMG": 0
   },
+  "t-drunken": {
+    "id": "t-drunken",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "false",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-drunken.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Token: Drunken",
+    "type": "false",
+    "cost": 0,
+    "keywords": [],
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
   "t-echo": {
     "id": "t-echo",
     "isToken": true,
@@ -7173,6 +9278,29 @@
       }
     },
     "name": "Token: Hidden",
+    "type": "false",
+    "cost": 0,
+    "keywords": [],
+    "AttackHead?": false,
+    "AttackBody?": false,
+    "AttackLeg?": false,
+    "Text": "",
+    "Block": 0,
+    "DMG": 0
+  },
+  "t-negative-status-effect": {
+    "id": "t-negative-status-effect",
+    "isToken": true,
+    "face": {
+      "front": {
+        "name": "",
+        "type": "false",
+        "cost": 0,
+        "image": "https://jackyeoh-ls.github.io/tcg-arena-ccg/img/token-negative-status-effect.png",
+        "isHorizontal": false
+      }
+    },
+    "name": "Token: Negative Status Effect",
     "type": "false",
     "cost": 0,
     "keywords": [],
