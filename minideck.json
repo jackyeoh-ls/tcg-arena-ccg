@@ -2174,53 +2174,5 @@
         ]
       }
     ]
-  },
-  {
-    "name": "Group 4",
-    "description": "Generated from Figma",
-    "color": "#55F7D9",
-    "cardPool": []
-  },
-  {
-    "name": "Group 5",
-    "description": "Generated from Figma",
-    "color": "#DCADFF",
-    "cardPool": []
-  },
-  {
-    "name": "Frame 4",
-    "description": "Generated from Figma",
-    "color": "#BADAF8",
-    "cardPool": []
-  },
-  {
-    "name": "Frame 5",
-    "description": "Generated from Figma",
-    "color": "#D8EB70",
-    "cardPool": []
-  },
-  {
-    "name": "Frame 2",
-    "description": "Generated from Figma",
-    "color": "#FAB3F3",
-    "cardPool": []
-  },
-  {
-    "name": "Frame 3",
-    "description": "Generated from Figma",
-    "color": "#9F5EE8",
-    "cardPool": []
-  },
-  {
-    "name": "Frame 6",
-    "description": "Generated from Figma",
-    "color": "#D9FD96",
-    "cardPool": []
-  },
-  {
-    "name": "Frame 7",
-    "description": "Generated from Figma",
-    "color": "#51BDEC",
-    "cardPool": []
   }
 ]
